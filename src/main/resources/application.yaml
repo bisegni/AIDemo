@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: AIDemo
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: postgres
+  ai:
+    ollama:
+      base-url: http://localhost:11434
+      chat:
+        model: "llama3.1:latest"
+    vectorstore:
+      pgvector:
+        initialize-schema: true
+        index-type: HNSW
+        distance-type: COSINE_DISTANCE
+        dimensions: 1024
