@@ -3,23 +3,33 @@ package com.example.aidemo.service;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.ai.document.Document;
 import org.springframework.ai.reader.pdf.PagePdfDocumentReader;
+import org.springframework.ai.reader.tika.TikaDocumentReader;
 import org.springframework.ai.transformer.splitter.TokenTextSplitter;
+import org.springframework.ai.vectorstore.SearchRequest;
 import org.springframework.ai.vectorstore.VectorStore;
+import org.springframework.ai.vectorstore.filter.FilterExpressionBuilder;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.Resource;
 import org.springframework.stereotype.Service;
+import org.springframework.util.ResourceUtils;
 
 import java.io.BufferedReader;
+import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 @Service
 public class DataLoaderService {
-    @Value("classpath:/data/evaluation-doc-1.pdf")
+    @Value("classpath:/data")
     private Resource pdfResource;
 
     @Autowired
@@ -28,11 +38,56 @@ public class DataLoaderService {
     private ObjectMapper objectMapper;
 
     public void load() {
-        PagePdfDocumentReader pdfReader = new PagePdfDocumentReader(this.pdfResource);
-        List<Document> pdfDocument = pdfReader.get();
-        var tokenTextSplitter = new TokenTextSplitter();
-        var tokens = tokenTextSplitter.split(pdfDocument);
-        this.vectorStore.accept(tokens);
+        try {
+            Path folderPath = Paths.get(pdfResource.getURI());
+            var allDocuments = Files.list(folderPath)
+                    .filter(Files::isRegularFile)
+                    .toList();
+            // scan all documents
+            for (Path path : allDocuments) {
+                List<Document> toStore = new ArrayList<>();
+                String resourcePath = "data/" + path.getFileName().toString();
+                if (resourcePath.endsWith(".pdf")) {
+                    ClassPathResource res = new ClassPathResource(resourcePath);
+                    // create the resource from path
+                    var pagePdfDocumentReader = new PagePdfDocumentReader(res);
+                    var extractedDocument = pagePdfDocumentReader.read()
+                            .stream()
+                            .filter(doc -> {
+                                        FilterExpressionBuilder b = new FilterExpressionBuilder();
+                                        // check if document is already present in vector store
+                                        var foundDoc = vectorStore.similaritySearch(SearchRequest.defaults()
+                                                .withQuery(doc.getContent())
+                                                .withFilterExpression(b.eq("file_name", path.getFileName().toString()).build()));
+                                        return foundDoc.isEmpty();
+                                    }
+                            )
+                            .toList();
+                    if(!extractedDocument.isEmpty()){toStore.addAll(extractedDocument);}
+                } else {
+                    ClassPathResource res = new ClassPathResource(resourcePath);
+                    TikaDocumentReader tikaDocumentReader = new TikaDocumentReader(res);
+                    var extractedDocument = tikaDocumentReader.read()
+                            .stream()
+                            .filter(doc -> {
+                                        FilterExpressionBuilder b = new FilterExpressionBuilder();
+                                        // check if document is already present in vector store
+                                        var foundDoc = vectorStore.similaritySearch(SearchRequest.defaults()
+                                                .withQuery(doc.getContent())
+                                                .withFilterExpression(b.eq("file_name", path.getFileName().toString()).build()));
+                                        return foundDoc.isEmpty();
+                                    }
+                            )
+                            .toList();
+                    toStore.addAll(extractedDocument);
+                }
+                var tokenTextSplitter = new TokenTextSplitter();
+                var tokens = tokenTextSplitter.split(toStore);
+                this.vectorStore.accept(tokens);
+            }
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
 
     public String loadDocs() {
@@ -64,6 +119,7 @@ public class DataLoaderService {
             return "An error occurred while adding documents: " + e.getMessage();
         }
     }
+
     private Document createDocument(Map<String, Object> jsonMap, String content) {
         Map<String, Object> metadata = (Map<String, Object>) jsonMap.get("metadata");
         metadata.putIfAbsent("sourceName", jsonMap.get("sourceName"));
@@ -73,6 +129,7 @@ public class DataLoaderService {
         metadata.putIfAbsent("updated", jsonMap.get("updated"));
         return new Document(content, metadata);
     }
+
     private List<String> splitIntoChunks(String content, int maxTokens) {
         List<String> chunks = new ArrayList<>();
         String[] words = content.split("\\s+");
