@@ -49,7 +49,7 @@ public class RagController {
                  `eventDate >= "2024-11-14" && eventDate < "2024-11-15"`
             4. The output must use the SQL logical operators `&&` (for "AND") and `||` (for "OR").
             5. The values for `eventDate` must be enclosed in double quotes (`"`), and the format must strictly follow `YYYY-MM-DD`.
-            6. If no filtering by `eventDate` is required, return: "No query on eventDate is necessary."
+            6. If no filtering by `eventDate` is required, return the message: 'NO_INDEX'
             
             Tasks:
             1. Analyze the user's request to determine whether filtering by `eventDate` is necessary.
@@ -100,14 +100,24 @@ public class RagController {
         var indexRule = indexAnswer.content();
 
         // Retrieve documents matching the query
+        List<Document> allDocuments = null;
         System.out.println("Searching for documents...");
-        var allDocuments = vectorStore.similaritySearch(
-                SearchRequest.defaults()
-                        .withQuery(message)
-                        .withFilterExpression(indexRule)
-                        .withSimilarityThreshold(0.5)
-                        .withTopK(100)
-        );
+        if( indexRule != null && !indexRule.contains("NO_INDEX")) {
+            allDocuments = vectorStore.similaritySearch(
+                    SearchRequest.defaults()
+                            .withQuery(message)
+                            .withFilterExpression(indexRule)
+                            .withSimilarityThreshold(0.5)
+                            .withTopK(100)
+            );
+        } else {
+            allDocuments = vectorStore.similaritySearch(
+                    SearchRequest.defaults()
+                            .withQuery(message)
+                            .withSimilarityThreshold(0.6)
+                            .withTopK(100)
+            );
+        }
 
         // If too many documents, chunk them
         int maxDocsPerPrompt = 4; // Define the max number of documents per chunk
