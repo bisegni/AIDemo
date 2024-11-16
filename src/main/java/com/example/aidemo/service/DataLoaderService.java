@@ -1,6 +1,8 @@
 package com.example.aidemo.service;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import org.apache.james.mime4j.dom.datetime.DateTime;
 import org.springframework.ai.document.Document;
 import org.springframework.ai.reader.pdf.PagePdfDocumentReader;
 import org.springframework.ai.reader.tika.TikaDocumentReader;
@@ -13,31 +15,30 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.Resource;
 import org.springframework.stereotype.Service;
-import org.springframework.util.ResourceUtils;
 
-import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
-import java.io.InputStreamReader;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
-import java.util.stream.Collectors;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.time.ZoneId;
+import java.time.ZonedDateTime;
+import java.time.format.DateTimeFormatter;
+import java.util.*;
 
 @Service
 public class DataLoaderService {
     @Value("classpath:/data")
     private Resource pdfResource;
-
+    private DateTimeFormatter formatter =  DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm:ss");
     @Autowired
     private VectorStore vectorStore;
     @Autowired
     private ObjectMapper objectMapper;
 
-    public void load() {
+    public void load(int maxDocuments) {
         try {
             Path folderPath = Paths.get(pdfResource.getURI());
             var allDocuments = Files.list(folderPath)
@@ -63,7 +64,14 @@ public class DataLoaderService {
                                     }
                             )
                             .toList();
-                    if(!extractedDocument.isEmpty()){toStore.addAll(extractedDocument);}
+                    if (!extractedDocument.isEmpty()) {
+                        toStore.addAll(extractedDocument);
+                    }
+                }
+                if (resourcePath.endsWith(".json")) {
+                    ClassPathResource res = new ClassPathResource(resourcePath);
+                    // create the resource from path
+                    loadJson(res.getInputStream(), maxDocuments);
                 } else {
                     ClassPathResource res = new ClassPathResource(resourcePath);
                     TikaDocumentReader tikaDocumentReader = new TikaDocumentReader(res);
@@ -90,43 +98,79 @@ public class DataLoaderService {
         }
     }
 
-    public String loadDocs() {
-        try (InputStream inputStream = pdfResource.getInputStream();
-             BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream))) {
+    public void loadJson(InputStream inputStream, int maxDocuments) {
+        int curDocuments = 0;
+        try {
+            int docProcessingBatchSize = Math.min(100, maxDocuments);
+            // Parse the entire InputStream into an Object
+            Object jsonElement = objectMapper.readValue(inputStream, Object.class);
             List<Document> documents = new ArrayList<>();
-            String line;
-            while ((line = reader.readLine()) != null) {
-                Map<String, Object> jsonDoc = objectMapper.readValue(line, Map.class);
-                String content = (String) jsonDoc.get("body");
-                // Split the content into smaller chunks if it exceeds the token limit
-                List<String> chunks = splitIntoChunks(content, 1000);
-                // Create a Document for each chunk and add it to the list
-                for (String chunk : chunks) {
-                    Document document = createDocument(jsonDoc, chunk);
-                    documents.add(document);
+            if (jsonElement instanceof List) {
+                for (Map<String, Object> jsonDoc : (List<Map<String, Object>>) jsonElement) {
+                    processMongoDBJsonDocument(jsonDoc, documents);
+                    if (documents.size() >= docProcessingBatchSize) {
+                        curDocuments += documents.size();
+                        System.out.println("Adding 100 documents to the vector store");
+                        vectorStore.add(documents);
+                        documents.clear();
+                        if(curDocuments >= maxDocuments) {
+                            break;
+                        }
+                    }
                 }
-                // Add documents in batches to avoid memory overload
-                if (documents.size() >= 100) {
-                    vectorStore.add(documents);
-                    documents.clear();
-                }
+            } else if (jsonElement instanceof Map) {
+                // If it's a single JSON object
+                Map<String, Object> jsonDoc = (Map<String, Object>) jsonElement;
+                processMongoDBJsonDocument(jsonDoc, documents);
             }
+
+            // Add remaining documents to the vector store
             if (!documents.isEmpty()) {
                 vectorStore.add(documents);
             }
-            return "All documents added successfully!";
         } catch (Exception e) {
-            return "An error occurred while adding documents: " + e.getMessage();
+            throw new RuntimeException(e);
         }
     }
 
-    private Document createDocument(Map<String, Object> jsonMap, String content) {
-        Map<String, Object> metadata = (Map<String, Object>) jsonMap.get("metadata");
-        metadata.putIfAbsent("sourceName", jsonMap.get("sourceName"));
-        metadata.putIfAbsent("url", jsonMap.get("url"));
-        metadata.putIfAbsent("action", jsonMap.get("action"));
-        metadata.putIfAbsent("format", jsonMap.get("format"));
-        metadata.putIfAbsent("updated", jsonMap.get("updated"));
+    private void processMongoDBJsonDocument(Map<String, Object> jsonDoc, List<Document> documents) throws JsonProcessingException, ParseException {
+        Map<String, Object> mongoDbId = (Map<String, Object>) jsonDoc.get("_id");
+        Map<String, Object> eventAtField = (Map<String, Object>) jsonDoc.get("eventAt");
+        String eventAtDate = eventAtField.get("$date").toString();
+        // create a separate has table with title and text fields
+        Map<String, String> titleAndText = new HashMap<>();
+        titleAndText.putIfAbsent("title", (String) jsonDoc.getOrDefault("title", ""));
+        titleAndText.putIfAbsent("content", (String) jsonDoc.getOrDefault("text", ""));
+        titleAndText.putIfAbsent("eventDate", eventAtDate);
+        // write map to jsons string
+        int currentChunkId = 0;
+        List<String> chunks = splitIntoChunks(new ObjectMapper().writeValueAsString(titleAndText), 1000);
+        for (String chunk : chunks) {
+            currentChunkId++;
+
+            Document document = createDocument(mongoDbId.get("$oid").toString(), eventAtDate, chunk, currentChunkId);
+            FilterExpressionBuilder b = new FilterExpressionBuilder();
+            // check if document is already present in vector store
+            var foundDoc = vectorStore.similaritySearch(SearchRequest.defaults()
+                    .withQuery(document.getContent())
+                    .withFilterExpression(
+                            b.and(
+                                    b.eq("mongoDbId", mongoDbId.get("$oid")),
+                                    b.eq("chunkId", Integer.toString(currentChunkId))
+                            ).build())
+            );
+            if (foundDoc.isEmpty()) {
+                documents.add(document);
+            }
+
+        }
+    }
+
+    private Document createDocument(String mongoDbId,  String eventAtDate, String content, int chunkId) {
+        Map<String, Object> metadata = new HashMap<>();
+        metadata.putIfAbsent("mongoDbId", mongoDbId);
+        metadata.putIfAbsent("eventDate", eventAtDate);
+        metadata.putIfAbsent("chunkId", Integer.toString(chunkId));
         return new Document(content, metadata);
     }
 
