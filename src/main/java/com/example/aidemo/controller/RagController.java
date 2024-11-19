@@ -1,5 +1,7 @@
 package com.example.aidemo.controller;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.ai.chat.messages.Message;
 import org.springframework.ai.chat.messages.UserMessage;
@@ -8,7 +10,6 @@ import org.springframework.ai.chat.prompt.SystemPromptTemplate;
 import org.springframework.ai.document.Document;
 import org.springframework.ai.vectorstore.SearchRequest;
 import org.springframework.ai.vectorstore.VectorStore;
-import org.springframework.ai.vectorstore.filter.FilterExpressionBuilder;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
@@ -18,10 +19,39 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
+import static java.util.Collections.emptyList;
+
 @RestController
 public class RagController {
     private final ChatClient chatClient;
     private final VectorStore vectorStore;
+    private final String titleTagsPrompt = """
+            You are to generate a JSON document based on the following user text.
+            Your task is to create a JSON document with the following structure:
+            {{
+                "title": "<Generated Title>",
+                "tags": ["<tag1>", "<tag2>", ...]
+            }}
+            
+            - The "title" should be a concise and informative title summarizing the main topic of the user text.
+            - You are to choose from among the following tags, using the descriptions to determine which tags are the most relevant:
+            {{
+              "NONE": "for normal logbook entries",
+              "FATAL": "for failures that prevent from operation of the machine for more than one hour",
+              "ERROR": "for errors in a device/subsystem/program etc.",
+              "FIXED": "error that has been fixed",
+              "WARN": "for warnings to other users or operators (don't forget, check this...)",
+              "INFO": "for hints to other users or operators",
+              "MEASURE": "message about a measurement (beam parameter, radiation ..)",
+              "IDEA": "extra ideas and communication (\"would be nice to have\" ..)",
+              "DOCU": "documentation of some subsystem",
+              "TODO": "work to be done",
+              "DONE": "work that has been done",
+              "DELETE": "marks an entry as deleted: the item is then no more visible in the eLogBook"
+            }}
+            
+            Please output *only* the JSON document and nothing else.
+            """;
     private String template = """
             You're assisting with questions about the employees working in the company.
             Use the information from the DOCUMENTS section to provide accurate answers but act as if you knew this information innately.
@@ -30,6 +60,16 @@ public class RagController {
             {documents}
             
             respond directly to the answer without giving personal opinions or additional information.
+            """;
+    String summarizationPrompt = """
+            Using a professional and informative tone, go straight to the summarization with personal preface and summarize the key information from the following responses:
+            {context}
+
+            The summary should:            
+            - Be no more than [desired word or sentence count].
+            - Be written in clear and concise language.
+            - Fully address the original question.
+            - remove entry where nothing has been found
             """;
     String llmPrompt = """
             You are an advanced language model assisting with queries for a Spring AI Vector Index. 
@@ -89,10 +129,20 @@ public class RagController {
                 .content();
     }
 
+    @GetMapping("/summarize")
+    public TitleAndTagsDTO  summarize(@RequestParam(value = "message") String message) throws JsonProcessingException {
+        Message indexCreationMessage = new SystemPromptTemplate(titleTagsPrompt).createMessage();
+        var indexAnswer = chatClient.prompt(new Prompt(List.of(indexCreationMessage, new UserMessage(message)))).call();
+        var jsonAnswer = indexAnswer.content();
+        return new ObjectMapper().readValue(jsonAnswer, TitleAndTagsDTO.class);
+    }
+
     @GetMapping("/question-prompt")
-    public String questionCustom(@RequestParam(value = "message") String message) {
+    public AnswerDTO questionCustom(@RequestParam(value = "message") String message) {
+        // summarize the response
+        List<RelatedDocumentDTO> relatedDocumentDTOs = new ArrayList<>();
         if (message == null || message.isBlank()) {
-            return "Please provide a message";
+            return new AnswerDTO("Invalid message", emptyList());
         }
         // ask to llm if we need to better filter the documents
         Message indexCreationMessage = new SystemPromptTemplate(llmPrompt).createMessage(Map.of("user-request", message));
@@ -102,20 +152,20 @@ public class RagController {
         // Retrieve documents matching the query
         List<Document> allDocuments = null;
         System.out.println("Searching for documents...");
-        if( indexRule != null && !indexRule.contains("NO_INDEX")) {
+        if (indexRule != null && !indexRule.contains("NO_INDEX")) {
             allDocuments = vectorStore.similaritySearch(
                     SearchRequest.defaults()
                             .withQuery(message)
                             .withFilterExpression(indexRule)
                             .withSimilarityThreshold(0.5)
-                            .withTopK(100)
+                            .withTopK(1000)
             );
         } else {
             allDocuments = vectorStore.similaritySearch(
                     SearchRequest.defaults()
                             .withQuery(message)
                             .withSimilarityThreshold(0.6)
-                            .withTopK(100)
+                            .withTopK(1000)
             );
         }
 
@@ -132,10 +182,17 @@ public class RagController {
             // Create a prompt for each chunk
             var prompt = createPrompt(message, chunk);
             var ccResponse = chatClient.prompt(prompt).call();
+
+            // summarize the response
+//            var summarizedBatchAnswer = chatClient.prompt(new Prompt(List.of(new SystemPromptTemplate(summarizationPrompt).createMessage(Map.of("context", ccResponse.content())), new UserMessage(message)))).call();
+//            var content = summarizedBatchAnswer.content();
             finalResponse.append(ccResponse.content()).append("\n");
         }
 
-        return finalResponse.toString();
+
+        return new AnswerDTO(
+                finalResponse.toString(),
+                relatedDocumentDTOs);
     }
 
     /**
