@@ -1,0 +1,41 @@
+[
+  {
+    "_id": {
+      "$oid": "66da3b9fcab05f325bac6aa3"
+    },
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "summarizes": {
+      "shiftId": "38ab9417-cff0-4ed0-919b-886271ffa23d",
+      "date": {
+        "$date": "2024-08-30T00:00:00.000Z"
+      }
+    },
+    "title": "Shift summary for August 30th",
+    "text": "<p>This is a test</p>",
+    "lastName": "Mikulec",
+    "firstName": "Boogie",
+    "userName": "boogie@slac.stanford.edu",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2024-09-05T23:15:43.968Z"
+    },
+    "createdDate": {
+      "$date": "2024-09-05T23:15:43.974Z"
+    },
+    "createdBy": "boogie@slac.stanford.edu",
+    "lastModifiedDate": {
+      "$date": "2024-09-05T23:15:43.974Z"
+    },
+    "lastModifiedBy": "boogie@slac.stanford.edu",
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry",
+    "eventAt": {
+      "$date": "2024-09-05T23:15:43.968Z"
+    }
+  }
+]

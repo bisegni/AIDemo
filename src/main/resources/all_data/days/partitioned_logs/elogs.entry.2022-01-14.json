@@ -1,0 +1,3128 @@
+[
+  {
+    "_id": {
+      "$oid": "653847ec5ec1e72404bf3699"
+    },
+    "originId": "MCC_1119163",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675737",
+      "6536f0b5fbf92e44a7675735",
+      "6536f0b5fbf92e44a7675733",
+      "6536f0b5fbf92e44a7675739"
+    ],
+    "title": "LCLS II FACET II Installation Activities",
+    "text": "Thursday, 1/13/2022 47 people badged in at the morning tailgate. Progress: ACCPHYS - Magnet checkout. AMRF - CM1-CM11, cavity probe cable connections. ARDTF - S10,S20, FACET II support. CBL - RF/BCS support. S8, cable installation prep. S10, FACET II cable installation. S30, BTH, B911, cable tagging. S2P3, cable dressing. Cryo - Prep for cooldown. CTLS - Magnet checkout. Motion control system checkout. Tunnel radio signal checkout. S16, wirescanner pigtail connections. FACC - Install shielding in gallery penetrations. S0 AOR door, smoke seal installation. FACOE - S0 fire station energization review. FACOI - LCW system p/m support. FACOM - LCW system p/m. Metrology - S29,S30, component alignment. MFD - Linac Middle, Linac East vacuum activities. S28-S30, magnet water connections. Housing housekeeping. He guard line installation. BC-2, Removed PF Cart #1 from BC2 upstream BC2B/EMIT portion of beamline. Injector, installed PF Cart #1 on downstream Injector COL0 line for removal of VPIO:COL0:762 ion pump. Conductor pin in HV feedthrough is shorted to ground. Pump is non-functional. PF Cart #3 still connected to upstream HTR for OTR0H04 installation. Part still in need of rework. Injector/Gun, suitcase SN02 connection to airlock leak checked. NIL! Turned system back over to Injector Gun team. PEM - LCLS and FACET II support. S4, magnet connections. Diag kicker checkout. PPS - Prep for LCLS start-up. Test Lab - NIRP system labeling. Contractors - Collins - S28-S30, component base grouting. Vance Brown - S0 fire station project. Regards, Al",
+    "lastName": "Owens",
+    "firstName": "Alden",
+    "userName": "fishohn",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T00:30:01.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T00:30:01.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847ec5ec1e72404bf369a"
+    },
+    "originId": "MCC_1119164",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675730"
+    ],
+    "title": "* Re: FACET",
+    "text": "Wrote CATERs 154582 through 154585.",
+    "lastName": "Craft",
+    "firstName": "James",
+    "userName": "jimbo",
+    "tags": [
+      "a322161d-e930-4ad4-b481-7aa10be41996"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [
+      "653847dc5ec1e72404bf35ad"
+    ],
+    "loggedAt": {
+      "$date": "2022-01-14T00:45:25.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T00:45:25.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847ec5ec1e72404bf369b"
+    },
+    "originId": "MCC_1119165",
+    "logbooks": [
+      "6536f0b5fbf92e44a767572a"
+    ],
+    "title": "Lost beam",
+    "text": "",
+    "lastName": "Haggart",
+    "firstName": "Craig",
+    "userName": "haggart",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T01:20:59.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T01:20:59.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847ec5ec1e72404bf369c"
+    },
+    "originId": "MCC_1119166",
+    "logbooks": [
+      "6536f0b5fbf92e44a767572a"
+    ],
+    "title": "Duty operator reported beam loss was from BL17, will clear faults and refill ASAP",
+    "text": "",
+    "lastName": "Haggart",
+    "firstName": "Craig",
+    "userName": "haggart",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T01:22:44.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T01:22:44.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847ec5ec1e72404bf369e"
+    },
+    "originId": "MCC_1119167",
+    "logbooks": [
+      "6536f0b5fbf92e44a767572a"
+    ],
+    "title": "04G-HCOR1 might have a problem",
+    "text": "I just saw that the corrector had red status. Reloaded golden to set it to nominal, which greened it for a few seconds but it turned red again - the readback appears to be -11.697 no matter what (I also tried to set the slider manually and got the same result). Will try standardizing SPEAR, since I'm waiting for the duty op anyway.",
+    "lastName": "Haggart",
+    "firstName": "Craig",
+    "userName": "haggart",
+    "tags": [],
+    "attachments": [
+      "653847ec5ec1e72404bf369d"
+    ],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T01:25:55.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T01:25:55.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847ec5ec1e72404bf369f"
+    },
+    "originId": "MCC_1119168",
+    "logbooks": [
+      "6536f0b5fbf92e44a767572a"
+    ],
+    "title": "Calling power techs for 4G-HCOR1",
+    "text": "Tried CPU reset for the crate after standardizing; still have readback of -11.697 regardless of setpoint (which is zero now).",
+    "lastName": "Haggart",
+    "firstName": "Craig",
+    "userName": "haggart",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T01:33:39.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T01:33:39.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847ec5ec1e72404bf36a0"
+    },
+    "originId": "MCC_1119169",
+    "logbooks": [
+      "6536f0b5fbf92e44a767572c"
+    ],
+    "title": "SSRL BLDO Day shift report 2022-JAN-13",
+    "text": "SPEAR: 500ma top-up every 5min. 17:21 Beam lost due to BL-17 mystery fault. Spear will wait a few minutes following Call back from M. Cyterski before resetting and injecting. BEAM LINES: All Open all shift. FAULTS: 17:21 Beam lost due to BL-17 mystery fault. EXPERIMENTS: No problems or concerns. OTHER: 10 Helium cylinders delivered &amp; 9 Empties Returned today.",
+    "lastName": "Leonard",
+    "firstName": "Wes",
+    "userName": "leonard",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T01:46:56.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T01:46:56.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847ec5ec1e72404bf36a1"
+    },
+    "originId": "MCC_1119170",
+    "logbooks": [
+      "6536f0b5fbf92e44a767572a"
+    ],
+    "title": "Duty op reports BL17 pri 1 fault is clear; I reset everything here",
+    "text": "",
+    "lastName": "Haggart",
+    "firstName": "Craig",
+    "userName": "haggart",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T02:00:25.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T02:00:25.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847ec5ec1e72404bf36a2"
+    },
+    "originId": "MCC_1119171",
+    "logbooks": [
+      "6536f0b5fbf92e44a767572a"
+    ],
+    "title": "Marty and Cordell are here to work on MCOR 04G-HCOR1",
+    "text": "",
+    "lastName": "Haggart",
+    "firstName": "Craig",
+    "userName": "haggart",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T02:00:53.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T02:00:53.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847ec5ec1e72404bf36a3"
+    },
+    "originId": "MCC_1119172",
+    "logbooks": [
+      "6536f0b5fbf92e44a767572a"
+    ],
+    "title": "MCOR fixed and calibrated, injecting",
+    "text": "",
+    "lastName": "Haggart",
+    "firstName": "Craig",
+    "userName": "haggart",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T02:26:40.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T02:26:40.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847ec5ec1e72404bf36a4"
+    },
+    "originId": "MCC_1119173",
+    "logbooks": [
+      "6536f0b5fbf92e44a767572a"
+    ],
+    "title": "BEAMS - 500mA, autofill to RUN mode",
+    "text": "",
+    "lastName": "Haggart",
+    "firstName": "Craig",
+    "userName": "haggart",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T02:38:44.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T02:38:44.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847ed5ec1e72404bf36a5"
+    },
+    "originId": "MCC_1119174",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675730",
+      "6536f0b5fbf92e44a767572a"
+    ],
+    "title": "* Re: Marty and Cordell are here to work on MCOR 04G-HCOR1",
+    "text": "Replaced and calibrated module in 04G-COR1H. Out: SN308 In: SN193 ML / CW",
+    "lastName": "Lavoie",
+    "firstName": "Marty",
+    "userName": "mlavoie",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [
+      "653847ec5ec1e72404bf36a2"
+    ],
+    "loggedAt": {
+      "$date": "2022-01-14T02:49:14.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T02:49:14.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847ed5ec1e72404bf36a6"
+    },
+    "originId": "MCC_1119175",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "Calling it quits with Linac West interlock checks for tonight, more details to follow",
+    "text": "",
+    "lastName": "Ripman",
+    "firstName": "Ben",
+    "userName": "bripman",
+    "tags": [
+      "68acd11d-05a8-45f5-b559-55a8d8833373"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T03:52:51.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T03:19:35.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847ed5ec1e72404bf36a7"
+    },
+    "originId": "MCC_1119176",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "Linac West interlock check results",
+    "text": "We were not able to complete the full SAT-level interlock checklist. I would estimate that we have it 60-70% complete, though many of the remaining checkboxes are fairly routine (we prioritized the non-standard checks). We encountered a large number of issues with the hardware and with the checklist itself. Some of these issues were already known but I'll include them here for the sake of thoroughness. Known issues: * LI09 equipment key release talks to the search keybank and vice-versa. * LI04 search keybank continues to read complete even when the key has been removed. Issues that we think are new: * S9 Manway camera behavior is not consistent. Earlier today it was extremely jerky (not up to our normal standards for monitoring PPS transactions). Moreover, we were able to launch it on OPI12 but not on OPI10 (VLC threw a bunch of errors). I just checked it again on OPI10 and it works perfectly now, not clear what changed in the last few hours. CATER 154589. * Sonalert behavior for manway door E/E mechanisms was very inconsistent from one sector to the next. CATER 154590. * Manway door magnalocks still indicated that they were on (both in the control system and locally at the door itself) when using the E/E mechanisms to crash in and out. CATER 154591. * Not PPS-related, but: we tested WiFi calling down in the linac and were not able to make it work (we had heard that people on the Verizon network were having this problem). * We could not get the LI02 AOR door to close properly. Zach tried closing it with more force, which caused the hydraulic closing mechanism to rupture. CATER 154588. * There is very little rhyme or reason to the EO mechanisms downstairs in terms of which EO string they trip in the control system. I think this is a known issue and there are no plans to fix it. However, more seriously, we observed that hitting the EOs in sector 6 caused the EOs way down at the end of sector 7 to flash (NOT the EOs in sector 6). The EOs in sector 7 did not cause any EO lights to flash that we could observe. CATER 154592. * S10 adit PPS gate tongue is stuck so the gate cannot be mechanically latched. CATER 154593. I will cover issues with the checklist itself in a separate entry.",
+    "lastName": "Ripman",
+    "firstName": "Ben",
+    "userName": "bripman",
+    "tags": [
+      "68acd11d-05a8-45f5-b559-55a8d8833373"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T03:54:30.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T03:54:30.000Z"
+    },
+    "version": {
+      "$numberLong": "2"
+    },
+    "_class": "edu.stanford.slac.elog_plus.model.Entry",
+    "supersededBy": "653847ed5ec1e72404bf36a8"
+  },
+  {
+    "_id": {
+      "$oid": "653847ed5ec1e72404bf36a8"
+    },
+    "originId": "MCC_1119177",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "Linac West interlock check results",
+    "text": "We were not able to complete the full SAT-level interlock checklist. I would estimate that we have it 60-70% complete, though many of the remaining checkboxes are fairly routine (we prioritized the non-standard checks). We encountered a large number of issues with the hardware and with the checklist itself. Some of these issues were already known but I'll include them here for the sake of thoroughness. Known issues: * LI09 equipment key release talks to the search keybank and vice-versa. * LI04 search keybank continues to read complete even when the key has been removed. Issues that we think are new: * S9 Manway camera behavior is not consistent. Earlier today it was extremely jerky (not up to our normal standards for monitoring PPS transactions). Moreover, we were able to launch it on OPI12 but not on OPI10 (VLC threw a bunch of errors). I just checked it again on OPI10 and it works perfectly now, not clear what changed in the last few hours. CATER 154589. * Sonalert behavior for manway door E/E mechanisms was very inconsistent from one sector to the next. CATER 154590. * Manway door magnalocks still indicated that they were on (both in the control system and locally at the door itself) when using the E/E mechanisms to crash in and out. CATER 154591. * Not PPS-related, but: we tested WiFi calling down in the linac and were not able to make it work (we had heard that people on the Verizon network were having this problem). * We could not get the LI02 AOR door to close properly. Zach tried closing it with more force, which caused the hydraulic closing mechanism to rupture. CATER 154588. * There is very little rhyme or reason to the EO mechanisms downstairs in terms of which EO string they trip in the control system. I think this is a known issue and there are no plans to fix it. However, more seriously, we observed that hitting the EOs in sector 6 caused the EOs way down at the end of sector 7 to flash (NOT the EOs in sector 6). The EOs in sector 7 did not cause any EO lights to flash that we could observe. CATER 154592. * S10 adit PPS gate tongue is stuck so the gate cannot be mechanically latched. CATER 154593. I will cover issues with the checklist itself in an email to the interested parties.",
+    "lastName": "Ripman",
+    "firstName": "Ben",
+    "userName": "bripman",
+    "tags": [
+      "68acd11d-05a8-45f5-b559-55a8d8833373"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T03:54:56.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T03:54:30.000Z"
+    },
+    "version": {
+      "$numberLong": "2"
+    },
+    "_class": "edu.stanford.slac.elog_plus.model.Entry",
+    "supersededBy": "653847ed5ec1e72404bf36a9"
+  },
+  {
+    "_id": {
+      "$oid": "653847ed5ec1e72404bf36a9"
+    },
+    "originId": "MCC_1119178",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "Linac West interlock check results",
+    "text": "We were not able to complete the full SAT-level interlock checklist. I would estimate that we have it 60-70% complete, though many of the remaining checkboxes are fairly routine (we prioritized the non-standard checks). We encountered a large number of issues with the hardware and with the checklist itself. Some of these issues were already known but I'll include them here for the sake of thoroughness. Known issues: * LI09 equipment key release talks to the search keybank and vice-versa. * LI04 search keybank continues to read complete even when the key has been removed. Issues that we think are new: * S9 Manway camera behavior is not consistent. Earlier today it was extremely jerky (not up to our normal standards for monitoring PPS transactions). Moreover, we were able to launch it on OPI12 but not on OPI10 (VLC threw a bunch of errors). I just checked it again on OPI10 and it works perfectly now, not clear what changed in the last few hours. CATER 154589. * Sonalert behavior for manway door E/E mechanisms was very inconsistent from one sector to the next. CATER 154590. * Manway door magnalocks still indicated that they were on (both in the control system and locally at the door itself) when using the E/E mechanisms to crash in and out. CATER 154591. * Not PPS-related, but: we tested WiFi calling down in the linac and were not able to make it work (we had heard that people on the Verizon network were having this problem). * We could not get the LI02 AOR door to close properly. Zach tried closing it with more force, which caused the hydraulic closing mechanism to rupture. CATER 154588. * There is very little rhyme or reason to the EO mechanisms downstairs in terms of which EO string they trip in the control system. I think this is a known issue and there are no plans to fix it. However, more seriously, we observed that hitting the EOs in sector 6 caused the EOs way down at the end of sector 7 to flash (NOT the EOs in sector 6). The EOs in sector 7 did not cause any EO lights to flash that we could observe. CATER 154592. * S10 adit PPS gate tongue is stuck so the gate cannot be mechanically latched. CATER 154593. I will cover issues with the checklist itself through CDMS.",
+    "lastName": "Ripman",
+    "firstName": "Ben",
+    "userName": "bripman",
+    "tags": [
+      "68acd11d-05a8-45f5-b559-55a8d8833373"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T04:00:28.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T03:54:30.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847ed5ec1e72404bf36aa"
+    },
+    "originId": "MCC_1119179",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "Shutdown complete, ACR unstaffed until tomorrow morning",
+    "text": "",
+    "lastName": "Ripman",
+    "firstName": "Ben",
+    "userName": "bripman",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T04:39:17.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T04:39:17.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847ed5ec1e72404bf36ab"
+    },
+    "originId": "MCC_1119180",
+    "logbooks": [
+      "6536f0b5fbf92e44a767572a"
+    ],
+    "title": "Went to TUNE mode to ootch up the Q meter a tad",
+    "text": "Fill rate has been around 40, but it was more like 45 earlier.",
+    "lastName": "Haggart",
+    "firstName": "Craig",
+    "userName": "haggart",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T06:31:48.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T06:28:37.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847ed5ec1e72404bf36ac"
+    },
+    "originId": "MCC_1119181",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675730"
+    ],
+    "title": "SHOP",
+    "text": "Worked on VGC checkout and repair",
+    "lastName": "Wilson",
+    "firstName": "Cordell",
+    "userName": "chw",
+    "tags": [
+      "a322161d-e930-4ad4-b481-7aa10be41996"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T06:42:20.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T06:42:20.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847ed5ec1e72404bf36ad"
+    },
+    "originId": "MCC_1119182",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675730"
+    ],
+    "title": "Shop: worked on Spear 1 phase stacks.",
+    "text": "Completed repairs to stack S1 A+. Replaced 4 low standoff MOVs. Installed new 5KV snubber caps on gate drive boards. Installed gate drive boards on stack. Will install ferrite drive ckt tomorrow and test stack.",
+    "lastName": "Jenks",
+    "firstName": "Stephen",
+    "userName": "saj",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T06:43:15.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T06:43:15.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847ed5ec1e72404bf36ae"
+    },
+    "originId": "MCC_1119183",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675742"
+    ],
+    "title": ".",
+    "text": "SUMMARY: User beam was available for 6.7 hours of this 8-hour shift. Lost beam once due to beamline 17 priority 1 fault, and recovery was delayed due to an MCOR problem. Average fill rate was in the mid 40s and calculated injection efficiency was in the high 90s. INJECTOR: 275mV Q meter. SPEAR: Lost beam at 5:20pm due to a BL7 priority 1 fault. Before the fault was reset, it was discovered that MCOR 04G-HCOR1 readback was constantly -11.697A regardless of setpoint. Power techs replaced and calibrated the corrector card, and 500mA was redelivered at 6:38pm.",
+    "lastName": "Haggart",
+    "firstName": "Craig",
+    "userName": "haggart",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T07:32:01.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T07:32:01.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847ed5ec1e72404bf36b0"
+    },
+    "originId": "MCC_1119184",
+    "logbooks": [
+      "6536f0b5fbf92e44a767572a"
+    ],
+    "title": "Shift summary: Thursday swing",
+    "text": "SUMMARY: User beam was available for 6.7 hours of this 8-hour shift. Lost beam once due to beamline 17 priority 1 fault, and recovery was delayed due to an MCOR problem. Average fill rate was in the mid 40s and calculated injection efficiency was in the high 90s. INJECTOR: 275-300mV Q meter. Tuned once between fills to improve fill rate. SPEAR: Lost beam at 5:20pm due to a BL7 priority 1 fault. Before the fault was reset, it was discovered that MCOR 04G-HCOR1 readback was constantly -11.697A regardless of setpoint. Power techs replaced and calibrated the corrector card, and 500mA was redelivered at 6:38pm.",
+    "lastName": "Haggart",
+    "firstName": "Craig",
+    "userName": "haggart",
+    "tags": [],
+    "attachments": [
+      "653847ed5ec1e72404bf36af"
+    ],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T07:46:29.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T07:45:00.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847ed5ec1e72404bf36b1"
+    },
+    "originId": "MCC_1119185",
+    "logbooks": [
+      "6536f0b5fbf92e44a767572a"
+    ],
+    "title": "Shift Start: Friday Owl",
+    "text": "<p><strong>Operators:</strong></p>\n<p>Sommer</p>\n<p><strong>Injector Status:</strong></p>\n<p>5 minute top-ups, fill rate near 46 mA/min</p>\n<p><strong>SPEAR Status:</strong></p>\n<p>500mA stored beam. All beamlines keyed off</p>\n<p><strong>Program:</strong></p>\n<p>User Beam</p>",
+    "lastName": "Sommer",
+    "firstName": "Tom",
+    "userName": "sommer",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T07:52:47.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T07:52:47.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847ed5ec1e72404bf36b2"
+    },
+    "originId": "MCC_1119186",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "Daily BCS Checks - 1/14/2022 - Failed",
+    "text": "LCLS BCS checks performed using the 4/29/2021 version of the checklist. [Passed] LI28 --&gt; Summary Chassis --&gt; LI28 PIC GAS PS1 Currently ACTIVE, must not be BYPASS. [Passed] LI28 --&gt; Summary Chassis --&gt; LI28 PIC GAS PS2 Currently ACTIVE, must not be BYPASS. [Passed] LI28 --&gt; PIC Chassis --&gt; IC 951 Status Currently ACTIVE, must not be BYPASS. [Passed] LI28 --&gt; PIC Chassis --&gt; IC 961 Status Currently ACTIVE, must not be BYPASS. [Passed] LI24 --&gt; Summary Chassis --&gt; PIC Summary #1 Currently ACTIVE, must not be BYPASS. [Passed] LI24 --&gt; Summary Chassis --&gt; PIC Summary #2 Currently ACTIVE, must not be BYPASS. [Passed] LI24 --&gt; Summary Chassis --&gt; LION Gas Pressure #1 Currently ACTIVE, must not be BYPASS. [Passed] LI24 --&gt; Summary Chassis --&gt; LION Gas Pressure #2 Currently ACTIVE, must not be BYPASS. [Passed] LI24 --&gt; PIC Chassis --&gt; CH01: BC2LION-1N Currently ACTIVE, must not be BYPASS. [Passed] LI24 --&gt; PIC Chassis --&gt; CH02: BC2LION-1S Currently ACTIVE, must not be BYPASS. [Passed] LCLS Injector --&gt; Summary Chassis --&gt; CH01: PIC Summary #1 Currently ACTIVE, must not be BYPASS. [Passed] LCLS Injector --&gt; Summary Chassis --&gt; CH02: PIC Summary #2 Currently ACTIVE, must not be BYPASS. [Passed] LCLS Injector --&gt; Summary Chassis --&gt; CH03: Dump Flow Switch Currently ACTIVE, must not be BYPASS. [Passed] LCLS Injector --&gt; Summary Chassis --&gt; CH04: Dump Flow Switch Currently ACTIVE, must not be BYPASS. [Passed] LCLS Injector --&gt; Summary Chassis --&gt; CH05: LION Gas Pres #1 Currently ACTIVE, must not be BYPASS. [Passed] LCLS Injector --&gt; Summary Chassis --&gt; CH06: LION Gas Pres #2 Currently ACTIVE, must not be BYPASS. [Passed] LCLS Injector --&gt; PIC Chassis --&gt; INJLION-1N Currently ACTIVE, must not be BYPASS. [Passed] LCLS Injector --&gt; PIC Chassis --&gt; INJLION-1S Currently ACTIVE, must not be BYPASS. [Passed] LCLS Injector --&gt; PIC Chassis --&gt; BC1LION-1N Currently ACTIVE, must not be BYPASS. [Passed] LCLS Injector --&gt; PIC Chassis --&gt; BC1LION-1S Currently ACTIVE, must not be BYPASS. [Passed] B136 / B005 --&gt; DTC --&gt; DTC CH1: BLRCUS (active/inactive) Currently ACTIVE, must not be BYPASS. [Passed] B136 / B005 --&gt; DTC --&gt; DTC CH3: BRCUS1 (active/inactive) Currently ACTIVE, must not be BYPASS. [Passed] B136 / B005 --&gt; Digital Summary Chassis 2 --&gt; CH01: R119B PIC SUM1 Currently ACTIVE, must not be BYPASS. [Passed] B136 / B005 --&gt; Digital Summary Chassis 2 --&gt; CH02: R119B PIC SUM2 Currently ACTIVE, must not be BYPASS. [Passed] B136 / B005 --&gt; Digital Summary Chassis 2 --&gt; CH03: R119C PIC SUM1 Currently ACTIVE, must not be BYPASS. [Passed] B136 / B005 --&gt; Digital Summary Chassis 2 --&gt; CH04: R119C PIC SUM2 Currently ACTIVE, must not be BYPASS. [Passed] B136 / B005 --&gt; Digital Summary Chassis 2 --&gt; CH05: R119D PIC SUM1 Currently ACTIVE, must not be BYPASS. [Passed] B136 / B005 --&gt; Digital Summary Chassis 2 --&gt; CH06: R119D PIC SUM2 Currently ACTIVE, must not be BYPASS. [Passed] B136 / B005 --&gt; Digital Summary Chassis 2 --&gt; CH09: 136 DTC SUM1 Currently ACTIVE, must not be BYPASS. [Passed] B136 / B005 --&gt; Digital Summary Chassis 2 --&gt; CH10: 136 DTC SUM2 Currently ACTIVE, must not be BYPASS. [Passed] B136 / B005 --&gt; Digital Summary Chassis 2 --&gt; CH11: 005 DTC SUM1 Currently ACTIVE, must not be BYPASS. [Passed] B136 / B005 --&gt; Digital Summary Chassis 2 --&gt; CH12: 005 DTC SUM2 Currently ACTIVE, must not be BYPASS. [Failed] B136 / B005 --&gt; Digital Summary Chassis 2 --&gt; CH13: 005 PPS1-BCS Currently BYPASS, must not be BYPASS. [Failed] B136 / B005 --&gt; Digital Summary Chassis 2 --&gt; CH14: 005 PPS2-BCS Currently BYPASS, must not be BYPASS. [Passed] B136 / B005 --&gt; Digital Summary Chassis 1 --&gt; CH01: D2 FS1 Currently ACTIVE, must not be BYPASS. [Passed] B136 / B005 --&gt; Digital Summary Chassis 1 --&gt; CH02: D2 FS2 Currently ACTIVE, must not be BYPASS. [Passed] B136 / B005 --&gt; Digital Summary Chassis 1 --&gt; CH03: ST CLTS FS1 Currently ACTIVE, must not be BYPASS. [Passed] B136 / B005 --&gt; Digital Summary Chassis 1 --&gt; CH04: ST CLTS FS2 Currently ACTIVE, must not be BYPASS. [Passed] B136 / B005 --&gt; Digital Summary Chassis 1 --&gt; CH07: BSY PIC GAS PS1 Currently ACTIVE, must not be BYPASS. [Passed] B136 / B005 --&gt; Digital Summary Chassis 1 --&gt; CH08: BSY PIC GAS PS2 Currently ACTIVE, must not be BYPASS. [Passed] B911 --&gt; Bypass and Summary Chassis #1 --&gt; CH01: PIC Summary #1 Currently ACTIVE, must not be BYPASS. [Passed] B911 --&gt; Bypass and Summary Chassis #1 --&gt; CH02: PIC Summary #2 Currently ACTIVE, must not be BYPASS. [Passed] B911 --&gt; Bypass and Summary Chassis #1 --&gt; CH07: BTHW Summary #1 Currently ACTIVE, must not be BYPASS. [Passed] B911 --&gt; Bypass and Summary Chassis #1 --&gt; CH08: BTHW Summary #2 Currently ACTIVE, must not be BYPASS. [Passed] B911 --&gt; Bypass and Summary Chassis #2 (BTHW) --&gt; CH1: PIC Summary #1 Currently ACTIVE, must not be BYPASS. [Passed] B911 --&gt; Bypass and Summary Chassis #2 (BTHW) --&gt; CH2: PIC Summary #2 Currently ACTIVE, must not be BYPASS. [Passed] B911 --&gt; Bypass and Summary Chassis #2 (BTHW) --&gt; CH3: DTC Summary #1 Currently ACTIVE, must not be BYPASS. [Passed] B911 --&gt; Bypass and Summary Chassis #2 (BTHW) --&gt; CH4: DTC Summary #2 Currently ACTIVE, must not be BYPASS. [Passed] B911 --&gt; PIC Chassis 1 --&gt; CH1: LTU-LION-1N Currently ACTIVE, must not be BYPASS. [Passed] B911 --&gt; PIC Chassis 1 --&gt; CH2: LTU-LION-1S Currently ACTIVE, must not be BYPASS. [Passed] B911 --&gt; PIC Chassis 1 --&gt; CH3: LTU-LION-2N Currently ACTIVE, must not be BYPASS. [Passed] B911 --&gt; PIC Chassis 1 --&gt; CH4: LTU-LION-2S Currently ACTIVE, must not be BYPASS. [Passed] B911 --&gt; PIC Chassis 1 --&gt; CH5: LTU-LION-3N Currently ACTIVE, must not be BYPASS. [Passed] B911 --&gt; PIC Chassis 1 --&gt; CH6: LTU-LION-3S Currently ACTIVE, must not be BYPASS. [Passed] B911 --&gt; PIC Chassis 1 --&gt; CH9: LTU-PIC-BTM22-IC1 Currently ACTIVE, must not be BYPASS. [Passed] B911 --&gt; PIC Chassis 1 --&gt; CH10: LTU-PIC-BTM42-IC1 Currently ACTIVE, must not be BYPASS. [Passed] B911 --&gt; PIC Chassis 2 --&gt; CH01: PIC-BTM1-IC1 Currently ACTIVE, must not be BYPASS. [Passed] B911 --&gt; PIC Chassis 2 --&gt; CH02: PIC-BTM01B-IC1 Currently ACTIVE, must not be BYPASS. [Passed] B911 --&gt; PIC Chassis 2 --&gt; CH03: PIC-BTM2-IC1 Currently ACTIVE, must not be BYPASS. [Passed] B911 --&gt; PIC Chassis 2 --&gt; CH05: PIC-BTM3-IC1 Currently ACTIVE, must not be BYPASS. [Passed] B911 --&gt; PIC Chassis 2 --&gt; CH06: PIC-BTM03B-IC1 Currently ACTIVE, must not be BYPASS. [Passed] B911 --&gt; PIC Chassis 2 --&gt; CH07: PIC-BTM4-IC1 Currently ACTIVE, must not be BYPASS. [Passed] B911 --&gt; PIC Chassis 2 --&gt; CH08: PIC-BTM04B-IC1 Currently ACTIVE, must not be BYPASS. [Passed] B911 --&gt; PIC Chassis 2 --&gt; CH09: PIC-TDUND-IC1 Currently ACTIVE, must not be BYPASS. [Passed] B911 --&gt; DTC --&gt; CH1: BYD1 (active/inactive) Currently ACTIVE, must not be BYPASS. [Passed] B911 --&gt; DTC --&gt; CH2: BYD1 (redundant) (active/inactive) Currently ACTIVE, must not be BYPASS. [Passed] B911 --&gt; DTC --&gt; CH3: BY1B (active/inactive) Currently ACTIVE, must not be BYPASS. [Passed] B911 --&gt; DTC --&gt; CH4: BYD1B (active/inactive) Currently ACTIVE, must not be BYPASS. [Passed] B913 --&gt; Digital Summary Chassis #1 --&gt; CH01: PIC SUM #1 Currently ACTIVE, must not be BYPASS. [Passed] B913 --&gt; Digital Summary Chassis #1 --&gt; CH02: PIC SUM #2 Currently ACTIVE, must not be BYPASS. [Passed] B913 --&gt; Digital Summary Chassis #1 --&gt; CH03: LION GAS PSW #1 Currently ACTIVE, must not be BYPASS. [Passed] B913 --&gt; Digital Summary Chassis #1 --&gt; CH04: LION GAS PSW #2 Currently ACTIVE, must not be BYPASS. [Passed] B913 --&gt; Digital Summary Chassis #1 --&gt; CH05: PIC GAS PSW #1 Currently ACTIVE, must not be BYPASS. [Passed] B913 --&gt; Digital Summary Chassis #1 --&gt; CH06: PIC GAS PSW #2 Currently ACTIVE, must not be BYPASS. [Passed] B913 --&gt; PIC Chassis #1 --&gt; CH01: LTU LION-4N Currently ACTIVE, must not be BYPASS. [Passed] B913 --&gt; PIC Chassis #1 --&gt; CH02: LTU LION-4S Currently ACTIVE, must not be BYPASS. [Passed] B913 --&gt; PIC Chassis #1 --&gt; CH03: LTU LION-5N Currently ACTIVE, must not be BYPASS. [Passed] B913 --&gt; PIC Chassis #1 --&gt; CH04: LTU LION-5S Currently ACTIVE, must not be BYPASS. [Passed] B913 --&gt; PIC Chassis #1 --&gt; CH05: LTU LION-6N Currently ACTIVE, must not be BYPASS. [Passed] B913 --&gt; PIC Chassis #1 --&gt; CH06: LTU LION-6S Currently ACTIVE, must not be BYPASS. [Passed] B913 --&gt; PIC Chassis #1 --&gt; CH07: LTU LION-7N Currently ACTIVE, must not be BYPASS. [Passed] B913 --&gt; PIC Chassis #1 --&gt; CH08: LTU LION-7S Currently ACTIVE, must not be BYPASS. [Passed] B913 --&gt; PIC Chassis #1 --&gt; CH10: PIC-TDUNDB-IC1 Currently ACTIVE, must not be BYPASS. [Passed] B921 --&gt; PICS --&gt; DUMP PIC Chassis #1 --&gt; CH01: PIC-BTMQUE/PCPM0-IC1 Currently ACTIVE, must not be BYPASS. [Passed] B921 --&gt; PICS --&gt; DUMP PIC Chassis #1 --&gt; CH03: PIC-PCPM1-IC1 Currently ACTIVE, must not be BYPASS. [Passed] B921 --&gt; PICS --&gt; DUMP PIC Chassis #1 --&gt; CH04: PIC-PCPM1B-IC1 Currently ACTIVE, must not be BYPASS. [Passed] B921 --&gt; PICS --&gt; DUMP PIC Chassis #1 --&gt; CH05: PIC-PCPM2-IC1 Currently ACTIVE, must not be BYPASS. [Passed] B921 --&gt; PICS --&gt; DUMP PIC Chassis #1 --&gt; CH06: PIC-PCPM2B-IC1 Currently ACTIVE, must not be BYPASS. [Passed] B921 --&gt; PICS --&gt; DUMP PIC Chassis #1 --&gt; CH07: PIC-BYD-IC1 Currently ACTIVE, must not be BYPASS. [Passed] B921 --&gt; PICS --&gt; DUMP PIC Chassis #1 --&gt; CH08: PIC-BYDB-IC1 Currently ACTIVE, must not be BYPASS. [Passed] B921 --&gt; PICS --&gt; DUMP PIC Chassis #1 --&gt; CH010: PIC-BTMQUEB/PCPM0B-IC1 Currently ACTIVE, must not be BYPASS. [Passed] B921 --&gt; PICS --&gt; DUMP PIC Chassis #2 --&gt; CH01: PIC-PCPM3-IC1 Currently ACTIVE, must not be BYPASS. [Passed] B921 --&gt; PICS --&gt; DUMP PIC Chassis #2 --&gt; CH02: PIC-PCPM3B-IC1 Currently ACTIVE, must not be BYPASS. [Passed] B921 --&gt; PICS --&gt; DUMP PIC Chassis #2 --&gt; CH03: PIC-PCTCX-IC1 Currently ACTIVE, must not be BYPASS. [Passed] B921 --&gt; PICS --&gt; DUMP PIC Chassis #2 --&gt; CH05: PIC-SFTDMP-IC1 Currently ACTIVE, must not be BYPASS. [Passed] B921 --&gt; PICS --&gt; DUMP PIC Chassis #2 --&gt; CH06: PIC-SFTDMPB-IC1 Currently ACTIVE, must not be BYPASS. [Passed] B921 --&gt; DTC --&gt; DTC1 CH1: BYDSS (active/inactive) Currently ACTIVE, must not be BYPASS. [Passed] B921 --&gt; DTC --&gt; DTC1 CH2: BYDSH (active/inactive) Currently ACTIVE, must not be BYPASS. [Passed] B921 --&gt; Digital Summary Chassis --&gt; CH1: DTC SUM1 Currently ACTIVE, must not be BYPASS. [Passed] B921 --&gt; Digital Summary Chassis --&gt; CH2: DTC SUM2 Currently ACTIVE, must not be BYPASS. [Passed] B921 --&gt; Digital Summary Chassis --&gt; CH3: ND1S Currently ACTIVE, must not be BYPASS. [Passed] B921 --&gt; Digital Summary Chassis --&gt; CH4: ND1H Currently ACTIVE, must not be BYPASS. [Passed] B921 --&gt; Digital Summary Chassis --&gt; CH5: ND2S Currently ACTIVE, must not be BYPASS. [Passed] B921 --&gt; Digital Summary Chassis --&gt; CH9: PIC SUM1 Currently ACTIVE, must not be BYPASS. [Passed] B921 --&gt; Digital Summary Chassis --&gt; CH10: PIC SUM2 Currently ACTIVE, must not be BYPASS. [Passed] B921 --&gt; Digital Summary Chassis --&gt; CH11: EDMP FS1 Currently ACTIVE, must not be BYPASS. [Passed] B921 --&gt; Digital Summary Chassis --&gt; CH12: EDMP FS2 Currently ACTIVE, must not be BYPASS. [Passed] B921 --&gt; Digital Summary Chassis --&gt; CH13: VAT SUM1 Currently ACTIVE, must not be BYPASS. [Passed] B921 --&gt; Digital Summary Chassis --&gt; CH14: VAT SUM2 Currently ACTIVE, must not be BYPASS. [Passed] B921 --&gt; Digital Summary Chassis --&gt; CH15: VAT SUM3 Currently ACTIVE, must not be BYPASS. [Passed] B921 --&gt; Digital Summary Chassis --&gt; CH16: VAT SUM4 Currently ACTIVE, must not be BYPASS. *** ST950/960 status is IN *** [Passed] LI28 --&gt; Summary Chassis --&gt; CH01: PIC Summary 1 Currently ACTIVE, must not be BYPASS. [Passed] LI28 --&gt; Summary Chassis --&gt; CH02: PIC Summary 2 Currently ACTIVE, must not be BYPASS. [Passed] LI28 --&gt; Summary Chassis --&gt; CH03: ST950 Flwswch 1 Currently ACTIVE, must not be BYPASS. [Passed] LI28 --&gt; Summary Chassis --&gt; CH04: ST950 Flwswch 2 Currently ACTIVE, must not be BYPASS. [Passed] LI28 --&gt; Summary Chassis --&gt; CH05: ST960 Flwswch 1 Currently ACTIVE, must not be BYPASS. [Passed] LI28 --&gt; Summary Chassis --&gt; CH06: ST960 Flwswch 2 Currently ACTIVE, must not be BYPASS. [Failed] B136 / B005 --&gt; DTC --&gt; B136 --&gt; DTC CH1: BLRCUS (low trip) Currently at 6.65430685893, must be 6.55 +/- 0.01 [Failed] B136 / B005 --&gt; DTC --&gt; B136 --&gt; DTC CH1: BLRCUS (high trip) Currently at 7.92904554818, must be 7.78 +/- 0.01 [Failed] B136 / B005 --&gt; DTC --&gt; B136 --&gt; DTC CH3: BRCUS1 (low trip) Currently at 6.69062333104, must be 6.6 +/- 0.01 [Failed] B136 / B005 --&gt; DTC --&gt; B136 --&gt; DTC CH3: BRCUS1 (high trip) Currently at 8.01632715343, must be 7.92 +/- 0.01 [Passed] B136 / B005 --&gt; DTC --&gt; B005 --&gt; DTC1 CH1: BY1-BY2 (low trip) Currently at 6.17914091707, must be 6.17 +/- 0.01 [Failed] B136 / B005 --&gt; DTC --&gt; B005 --&gt; DTC1 CH1: BY1-BY2 (high trip) Currently at 7.06294346532, must be 7.09 +/- 0.01 [Passed] B911 --&gt; DTC --&gt; DTC1 CH1: BYD1 (low trip) Currently at 6.45502403296, must be 6.45 +/- 0.01 [Passed] B911 --&gt; DTC --&gt; DTC1 CH1: BYD1 (high trip) Currently at 8.43015182727, must be 8.43 +/- 0.01 [Passed] B911 --&gt; DTC --&gt; DTC1 CH2: BYD1 (redundant) (low trip) Currently at 6.56122682536, must be 6.56 +/- 0.01 [Passed] B911 --&gt; DTC --&gt; DTC1 CH2: BYD1 (redundant) (high trip) Currently at 8.47562371252, must be 8.47 +/- 0.01 [Passed] B911 --&gt; DTC --&gt; DTC1 CH3: BY1B (low trip) Currently at 6.2743572137, must be 6.27 +/- 0.01 [Passed] B911 --&gt; DTC --&gt; DTC1 CH3: BY1B (high trip) Currently at 6.70099946593, must be 6.7 +/- 0.01 [Passed] B911 --&gt; DTC --&gt; DTC1 CH4: BYD1B (low trip) Currently at 6.85664148928, must be 6.86 +/- 0.01 [Passed] B911 --&gt; DTC --&gt; DTC1 CH4: BYD1B (high trip) Currently at 8.81345845731, must be 8.81 +/- 0.01 [Passed] B921 --&gt; DTC --&gt; DTC1 CH1: BYDSS (low trip) Currently at 6.20904859998, must be 6.21 +/- 0.01 [Passed] B921 --&gt; DTC --&gt; DTC1 CH1: BYDSS (high trip) Currently at 6.79957274739, must be 6.8 +/- 0.01 [Passed] B921 --&gt; DTC --&gt; DTC1 CH2: BYDSH (low trip) Currently at 6.16876478218, must be 6.17 +/- 0.01 [Passed] B921 --&gt; DTC --&gt; DTC1 CH2: BYDSH (high trip) Currently at 7.25795376516, must be 7.26 +/- 0.01 [Passed] B136 / B005 --&gt; R119B PICs --&gt; CH01: PCBSY4-IC1 Currently ACTIVE, must not be BYPASS. [Passed] B136 / B005 --&gt; R119B PICs --&gt; CH02: PCBSY5-IC1 Currently ACTIVE, must not be BYPASS. [Passed] B136 / B005 --&gt; R119B PICs --&gt; CH04: ST34B-IC1 Currently ACTIVE, must not be BYPASS. [Passed] B136 / B005 --&gt; R119B PICs --&gt; CH05: PCBP33-IC1 Currently ACTIVE, must not be BYPASS. [Passed] B136 / B005 --&gt; R119B PICs --&gt; CH08: ST60-IC1 Currently ACTIVE, must not be BYPASS. [Passed] B136 / B005 --&gt; R119C PICs --&gt; CH07: BLRCUS-IC1 Currently ACTIVE, must not be BYPASS. [Passed] B136 / B005 --&gt; R119C PICs --&gt; CH08: ST61-IC1 Currently ACTIVE, must not be BYPASS. [Passed] B136 / B005 --&gt; R119C PICs --&gt; CH10: PCSP3S-IC1 Currently ACTIVE, must not be BYPASS. [Passed] B136 / B005 --&gt; R119D PICs --&gt; CH01: PCSP4S-IC1 Currently ACTIVE, must not be BYPASS. [Passed] B136 / B005 --&gt; R119D PICs --&gt; CH05: STCLTS-IC1 Currently ACTIVE, must not be BYPASS. [Passed] B136 / B005 --&gt; R119D PICs --&gt; CH07: ST34A-IC1 Currently ACTIVE, must not be BYPASS. [Passed] B136 / B005 --&gt; R119D PICs --&gt; CH10: D2-IC1 Currently ACTIVE, must not be BYPASS. *** D2 stopper status is IN *** *** ST34 stopper status is IN *** *** STCLTS stopper status is IN *** [Passed] B136 / B005 --&gt; DTC --&gt; B005 --&gt; DTC1 CH1: BY1-BY2 (active/inactive) Currently BYPASS, must not be ACTIVE. LCLS BCS checks failed. FACET BCS checks performed using the 3/1/2021 version of the checklist. [Passed] LI20 --&gt; PIC Summary 1 Currently ACTIVE, must not be BYPASS. [Passed] LI20 --&gt; PIC Summary 2 Currently ACTIVE, must not be BYPASS. [Passed] LI20 --&gt; LION Gas Pressure Switch 1 Currently ACTIVE, must not be BYPASS. [Passed] LI20 --&gt; LION Gas Pressure Switch 2 Currently ACTIVE, must not be BYPASS. [Passed] LI20 --&gt; PIC Gas Pressure Switch 1 Currently ACTIVE, must not be BYPASS. [Passed] LI20 --&gt; PIC Gas Pressure Switch 2 Currently ACTIVE, must not be BYPASS. [Passed] LI20 --&gt; FACET-II Dump Flow Switch 1 Currently ACTIVE, must not be BYPASS. [Passed] LI20 --&gt; FACET-II Dump Flow Switch 2 Currently ACTIVE, must not be BYPASS. [Passed] LI20 --&gt; B1 Dump Flow Switch 1 Currently ACTIVE, must not be BYPASS. [Passed] LI20 --&gt; B1 Dump Flow Switch 2 Currently ACTIVE, must not be BYPASS. [Passed] LI20 --&gt; LI19 LION 1N Currently OK, must not be BYPASS. [Passed] LI20 --&gt; LI19 LION 1S Currently OK, must not be BYPASS. [Passed] LI20 --&gt; LI19 LION 2N Currently OK, must not be BYPASS. [Passed] LI20 --&gt; LI19 LION 2S Currently OK, must not be BYPASS. [Passed] LI20 --&gt; LI19 LION 3N Currently OK, must not be BYPASS. [Passed] LI20 --&gt; LI19 LION 3S Currently OK, must not be BYPASS. [Passed] LI20 --&gt; SCAVEXT-LION-1N Currently OK, must not be BYPASS. [Passed] LI20 --&gt; SCAVEXT-LION-1S Currently OK, must not be BYPASS. [Passed] LI20 --&gt; FDMP-IC1 Currently OK, must not be BYPASS. [Passed] LI20 --&gt; FDMP-IC2 Currently OK, must not be BYPASS. FACET BCS checks successful.",
+    "lastName": "Physics",
+    "userName": "physics",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T08:15:08.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T08:15:07.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847ee5ec1e72404bf36bc"
+    },
+    "originId": "MCC_1119187",
+    "logbooks": [
+      "6536f0b5fbf92e44a767573d"
+    ],
+    "title": "Day Shift - HRS Log",
+    "text": "01/13/22 15:45 - Roland Evans - C0 (common) - HRS.UT.EP-Moved the purifier #1 LN2 boiler liquid level to another analog input card &amp; Dayne up dated the code. Liquid level is reading correctly on EPICS now 01/13/22 15:30 - Roland Evans - C2 - HRS.2K.EL-Installed the new over-current protection on the C2-2K cold box roughing pump controls. 01/13/22 15:00 - Roland Evans - C2 - HRS.2K.EL-Installed the new fused disconnect on the C2-2K cold box roughing pump controls. 01/13/22 14:00 - Randy Hollis - C1 - HRS.4K.VG-Started both vacuum groups . LCB 1.9E-5 mbarr, UCB 1.4E-5 mbarr 01/13/22 14:00 - Randy Hollis - C1 - HRS.2K.HD-Removed valve handle hardware from HE 563 and HE 564 and installed caps. Tightened Swagelok fitting on Nupro valve on HE 562. 2k dewar. \"01/13/22 13:38 - Dayne Robinson - C0 (common) - HRS.UT.EP-Purifier 1 Nitrogen Boiler Liquid Level NOT working. Did a download of updated C-UTIL-PLC Code. Reassigned Analog Input Channel for Purifier 1 Nitrogen Boiler Liquid Level from R2S5C6 to R2S6C2\" \"01/13/22 13:30 - Dirk Pflueckhahn - C1 - HRS.UT.SW-HX shows high DP on primary side ~0.9-1 bar and causes warning and alarms. It seems connected to pump operation on secondary side (unclear why). See DP charts in attachment. Suggesting cleaning of HX before starting long term operation.\" 01/13/22 12:12 - Dayne Robinson - C1 - HRS.4K.VG-Increased the PT23610 Rate of change trip from a period of 5 Seconds to 60 Seconds to avoid nuisance trips when switching between Pressure Guages 01/13/22 12:00 - Kyle Connally - C1 - HRS.CS.MC-HRS.CS.MC-MP- Cracked bolts on the Cooling Water line to drain water into 50 gal. waste barrel. Remove Flow Gauge Flange Fixture. Asses situation for Flow meter fix. 01/13/22 11:30 - Dirk Pflueckhahn - C1 - HRS.LI.00-Putbboth diverter valves US/DS in middle position. The were likely not fully closed before 01/13/22 09:00 - Randy Hollis - C1 - HRS.AX.CW-Changed filters and tested pumps after addition of fuse holders by Antonio and Roland for future upgrade to larger pumps. Both pumps working . Opened chemical bypass line for 5 minute to exchange. 01/13/22 08:45 - John Pucci - C1 - HRS.CS.CW-Coordinated w/ Dan Manley-Arrieta from Facilities' Control to close &amp; isolate C1 CMP- 214 Cooling Water Supply (MV21460) and Return (MV21462) valves to support planned maintenance on that system's water flow meter (C1 FI21460). Flow meter currently is pegged max regardless of actual water flow; will repair or replace. Compressor skid CW is now isolated, ready for LOTO and perform work. \"01/13/22 08:18 - Dirk Pflueckhahn - C1 - HRS.ST.LH-Found 3 leaks on C1 Dewar Nec can:HE 563 3 inch valve 2x10-4 HE 562 swagelok purge valve 2x 10-4 HE 564 3 inch valve 6x10-4\" 01/13/22 07:00 - Kyle Connally - C0 (common) - HRS.CS.00-HRS.CS.00- Find and source parts for the grand Cooling Water situation with the compressors. 01/13/22 07:00 - Roland Evans - C1 - HRS.2K.EL-Installed the new fused disconnect on the C1-2K cold box roughing pump controls.",
+    "lastName": "DeGraff",
+    "firstName": "Tim",
+    "userName": "degraff",
+    "tags": [],
+    "attachments": [
+      "653847ed5ec1e72404bf36b3",
+      "653847ed5ec1e72404bf36b4",
+      "653847ee5ec1e72404bf36b5",
+      "653847ee5ec1e72404bf36b6",
+      "653847ee5ec1e72404bf36b7",
+      "653847ee5ec1e72404bf36b8",
+      "653847ee5ec1e72404bf36b9",
+      "653847ee5ec1e72404bf36ba",
+      "653847ee5ec1e72404bf36bb"
+    ],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T10:18:31.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T00:00:00.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847ee5ec1e72404bf36bd"
+    },
+    "originId": "MCC_1119188",
+    "logbooks": [
+      "6536f0b5fbf92e44a767573d"
+    ],
+    "title": "Swing Shift - HRS Log",
+    "text": "Due to staff shortages from Covid-19, no Operators were present during swing shift.",
+    "lastName": "DeGraff",
+    "firstName": "Tim",
+    "userName": "degraff",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T10:20:04.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T06:30:00.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847ee5ec1e72404bf36be"
+    },
+    "originId": "MCC_1119189",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "OFF NORMAL- B034 AED battery check by security that trigger a fire supervisory.",
+    "text": "All normal, no issues main gate reported.",
+    "lastName": "Regalado",
+    "firstName": "Eli",
+    "userName": "alvaro",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T10:42:30.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T10:42:30.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847ee5ec1e72404bf36bf"
+    },
+    "originId": "MCC_1119190",
+    "logbooks": [
+      "6536f0b5fbf92e44a767572c"
+    ],
+    "title": "SSRL BLDO Night Shift Report 2022-JAN-13/14",
+    "text": "SPEAR: No beam at start of shift, following BL17 fault. 18:38 User Beam, 500 mA, 300 s top-off injection. BEAMLINES: All closed at start of shift. 18:38 All open automatically following fill. BL17 remains closed. FAULTS: 01:18 LN tank 5B low level alarm; &lt; 100 in. EXPERIMENTS: no concerns. OPERATIONS: BLs 17-0 and 17-2 keyed offline pending MPS work (MPSSWCF # 201).",
+    "lastName": "Lazareva",
+    "firstName": "Lena",
+    "userName": "lazareva",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T13:36:40.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T13:36:40.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847ee5ec1e72404bf36c0"
+    },
+    "originId": "MCC_1119191",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "Area weather check: no weather issues seen over next few days",
+    "text": "",
+    "lastName": "Delgado",
+    "firstName": "Sal",
+    "userName": "sdelgado",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T13:49:10.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T13:49:10.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847ee5ec1e72404bf36c1"
+    },
+    "originId": "MCC_1119192",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "DCS PLC status: all green or accounted for",
+    "text": "",
+    "lastName": "Delgado",
+    "firstName": "Sal",
+    "userName": "sdelgado",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T13:50:13.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T13:50:13.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847ee5ec1e72404bf36c2"
+    },
+    "originId": "MCC_1119193",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "DCS alarms: all good or accounted for",
+    "text": "",
+    "lastName": "Delgado",
+    "firstName": "Sal",
+    "userName": "sdelgado",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T13:51:52.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T13:52:36.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847ee5ec1e72404bf36c3"
+    },
+    "originId": "MCC_1119194",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "ACR, SPEAR E-log daily check: no unresolved issues for Facilities noted",
+    "text": "",
+    "lastName": "Delgado",
+    "firstName": "Sal",
+    "userName": "sdelgado",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T13:54:52.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T13:54:52.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847ee5ec1e72404bf36c4"
+    },
+    "originId": "MCC_1119195",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "CATERs assigned to Facilities: No CATERS",
+    "text": "",
+    "lastName": "Delgado",
+    "firstName": "Sal",
+    "userName": "sdelgado",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T13:56:31.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T13:58:05.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847ee5ec1e72404bf36c5"
+    },
+    "originId": "MCC_1119196",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "B023/B007 air systems: normal, on B023, dew point (-135.6) DegF",
+    "text": "",
+    "lastName": "Delgado",
+    "firstName": "Sal",
+    "userName": "sdelgado",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T14:33:56.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T14:33:56.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847ee5ec1e72404bf36c6"
+    },
+    "originId": "MCC_1119197",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "CUP Compressed Air: normal, dew point (-90) DegF",
+    "text": "",
+    "lastName": "Delgado",
+    "firstName": "Sal",
+    "userName": "sdelgado",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T14:35:06.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T14:35:48.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847ee5ec1e72404bf36c7"
+    },
+    "originId": "MCC_1119198",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "EBD dump transmitter work by CEFOI",
+    "text": "",
+    "lastName": "Delgado",
+    "firstName": "Sal",
+    "userName": "sdelgado",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T14:36:21.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T14:17:57.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847ef5ec1e72404bf36c8"
+    },
+    "originId": "MCC_1119199",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "EBD Dump PLC installation by CEFOI",
+    "text": "Mortenson",
+    "lastName": "Delgado",
+    "firstName": "Sal",
+    "userName": "sdelgado",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T14:38:22.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T14:19:02.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847ef5ec1e72404bf36c9"
+    },
+    "originId": "MCC_1119200",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "B913 gas system relocation by CEFOI scheduled",
+    "text": "Dy",
+    "lastName": "Delgado",
+    "firstName": "Sal",
+    "userName": "sdelgado",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T14:40:01.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T14:22:48.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847ef5ec1e72404bf36ca"
+    },
+    "originId": "MCC_1119201",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "ODM Supervisory Comms Checked : Reset B057",
+    "text": "",
+    "lastName": "Delgado",
+    "firstName": "Sal",
+    "userName": "sdelgado",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T14:47:16.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T14:47:16.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847ef5ec1e72404bf36cb"
+    },
+    "originId": "MCC_1119202",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "BCS switch checks with PPS Group by CEFOI",
+    "text": "Butler",
+    "lastName": "Delgado",
+    "firstName": "Sal",
+    "userName": "sdelgado",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T14:48:53.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T14:15:35.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847ef5ec1e72404bf36cc"
+    },
+    "originId": "MCC_1119203",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "PPS ignition enabled, linac zones to zone entry",
+    "text": "",
+    "lastName": "Schuh",
+    "firstName": "Peter",
+    "userName": "schuh",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T15:03:53.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T15:03:53.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847ef5ec1e72404bf36cd"
+    },
+    "originId": "MCC_1119204",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675735"
+    ],
+    "title": "IR08 Transformer Gas Pack Almost empty, CEFOI to check",
+    "text": "Diller reported the six pack on the IR08 transformer almost out, Butler to check it out if there is a spare.",
+    "lastName": "Delgado",
+    "firstName": "Sal",
+    "userName": "sdelgado",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T15:50:21.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T15:50:21.000Z"
+    },
+    "version": {
+      "$numberLong": "2"
+    },
+    "_class": "edu.stanford.slac.elog_plus.model.Entry",
+    "supersededBy": "653847ef5ec1e72404bf36d1"
+  },
+  {
+    "_id": {
+      "$oid": "653847ef5ec1e72404bf36cf"
+    },
+    "originId": "MCC_1119205",
+    "logbooks": [
+      "6536f0b5fbf92e44a767572a"
+    ],
+    "title": "Shift Summary: Friday Owl",
+    "text": "SUMMARY: User beam delivery. No Beam losses of missed Fills. INJECTOR: Autofill RUN mode. 260mV Q-meter Booster beam and 44mA/min injection rate with calculated injection efficiencies 96 percent. SPEAR: 500mA stored beam with 5-minute top-off injections. No problems to report. BEAM LINES: All open or available to be opened.",
+    "lastName": "Sommer",
+    "firstName": "Tom",
+    "userName": "sommer",
+    "tags": [],
+    "attachments": [
+      "653847ef5ec1e72404bf36ce"
+    ],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T15:51:35.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T15:51:35.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847ef5ec1e72404bf36d0"
+    },
+    "originId": "MCC_1119206",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "IR08 Transformer Gas Pack Almost empty, CEFOI to check",
+    "text": "Diller reported the six pack on the IR08 transformer almost out, Butler to check out if there is a spare pack.",
+    "lastName": "Delgado",
+    "firstName": "Sal",
+    "userName": "sdelgado",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T15:53:52.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T15:50:55.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847ef5ec1e72404bf36d1"
+    },
+    "originId": "MCC_1119207",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675735"
+    ],
+    "title": "IR08 Transformer Gas Pack Almost empty, CEFOI to check",
+    "text": "Diller reported the six pack on the IR08 transformer almost out, Butler to check it out if there is a spare.",
+    "lastName": "Delgado",
+    "firstName": "Sal",
+    "userName": "sdelgado",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T15:54:37.000Z"
+    },
+    "eventAt": {
+      "$date": "2021-01-14T15:54:07.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847ef5ec1e72404bf36d2"
+    },
+    "originId": "MCC_1119208",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "MFD opening slow valves in the linac",
+    "text": "They talked with Ted about this this morning",
+    "lastName": "Schuh",
+    "firstName": "Peter",
+    "userName": "schuh",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T15:56:53.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T15:56:53.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847ef5ec1e72404bf36d3"
+    },
+    "originId": "MCC_1119209",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "CT905 Pump 2 Tripped, CEFOM reset it",
+    "text": "Lars reported he saw pump #2 on CT905 tripped, he reset it and I clear the alarm. All back to normal.",
+    "lastName": "Delgado",
+    "firstName": "Sal",
+    "userName": "sdelgado",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T15:57:02.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T15:41:54.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847ef5ec1e72404bf36d4"
+    },
+    "originId": "MCC_1119210",
+    "logbooks": [
+      "6536f0b5fbf92e44a767572a"
+    ],
+    "title": "Shift Start: Friday Day Shift",
+    "text": "<p><strong>Operators:</strong></p>\n<p>Calloway, Schroder</p>\n<p><strong>Injector Status:</strong></p>\n<p>Autofill RUN mode</p>\n<p><strong>SPEAR Status:</strong></p>\n<p>BEAMS; 500mA stored; Topoff enabled; beam lines open</p>\n<p><strong>Program:</strong></p>\n<p>User beam delivery</p>",
+    "lastName": "Calloway",
+    "firstName": "David",
+    "userName": "calloway",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T16:07:23.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T15:50:35.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847ef5ec1e72404bf36d5"
+    },
+    "originId": "MCC_1119211",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "PEM powering down bulk supply for MCOR board in B136. rack 20, level 30, slot 1. bxsp1ht",
+    "text": "",
+    "lastName": "Schuh",
+    "firstName": "Peter",
+    "userName": "schuh",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T16:09:11.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T16:09:11.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847ef5ec1e72404bf36d6"
+    },
+    "originId": "MCC_1119212",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675724"
+    ],
+    "title": "Hutch 1.3 taken OFFLINE",
+    "text": "Hutch 1.3 was taken offline for access to CC lock to K3-4 right angle valve in XRT",
+    "lastName": "McKeown",
+    "firstName": "Jake",
+    "userName": "jakewm",
+    "tags": [
+      "bda8d02e-57a4-4ec7-90fd-46d0187d57a9"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T16:25:26.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T16:25:26.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847ef5ec1e72404bf36d7"
+    },
+    "originId": "MCC_1119213",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "* Re: PEM powering down bulk supply for MCOR board in B136. rack 20, level 30, slot 1. bxsp1ht",
+    "text": "PEM is finished with installation. We turned the bulk power supply back on (B136-2001) and PEM confirmed that everything looks good on their end",
+    "lastName": "Ausherman",
+    "firstName": "Andy",
+    "userName": "aausherm",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [
+      "653847ef5ec1e72404bf36d5"
+    ],
+    "loggedAt": {
+      "$date": "2022-01-14T16:25:58.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T16:25:58.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847f05ec1e72404bf36d8"
+    },
+    "originId": "MCC_1119214",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675724"
+    ],
+    "title": "CC key 3-4 removed from keybank",
+    "text": "CC key 3-4 was removed in order to unlock right angle valve k3-4 in xrt",
+    "lastName": "McKeown",
+    "firstName": "Jake",
+    "userName": "jakewm",
+    "tags": [
+      "bda8d02e-57a4-4ec7-90fd-46d0187d57a9"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T16:38:36.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T16:38:36.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847f05ec1e72404bf36d9"
+    },
+    "originId": "MCC_1119215",
+    "logbooks": [
+      "6536f0b5fbf92e44a767572a"
+    ],
+    "title": "CATER #154594 for MCOR 04G-HCOR1",
+    "text": "",
+    "lastName": "Calloway",
+    "firstName": "David",
+    "userName": "calloway",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T16:51:35.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T16:51:35.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847f05ec1e72404bf36da"
+    },
+    "originId": "MCC_1119216",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675724"
+    ],
+    "title": "First walk through complete",
+    "text": "nothing to report",
+    "lastName": "McKeown",
+    "firstName": "Jake",
+    "userName": "jakewm",
+    "tags": [
+      "bda8d02e-57a4-4ec7-90fd-46d0187d57a9"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T17:03:52.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T17:03:52.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847f05ec1e72404bf36db"
+    },
+    "originId": "MCC_1119217",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "D McCormick swapped the polarity on LI19 XCOR 402 for CATER 154059",
+    "text": "The corrector was configured so that positive settings for the magnet's BDES bent the electron beam south (to the right when looking downstream). When we steer we expect positive BDES values to push the electron in the positive x direction, which is north (to the left when looking downstream). Once FACET beam is running again we should test this corrector to make sure we are seeing the desired behavior.",
+    "lastName": "Ausherman",
+    "firstName": "Andy",
+    "userName": "aausherm",
+    "tags": [
+      "0ba5394e-30cf-47f3-aaca-cfe5794332bd"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T17:08:24.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T17:08:24.000Z"
+    },
+    "version": {
+      "$numberLong": "2"
+    },
+    "_class": "edu.stanford.slac.elog_plus.model.Entry",
+    "supersededBy": "653847f15ec1e72404bf36e8"
+  },
+  {
+    "_id": {
+      "$oid": "653847f05ec1e72404bf36dc"
+    },
+    "originId": "MCC_1119218",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "CT905 strainer PM by CEFOM scheduled",
+    "text": "Jeglum",
+    "lastName": "Delgado",
+    "firstName": "Sal",
+    "userName": "sdelgado",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T17:15:27.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T15:09:06.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847f05ec1e72404bf36dd"
+    },
+    "originId": "MCC_1119219",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "Starting with CTWP-2 * Re: CT905 strainer PM by CEFOM scheduled",
+    "text": "",
+    "lastName": "Delgado",
+    "firstName": "Sal",
+    "userName": "sdelgado",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [
+      "653847f05ec1e72404bf36dc"
+    ],
+    "loggedAt": {
+      "$date": "2022-01-14T17:16:26.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T17:16:26.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847f05ec1e72404bf36de"
+    },
+    "originId": "MCC_1119220",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "HTX2 CTW strainer PMs by CEFOM",
+    "text": "Dominguez",
+    "lastName": "Delgado",
+    "firstName": "Sal",
+    "userName": "sdelgado",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T17:23:30.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T17:23:30.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847f05ec1e72404bf36df"
+    },
+    "originId": "MCC_1119221",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675730"
+    ],
+    "title": "Work in B136",
+    "text": "1. B136-14: Lock off the branch breaker for BXSP1H with the ADSO lock. Picture was taken and send to Briant. 2. B136-13, 14 and 17: Lock off main breaker with blue locks. 3. Install MCOR6 in B136-2030, slot 1 for BXSP1HT. Note: Per Briant request, Shortly after the MCOR6 in B136-2030, slot 1 for BXSP1HT was removed. CH/PE",
+    "lastName": "Herr",
+    "firstName": "Chang",
+    "userName": "chang248",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T17:30:36.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T17:30:36.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847f05ec1e72404bf36e0"
+    },
+    "originId": "MCC_1119222",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "Onsite lift stations, poly tanks, Arc sumps: values as expected",
+    "text": "",
+    "lastName": "Delgado",
+    "firstName": "Sal",
+    "userName": "sdelgado",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T17:32:18.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T16:04:07.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847f05ec1e72404bf36e1"
+    },
+    "originId": "MCC_1119223",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675730"
+    ],
+    "title": "LI23 Q301 fan fault CATER 154572",
+    "text": "Replaced power supply, on and trimmed. PC83669 out, PC81583 in",
+    "lastName": "Freese",
+    "firstName": "Allan",
+    "userName": "alf",
+    "tags": [
+      "fe1151d3-12a3-4b07-b9ac-d9e4bfcd1561"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T17:32:32.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T17:32:32.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847f05ec1e72404bf36e2"
+    },
+    "originId": "MCC_1119224",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "Site sumps levels: values as expected",
+    "text": "",
+    "lastName": "Delgado",
+    "firstName": "Sal",
+    "userName": "sdelgado",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T17:34:05.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T16:07:50.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847f05ec1e72404bf36e3"
+    },
+    "originId": "MCC_1119225",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "LI26, LI27 and LI28 filter pots, single filters PMs by CEFOM",
+    "text": "Revallier",
+    "lastName": "Delgado",
+    "firstName": "Sal",
+    "userName": "sdelgado",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T17:35:25.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T17:35:25.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847f05ec1e72404bf36e4"
+    },
+    "originId": "MCC_1119226",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "Sewers: values as expected",
+    "text": "",
+    "lastName": "Delgado",
+    "firstName": "Sal",
+    "userName": "sdelgado",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T17:36:27.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T14:52:15.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847f05ec1e72404bf36e5"
+    },
+    "originId": "MCC_1119227",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "RSWCFs Winter Downtime --- Daily Update",
+    "text": "<span><strong>RSWCF</strong></span><span><strong>Description</strong></span><span><strong>Conditions</strong></span><span><strong>Status</strong></span><span><strong>Needs</strong></span><span><strong>Status Comments</strong></span><span><span>8550</span></span><span><span>TS&amp;R ST34 CHB communications issue</span></span><span><span>N/A</span></span><span><span>DO NOT APPROVE</span></span><span><span>DO NOT APPROVE - Work will not happen this downtime</span></span>A<span><span>8582</span></span><span><span>Muon shield reconfiguration</span></span>\n<p><span><span>Disable 30-BSY (ANR) </span></span></p>\n<p><span>OR</span></p>\n<p><span>VVS 5-15 control power and All Linac West SSAs 480 VAC locked off by ADSO.</span></p><span><span>Work Approved</span></span>\n<ol>\n <li><span><span>Work Complete</span></span></li>\n <li><span><span>RP Inspection</span></span><br>\n   &nbsp;</li>\n</ol><span>Work is complete needs RP signoff.</span><span><span>8591</span></span><span><span>Unlock BXSP1H for PS and magnet testing.</span></span>\n<p><span><span>Disable 30-BSY (ANR)</span></span></p>\n<p><span>OR</span></p>\n<p><span>VVS 5-15 control power and All Linac West SSAs 480 VAC locked off by ADSO.</span></p><span><span>Work Approved</span></span>\n<ol>\n <li><span><span>Work Complete</span></span></li>\n <li><span><span>ADSO lock PS back up</span></span><br>\n   &nbsp;</li>\n</ol><span><span>Work is complete per CATER. Needs work complete sign off and ADSO lockout put back in place.</span></span><span><span>8587</span></span><span><span>Remove/reinstall EBD-FEE PPS Door microswitches (for mirror assembly removal)</span></span><span><span>Disable HXR and SXR BTH Stoppers (ANR)</span></span><span><span>Work Approved</span></span>\n<ol>\n <li><span><span>Work Complete</span></span></li>\n <li><span><span>Reinstall</span></span></li>\n <li><span><span>Interlock Checks: keybank, door, gate</span></span><br>\n   &nbsp;</li>\n</ol><span>Needs OPS PPS interlock checks to close out.</span><span><span>8590</span></span><span><span>EBD sump pit shielding reconfiguration. </span></span><span><span>Disable HXR and SXR BTH Stoppers (ANR)</span></span><span><span>Work Approved</span></span>\n<ol>\n <li><span><span>Work Complete</span></span></li>\n <li><span><span>ADSO Inspection</span></span></li>\n <li><span><span>RP Inspection</span></span><br>\n   &nbsp;</li>\n</ol><span><span>Work is ongoing.</span></span><span><span>8592</span></span><span><span>BTM leak work</span></span><span><span>Disable HXR and SXR BTH Stoppers (ANR)</span></span><span><span><span>Work Approved</span></span></span>\n<ol>\n <li><span>Work Complete</span></li>\n <li><span>Refill BTMs - BTMDUMP &amp; BTMSFT refilled on 1/10. </span></li>\n <li><span>Lock up BTM boxes</span></li>\n</ol><span>Please make sure to unbypass Warning and sign off SAT line items. </span><span><span>This one is snarled up since scope of work is different than initially written, and there is a photon side RSWCF involved. Might just need signoff that control boxes are locked.</span></span><span><span>8583</span></span><span><span>LI20/21 beampipe reconfiguration</span></span>\n<p><span><span>Linac East Odd Sector key in ACR red keysafe</span></span></p>\n<p><span><span><span>OR</span></span></span></p>\n<p><span>VVS 5-15 control power and All Linac West SSAs 480 VAC locked off by ADSO.</span></p>\n<p>A</p><span><span>Work Approved</span></span>\n<ol>\n <li><span><span>Work Complete</span></span></li>\n <li><span><span>RP Inspection</span></span><br>\n   &nbsp;</li>\n</ol><span>All work complete signoffs are done only need ADSO review to close.</span><span><span>8593</span></span><span><span>Penetration shielding S25-10</span></span>\n<p><span><span><span><span>Linac East Odd Sector key in ACR red keysafe</span></span></span></span></p>\n<p><span><span><span><span><span>OR</span></span></span></span></span></p>\n<p><span>VVS 5-15 control power and All Linac West SSAs 480 VAC locked off by ADSO.</span></p>\n<p>A</p><span><span>WorkA Approved</span></span>\n<ol>\n <li><span>Work Complete</span></li>\n <li><span>RP Inspection</span><br>\n   &nbsp;</li>\n</ol><span><span>Work is complete needs RP signoff</span></span><span><span>8585</span></span><span><span>S14 hatch open to lower differential pumps</span></span>\n<p><span><span>Linac Middle Odd Sector key in ACR red keysafe</span></span></p>\n<p><span><span><span>OR</span></span></span></p>\n<p><span>VVS 5-15 control power and All Linac West SSAs 480 VAC locked off by ADSO.</span></p>\n<p>A</p><span><span>Work Approved</span></span>\n<ol>\n <li><span><span>Work Complete</span></span></li>\n <li><span><span>Relock hatch</span></span></li>\n <li><span><span>Safety Inspection</span></span><br>\n   &nbsp;</li>\n</ol><span>All jobs associated with the CATER are either complete or dropped. Needs cover in place and OPS Safety Inspection.</span><span><span>8596</span></span><span><span>Insulate exposed 110 VAC wiring in the keybank at sector 14 manway.</span></span><span><span>Linac Middle Odd Sector keyA <span><span>in ACR red keysafe </span></span>(except as needed to complete AOSD Linac Middle Interlock Checklist)</span></span><span><span><span><span><span>Work Approved</span></span></span></span></span>\n<ol>\n <li><span><span>RP approval</span></span></li>\n <li><span><span>Person Responsible - K. Jobe</span></span><br>\n   &nbsp;</li>\n</ol><span><span>Needs PPS group to re-energize keybanks, fill in \"Work Complete\" sign-off, then OPS PPS interlock checks for the keybank.</span></span><span><span>8586</span></span><span><span>B913 gas system tubing and cable relocation </span></span><span><span>Disable HXR and SXR BTH Stoppers (ANR)</span></span><span><span>Work Approved</span></span>\n<ol>\n <li><span><span>Work Complete</span></span></li>\n <li><span><span>BCS pre-run checkout</span></span><br>\n   &nbsp;</li>\n</ol><span><span>Work is ongoing.</span></span><span><span>8597</span></span><span><span>Insulate exposed 110 VAC wiring in the key bank at MCC for LINAC EAST.</span></span><span><span>Linac East Odd Sector key in ACR Red Keysafe (except as needed to complete AOSD Linac East Interlock Checklist).</span></span><span><span>Work Approved</span></span>\n<br>\n A\n<ol>\n <li><span><span>RP approval</span></span></li>\n <li><span><span>Person Responsible - K. Jobe</span></span><br>\n   &nbsp;</li>\n</ol><span><span>Needs PPS group to re-energize keybanks, fill in \"Work Complete\" sign-off, then OPS PPS interlock checks for the keybank.</span></span><span><span>8589</span></span><span><span>BTM H2.2 BT1K1-L2SI. </span></span><span><span>Disable HXR and SXR BTH Stoppers (ANR)</span></span><span><span>Work Approved</span></span>\n<ol>\n <li><span>Work Complete</span></li>\n <li><span>Refill BTMs - BTM BT1K1-L2SI refilled on 1/10</span></li>\n</ol><span><span>CATER job for fill valve adjustment still active, but BTM was refilled. Might just need signoff that box is locked.</span></span>",
+    "lastName": "Smith",
+    "firstName": "Howard",
+    "userName": "hvs",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T17:39:44.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T17:37:28.000Z"
+    },
+    "version": {
+      "$numberLong": "2"
+    },
+    "_class": "edu.stanford.slac.elog_plus.model.Entry",
+    "supersededBy": "653847f15ec1e72404bf36e6"
+  },
+  {
+    "_id": {
+      "$oid": "653847f15ec1e72404bf36e6"
+    },
+    "originId": "MCC_1119228",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "RSWCFs Winter Downtime --- Daily Update",
+    "text": "<span><strong>RSWCF</strong></span><span><strong>Description</strong></span><span><strong>Conditions</strong></span><span><strong>Status</strong></span><span><strong>Needs</strong></span><span><strong>Status Comments</strong></span><span><span>8550</span></span><span><span>TS&amp;R ST34 CHB communications issue</span></span><span><span>N/A</span></span><span><span>DO NOT APPROVE</span></span><span><span>DO NOT APPROVE - Work will not happen this downtime</span></span>A<span><span>8582</span></span><span><span>Muon shield reconfiguration</span></span>\n<p><span><span>Disable 30-BSY (ANR) </span></span></p>\n<p><span>OR</span></p>\n<p><span>VVS 5-15 control power and All Linac West SSAs 480 VAC locked off by ADSO.</span></p><span><span>Work Approved</span></span>\n<ol>\n <li><span><span>Work Complete</span></span></li>\n <li><span><span>RP Inspection</span></span><br>\n   &nbsp;</li>\n</ol><span>Work is complete needs RP signoff.</span><span><span>8591</span></span><span><span>Unlock BXSP1H for PS and magnet testing.</span></span>\n<p><span><span>Disable 30-BSY (ANR)</span></span></p>\n<p><span>OR</span></p>\n<p><span>VVS 5-15 control power and All Linac West SSAs 480 VAC locked off by ADSO.</span></p><span><span>Work Approved</span></span>\n<ol>\n <li><span><span>Work Complete</span></span></li>\n <li><span><span>ADSO lock PS back up</span></span><br>\n   &nbsp;</li>\n</ol><span><span>Work is complete per CATER, locks are in place, needs ADSO review.</span></span><span><span>8587</span></span><span><span>Remove/reinstall EBD-FEE PPS Door microswitches (for mirror assembly removal)</span></span><span><span>Disable HXR and SXR BTH Stoppers (ANR)</span></span><span><span>Work Approved</span></span>\n<ol>\n <li><span><span>Work Complete</span></span></li>\n <li><span><span>Reinstall</span></span></li>\n <li><span><span>Interlock Checks: keybank, door, gate</span></span><br>\n   &nbsp;</li>\n</ol><span>Needs OPS PPS interlock checks to close out.</span><span><span>8590</span></span><span><span>EBD sump pit shielding reconfiguration. </span></span><span><span>Disable HXR and SXR BTH Stoppers (ANR)</span></span><span><span>Work Approved</span></span>\n<ol>\n <li><span><span>Work Complete</span></span></li>\n <li><span><span>ADSO Inspection</span></span></li>\n <li><span><span>RP Inspection</span></span><br>\n   &nbsp;</li>\n</ol><span><span>Work is ongoing.</span></span><span><span>8592</span></span><span><span>BTM leak work</span></span><span><span>Disable HXR and SXR BTH Stoppers (ANR)</span></span><span><span><span>Work Approved</span></span></span>\n<ol>\n <li><span>Work Complete</span></li>\n <li><span>Refill BTMs - BTMDUMP &amp; BTMSFT refilled on 1/10. </span></li>\n <li><span>Lock up BTM boxes</span></li>\n</ol><span>Please make sure to unbypass Warning and sign off SAT line items. </span><span><span>This one is snarled up since scope of work is different than initially written, and there is a photon side RSWCF involved. Might just need signoff that control boxes are locked.</span></span><span><span>8583</span></span><span><span>LI20/21 beampipe reconfiguration</span></span>\n<p><span><span>Linac East Odd Sector key in ACR red keysafe</span></span></p>\n<p><span><span><span>OR</span></span></span></p>\n<p><span>VVS 5-15 control power and All Linac West SSAs 480 VAC locked off by ADSO.</span></p>\n<p>A</p><span><span>Work Approved</span></span>\n<ol>\n <li><span><span>Work Complete</span></span></li>\n <li><span><span>RP Inspection</span></span><br>\n   &nbsp;</li>\n</ol><span>All work complete signoffs are done only need ADSO review to close.</span><span><span>8593</span></span><span><span>Penetration shielding S25-10</span></span>\n<p><span><span><span><span>Linac East Odd Sector key in ACR red keysafe</span></span></span></span></p>\n<p><span><span><span><span><span>OR</span></span></span></span></span></p>\n<p><span>VVS 5-15 control power and All Linac West SSAs 480 VAC locked off by ADSO.</span></p>\n<p>A</p><span><span>WorkA Approved</span></span>\n<ol>\n <li><span>Work Complete</span></li>\n <li><span>RP Inspection</span><br>\n   &nbsp;</li>\n</ol><span><span>Work is complete needs RP signoff</span></span><span><span>8585</span></span><span><span>S14 hatch open to lower differential pumps</span></span>\n<p><span><span>Linac Middle Odd Sector key in ACR red keysafe</span></span></p>\n<p><span><span><span>OR</span></span></span></p>\n<p><span>VVS 5-15 control power and All Linac West SSAs 480 VAC locked off by ADSO.</span></p>\n<p>A</p><span><span>Work Approved</span></span>\n<ol>\n <li><span><span>Work Complete</span></span></li>\n <li><span><span>Relock hatch</span></span></li>\n <li><span><span>Safety Inspection</span></span><br>\n   &nbsp;</li>\n</ol><span>All jobs associated with the CATER are either complete or dropped. Needs cover in place and OPS Safety Inspection.</span><span><span>8596</span></span><span><span>Insulate exposed 110 VAC wiring in the keybank at sector 14 manway.</span></span><span><span>Linac Middle Odd Sector keyA <span><span>in ACR red keysafe </span></span>(except as needed to complete AOSD Linac Middle Interlock Checklist)</span></span><span><span><span><span><span>Work Approved</span></span></span></span></span>\n<ol>\n <li><span><span>RP approval</span></span></li>\n <li><span><span>Person Responsible - K. Jobe</span></span><br>\n   &nbsp;</li>\n</ol><span><span>Needs PPS group to re-energize keybanks, fill in \"Work Complete\" sign-off, then OPS PPS interlock checks for the keybank.</span></span><span><span>8586</span></span><span><span>B913 gas system tubing and cable relocation </span></span><span><span>Disable HXR and SXR BTH Stoppers (ANR)</span></span><span><span>Work Approved</span></span>\n<ol>\n <li><span><span>Work Complete</span></span></li>\n <li><span><span>BCS pre-run checkout</span></span><br>\n   &nbsp;</li>\n</ol><span><span>Work is ongoing.</span></span><span><span>8597</span></span><span><span>Insulate exposed 110 VAC wiring in the key bank at MCC for LINAC EAST.</span></span><span><span>Linac East Odd Sector key in ACR Red Keysafe (except as needed to complete AOSD Linac East Interlock Checklist).</span></span><span><span>Work Approved</span></span>\n<br>\n A\n<ol>\n <li><span><span>RP approval</span></span></li>\n <li><span><span>Person Responsible - K. Jobe</span></span><br>\n   &nbsp;</li>\n</ol><span><span>Needs PPS group to re-energize keybanks, fill in \"Work Complete\" sign-off, then OPS PPS interlock checks for the keybank.</span></span><span><span>8589</span></span><span><span>BTM H2.2 BT1K1-L2SI. </span></span><span><span>Disable HXR and SXR BTH Stoppers (ANR)</span></span><span><span>Work Approved</span></span>\n<ol>\n <li><span>Work Complete</span></li>\n <li><span>Refill BTMs - BTM BT1K1-L2SI refilled on 1/10</span></li>\n</ol><span><span>CATER job for fill valve adjustment still active, but BTM was refilled. Might just need signoff that box is locked.</span></span>",
+    "lastName": "Smith",
+    "firstName": "Howard",
+    "userName": "hvs",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T17:43:21.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T17:37:28.000Z"
+    },
+    "version": {
+      "$numberLong": "2"
+    },
+    "_class": "edu.stanford.slac.elog_plus.model.Entry",
+    "supersededBy": "653847f35ec1e72404bf3701"
+  },
+  {
+    "_id": {
+      "$oid": "653847f15ec1e72404bf36e7"
+    },
+    "originId": "MCC_1119229",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "Site Facilities gas systems: See Text",
+    "text": "Following gases going low, sent text to Butler IR08 N2 Transformer 19-15 ION 24-16 ION 20-12 Helium",
+    "lastName": "Delgado",
+    "firstName": "Sal",
+    "userName": "sdelgado",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T17:47:02.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T16:36:38.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847f15ec1e72404bf36e8"
+    },
+    "originId": "MCC_1119230",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "D McCormick looked at LI19 XCOR 402 for CATER 154059",
+    "text": "This corrector was CATER'd because we saw it having the opposite effect of what we expect when steering. When increasing the strength of the corrector (positive BDES) we saw the x position on a downstream BPM become more negative. Doug compared the polarities of the 302 and 402 XCORs and found that they have the same polarity, but we have not seen the same behavior on 302. While looking at the corrector, he noted that the north pole was below the beamline and the south pole above it, i.e. the magnetic field points +y when the BDES is positive. Using the left hand rule (since we have negatively charged electrons), we would expect this to bend the electrons in the +x direction. This leads us to believe that the polarity of 402 is correct so no changes were made to it. This does not explain the behavior seen when we created the CATER. Looking at the FACET beamline maps, I don't see LI19 XCOR 402 anywhere so it is unclear if there are any other nearby components that could explain the discrepancy we were seeing.",
+    "lastName": "Ausherman",
+    "firstName": "Andy",
+    "userName": "aausherm",
+    "tags": [
+      "0ba5394e-30cf-47f3-aaca-cfe5794332bd"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T17:47:34.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T17:08:24.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847f15ec1e72404bf36e9"
+    },
+    "originId": "MCC_1119231",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "DI Plant: values as expected",
+    "text": "",
+    "lastName": "Delgado",
+    "firstName": "Sal",
+    "userName": "sdelgado",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T17:52:01.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T17:52:01.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847f15ec1e72404bf36ea"
+    },
+    "originId": "MCC_1119232",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "D. McCormick is swapping the polarity on LI14 YCOR 900",
+    "text": "This corrector is labeled as a LI15 corrector in the field. We verified that we were looking at the same corrector by adjusting its strength in the SCP (LI14 magnets -&gt; YCOR 900) while Doug measured the voltage in the field and saw it increasing. The B-field on this corrector was pointing from south to north (pointing left while looking downstream), which would deflect an electron beam in the -y direction with positive BDES setting, which is the opposite of what we expect, indicating that the polarity is reversed. Doug is going to flip it. This should resolve the issue in CATER 154055",
+    "lastName": "Ausherman",
+    "firstName": "Andy",
+    "userName": "aausherm",
+    "tags": [
+      "0ba5394e-30cf-47f3-aaca-cfe5794332bd"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T17:56:42.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T17:56:42.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847f15ec1e72404bf36eb"
+    },
+    "originId": "MCC_1119233",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "Starting with CTWP-3 * Re: CT905 strainer PM by CEFOM scheduled",
+    "text": "",
+    "lastName": "Delgado",
+    "firstName": "Sal",
+    "userName": "sdelgado",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [
+      "653847f05ec1e72404bf36dd"
+    ],
+    "loggedAt": {
+      "$date": "2022-01-14T17:58:20.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T17:58:20.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847f15ec1e72404bf36ed"
+    },
+    "originId": "MCC_1119234",
+    "logbooks": [
+      "6536f0b5fbf92e44a767572a"
+    ],
+    "title": "9:00AM Meeting Notes",
+    "text": "",
+    "lastName": "Calloway",
+    "firstName": "David",
+    "userName": "calloway",
+    "tags": [],
+    "attachments": [
+      "653847f15ec1e72404bf36ec"
+    ],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T18:10:18.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T18:10:18.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847f25ec1e72404bf36ef"
+    },
+    "originId": "MCC_1119235",
+    "logbooks": [
+      "6536f0b5fbf92e44a767573d"
+    ],
+    "title": "OWL Shift HRS-Log",
+    "text": "01/13/22 15:45 - Roland Evans - C0 (common) - HRS.UT.EP-Moved the purifier #1 LN2 boiler liquid level to another analog input card &amp; Dayne up dated the code. Liquid level is reading correctly on EPICS now 01/13/22 15:30 - Roland Evans - C2 - HRS.2K.EL-Installed the new over-current protection on the C2-2K cold box roughing pump controls. 01/13/22 15:00 - Roland Evans - C2 - HRS.2K.EL-Installed the new fused disconnect on the C2-2K cold box roughing pump controls. 01/13/22 14:00 - Randy Hollis - C1 - HRS.4K.VG-Started both vacuum groups . LCB 1.9E-5 mbarr, UCB 1.4E-5 mbarr 01/13/22 14:00 - Randy Hollis - C1 - HRS.2K.HD-Removed valve handle hardware from HE 563 and HE 564 and installed caps. Tightened Swagelok fitting on Nupro valve on HE 562. 2k dewar. \"01/13/22 13:38 - Dayne Robinson - C0 (common) - HRS.UT.EP-Purifier 1 Nitrogen Boiler Liquid Level NOT working. Did a download of updated C-UTIL-PLC Code. Reassigned Analog Input Channel for Purifier 1 Nitrogen Boiler Liquid Level from R2S5C6 to R2S6C2\" \"01/13/22 13:30 - Dirk Pflueckhahn - C1 - HRS.UT.SW-HX shows high DP on primary side ~0.9-1 bar and causes warning and alarms. It seems connected to pump operation on secondary side (unclear why). See DP charts in attachment. Suggesting cleaning of HX before starting long term operation.\" 01/13/22 12:12 - Dayne Robinson - C1 - HRS.4K.VG-Increased the PT23610 Rate of change trip from a period of 5 Seconds to 60 Seconds to avoid nuisance trips when switching between Pressure Guages 01/13/22 12:00 - Kyle Connally - C1 - HRS.CS.MC-HRS.CS.MC-MP- Cracked bolts on the Cooling Water line to drain water into 50 gal. waste barrel. Remove Flow Gauge Flange Fixture. Asses situation for Flow meter fix. 01/13/22 11:30 - Dirk Pflueckhahn - C1 - HRS.LI.00-Putbboth diverter valves US/DS in middle position. The were likely not fully closed before 01/13/22 09:00 - Randy Hollis - C1 - HRS.AX.CW-Changed filters and tested pumps after addition of fuse holders by Antonio and Roland for future upgrade to larger pumps. Both pumps working . Opened chemical bypass line for 5 minute to exchange. 01/13/22 08:45 - John Pucci - C1 - HRS.CS.CW-Coordinated w/ Dan Manley-Arrieta from Facilities' Control to close &amp; isolate C1 CMP- 214 Cooling Water Supply (MV21460) and Return (MV21462) valves to support planned maintenance on that system's water flow meter (C1 FI21460). Flow meter currently is pegged max regardless of actual water flow; will repair or replace. Compressor skid CW is now isolated, ready for LOTO and perform work. \"01/13/22 08:18 - Dirk Pflueckhahn - C1 - HRS.ST.LH-Found 3 leaks on C1 Dewar Nec can:HE 563 3 inch valve 2x10-4 HE 562 swagelok purge valve 2x 10-4 HE 564 3 inch valve 6x10-4\" 01/13/22 07:00 - Kyle Connally - C0 (common) - HRS.CS.00-HRS.CS.00- Find and source parts for the grand Cooling Water situation with the compressors. 01/13/22 07:00 - Roland Evans - C1 - HRS.2K.EL-Installed the new fused disconnect on the C1-2K cold box roughing pump controls. \"01/13/22 05:20 - Tim DeGraff - C0 (common) - HRS.00.00-Updated Cryoplant walkdown. Corrected noted errors. https://slac.sharepoint.com/:f:/r/sites/lcls/lcls-2/cryogenic/cryop/A-%20PROJECT%20DOCUMENTATION/13-OM/HRS.00.00-OM-SLAC-Cryoplant%20Walkdown%20(LCLSII-4.X-PP-XXXX)?csf=1&amp;web=1&amp;e=jaaiZM\" \"01/13/22 03:00 - Tim DeGraff - C0 (common) - HRS.00.00-This week had missing transfers from Smartsheet to Elog. I submitted them per Pucci's request. https://mccelog.slac.stanford.edu/elog/wbin/elog.php#\" \"01/13/22 02:00 - Tim DeGraff - C0 (common) - HRS.LI.00-Uploaded drawing showing how to backfill Lines A&amp;B from GHe Storage https://slac.sharepoint.com/:f:/r/sites/lcls/lcls-2/cryogenic/cryop/A-%20PROJECT%20DOCUMENTATION/21-ST/HRS.00.00-ST-SLAC-LINAC%20Conditioning%20Pressure%20Hold%20Test?csf=1&amp;web=1&amp;e=kNLCC0\" \"01/13/22 01:00 - Tim DeGraff - C0 (common) - HRS.00.00-Responded to Randall's LOTO Audit: https://slac.sharepoint.com/:x:/r/sites/lcls/lcls-2/cryogenic/_layouts/15/Doc.aspx?sourcedoc=%7B6A519430-FA9E-4683-B560-EEC06EC22992%7D&amp;file=HRS.00.WP-LO-System%20LOTO%20Status.xlsx&amp;action=default&amp;mobileredirect=true\" 01/13/22 00:30 - Tim DeGraff - C0 (common) - HRS.00.00-HRS Walkdown Complete. Nothing new to report. Most systems are offline.",
+    "lastName": "Shinsato",
+    "firstName": "Greg",
+    "userName": "shinsato",
+    "tags": [],
+    "attachments": [
+      "653847f15ec1e72404bf36ee"
+    ],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T18:20:50.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-13T18:19:26.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847f25ec1e72404bf36f0"
+    },
+    "originId": "MCC_1119236",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675724"
+    ],
+    "title": "(FEE) RSWCF #1563 troubleshoot btm OPEN",
+    "text": "Troubleshoot BTM: BT3K2 re-fills too slow. Need to adjust regulator, and/or adjust/fill needle valve. Unlock/lock BTM control box after work. Re-fill under AD RSWCF #8592",
+    "lastName": "McKeown",
+    "firstName": "Jake",
+    "userName": "jakewm",
+    "tags": [
+      "bda8d02e-57a4-4ec7-90fd-46d0187d57a9"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T18:31:13.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T18:31:13.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847f25ec1e72404bf36f1"
+    },
+    "originId": "MCC_1119237",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675737",
+      "6536f0b5fbf92e44a7675732",
+      "6536f0b5fbf92e44a7675733",
+      "6536f0b5fbf92e44a767573e"
+    ],
+    "title": "Linac East DT Activities 1/14",
+    "text": "20-8 WGV remains closed till next Tuesday MFD, Spreader vacuum work including DASEL MFD, Removal of equipment before 4pm AP, check outs Collins, Grouting in sectors 28-30 CTL, checkout and labeling S30 Hatch has issues, but lock and key returned",
+    "lastName": "Martinez",
+    "firstName": "Ted",
+    "userName": "tedmar",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T18:32:06.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T18:32:06.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847f25ec1e72404bf36f2"
+    },
+    "originId": "MCC_1119238",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "Starting with CTWP-1 * Re: CT905 strainer PM by CEFOM scheduled",
+    "text": "",
+    "lastName": "Delgado",
+    "firstName": "Sal",
+    "userName": "sdelgado",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [
+      "653847f15ec1e72404bf36eb"
+    ],
+    "loggedAt": {
+      "$date": "2022-01-14T18:34:52.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T18:34:52.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847f25ec1e72404bf36f3"
+    },
+    "originId": "MCC_1119239",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "Update * LI23, LI24 and LI25 filter pots, single filters PMs by CEFOM",
+    "text": "",
+    "lastName": "Delgado",
+    "firstName": "Sal",
+    "userName": "sdelgado",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [
+      "653847f05ec1e72404bf36e3"
+    ],
+    "loggedAt": {
+      "$date": "2022-01-14T18:36:49.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T18:29:20.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847f25ec1e72404bf36f4"
+    },
+    "originId": "MCC_1119240",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675730"
+    ],
+    "title": "LI22 Q201 supply fan fault CATER 154571",
+    "text": "Replaced supply, on and trimmed. PC82361 out, PC81406 in.",
+    "lastName": "Freese",
+    "firstName": "Allan",
+    "userName": "alf",
+    "tags": [
+      "fe1151d3-12a3-4b07-b9ac-d9e4bfcd1561"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T18:52:11.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T18:52:11.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847f25ec1e72404bf36f5"
+    },
+    "originId": "MCC_1119241",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "LI10 Alcove PMs by CEFOM",
+    "text": "De Anda, will work on the CT water supply that goes to the ACS HX and will work on 2 plugs that go into the coil.",
+    "lastName": "Delgado",
+    "firstName": "Sal",
+    "userName": "sdelgado",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T19:03:28.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T19:03:28.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847f25ec1e72404bf36f6"
+    },
+    "originId": "MCC_1119242",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675724"
+    ],
+    "title": "FEE RSWCF #1558 Access BTM BT1K1-L2SI control box CLOSED",
+    "text": "Access BTM BTK1K1-L2SI control box to adjust supply pressure on re-fill solenoid. The BTM refilled and checked per CD-SS-PPS-01-14-04 (controlled by AD RSWCF #8589)",
+    "lastName": "McKeown",
+    "firstName": "Jake",
+    "userName": "jakewm",
+    "tags": [
+      "bda8d02e-57a4-4ec7-90fd-46d0187d57a9"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T19:14:24.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T19:14:24.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847f25ec1e72404bf36f7"
+    },
+    "originId": "MCC_1119243",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "Complete, rotating to as found state * CT905 strainer PM by CEFOM scheduled",
+    "text": "Pump #2 offline, Pumps #1 and #3 running.",
+    "lastName": "Delgado",
+    "firstName": "Sal",
+    "userName": "sdelgado",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [
+      "653847f25ec1e72404bf36f2"
+    ],
+    "loggedAt": {
+      "$date": "2022-01-14T19:14:36.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T19:14:36.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847f25ec1e72404bf36f8"
+    },
+    "originId": "MCC_1119244",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "Here's a wierd one...",
+    "text": "Got a call form a worker in S21 housing involved with BCS checkout, and person reported that during the work his/her badge lanyard grabbed onto something, causing something (like a magnet) to fall from the beamline. Consulting Ted Martinez, he thinks this is sounds like a permanent magnet which would have been on an RF high power load (to suppress multipactoring?). Ted will go down to check this out. It might be hard to tell which RF load it came from... This is in the BC1 area.",
+    "lastName": "Smith",
+    "firstName": "Howard",
+    "userName": "hvs",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T19:26:01.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T19:26:01.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847f25ec1e72404bf36f9"
+    },
+    "originId": "MCC_1119245",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675724"
+    ],
+    "title": "FEE RSWCF #1559 Remove+Reinstall absorber ST2K4 CLOSED",
+    "text": "Remove the BCS absorber ST2K4 to replace the diode-based BTM. The work disconnected PPS cables outside of the stopper cover, but didn't open the cover to touch anything inside. ST2K4 reinstalled.",
+    "lastName": "McKeown",
+    "firstName": "Jake",
+    "userName": "jakewm",
+    "tags": [
+      "bda8d02e-57a4-4ec7-90fd-46d0187d57a9"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T19:29:13.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T19:29:13.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847f25ec1e72404bf36fa"
+    },
+    "originId": "MCC_1119246",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675730"
+    ],
+    "title": "LI11 Quad bulk EMHP has bad fan CATER 154548",
+    "text": "Replaced fan panel, all fans now OK.",
+    "lastName": "Freese",
+    "firstName": "Allan",
+    "userName": "alf",
+    "tags": [
+      "a322161d-e930-4ad4-b481-7aa10be41996"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T19:47:26.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T19:47:26.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847f25ec1e72404bf36fb"
+    },
+    "originId": "MCC_1119247",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "Completed * LI10 ACS Surge Tank Plug by CEFOM",
+    "text": "Gonzalez reported that they install 3 plugs on the ACS surge tank, asking for FOC to monitor the level to check if leak has been contained. Level at ACS surge tank at 12:00 pm is 65.4%",
+    "lastName": "Delgado",
+    "firstName": "Sal",
+    "userName": "sdelgado",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [
+      "653847f25ec1e72404bf36f5"
+    ],
+    "loggedAt": {
+      "$date": "2022-01-14T20:09:48.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T20:09:48.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847f25ec1e72404bf36fc"
+    },
+    "originId": "MCC_1119248",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "Update * LI22 and LI2 filter pots, single filters PMs by CEFOM",
+    "text": "",
+    "lastName": "Delgado",
+    "firstName": "Sal",
+    "userName": "sdelgado",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [
+      "653847f25ec1e72404bf36f3"
+    ],
+    "loggedAt": {
+      "$date": "2022-01-14T20:58:59.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T20:58:59.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847f25ec1e72404bf36fd"
+    },
+    "originId": "MCC_1119249",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675730"
+    ],
+    "title": "SB-30: RF amplitude is low OOT CATER154412",
+    "text": "Replace switching tubes ( EOL ,over 11000 hours) Adjust filament voltage ,RF amplitude and pulse width to 5.1uS",
+    "lastName": "Matei",
+    "firstName": "Octavian",
+    "userName": "omatei",
+    "tags": [
+      "fe1151d3-12a3-4b07-b9ac-d9e4bfcd1561"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T21:18:34.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T21:18:34.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847f25ec1e72404bf36fe"
+    },
+    "originId": "MCC_1119250",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675730"
+    ],
+    "title": "LINAC East Sub-Boosters: Turn on CATER 154533",
+    "text": "Finish to turn on, run up and adjust to spec .LINAC East Sub-Boosters:",
+    "lastName": "Matei",
+    "firstName": "Octavian",
+    "userName": "omatei",
+    "tags": [
+      "fe1151d3-12a3-4b07-b9ac-d9e4bfcd1561"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T21:23:55.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T21:23:55.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847f35ec1e72404bf36ff"
+    },
+    "originId": "MCC_1119251",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "PEM is turning off B005 rack 2107 to connect cables to slots 12 and 13",
+    "text": "",
+    "lastName": "Ausherman",
+    "firstName": "Andy",
+    "userName": "aausherm",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T21:27:57.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T21:27:57.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847f35ec1e72404bf3700"
+    },
+    "originId": "MCC_1119252",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "S. Hoobler will be moving hard undulators 46 and 47",
+    "text": "",
+    "lastName": "Ausherman",
+    "firstName": "Andy",
+    "userName": "aausherm",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T21:38:11.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T21:38:11.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847f35ec1e72404bf3701"
+    },
+    "originId": "MCC_1119253",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "RSWCFs Winter Downtime --- Daily Update",
+    "text": "<span><strong>RSWCF</strong></span><span><strong>Description</strong></span><span><strong>Conditions</strong></span><span><strong>Status</strong></span><span><strong>Needs</strong></span><span><strong>Status Comments</strong></span><span><span>8550</span></span><span><span>TS&amp;R ST34 CHB communications issue</span></span><span><span>N/A</span></span><span><span>DO NOT APPROVE</span></span><span><span>DO NOT APPROVE - Work will not happen this downtime</span></span>A<span><span>8582</span></span><span><span>Muon shield reconfiguration</span></span>\n<p><span><span>Disable 30-BSY (ANR) </span></span></p>\n<p><span>OR</span></p>\n<p><span>VVS 5-15 control power and All Linac West SSAs 480 VAC locked off by ADSO.</span></p><span><span>Work Approved</span></span>\n<ol>\n <li><span><span>Work Complete</span></span></li>\n <li><span><span>RP Inspection</span></span><br>\n   &nbsp;</li>\n</ol><span>Work is complete needs RP signoff.</span><span><span>8591</span></span><span><span>Unlock BXSP1H for PS and magnet testing.</span></span>\n<p><span><span>Disable 30-BSY (ANR)</span></span></p>\n<p><span>OR</span></p>\n<p><span>VVS 5-15 control power and All Linac West SSAs 480 VAC locked off by ADSO.</span></p><span><span>Work Approved</span></span>\n<ol>\n <li><span><span>Work Complete</span></span></li>\n <li><span><span>ADSO lock PS back up</span></span><br>\n   &nbsp;</li>\n</ol><span><span>Work is complete per CATER, locks are in place, needs ADSO review.</span></span><span><span>8587</span></span><span><span>Remove/reinstall EBD-FEE PPS Door microswitches (for mirror assembly removal)</span></span><span><span>Disable HXR and SXR BTH Stoppers (ANR)</span></span><span><span>Work Approved</span></span>\n<ol>\n <li><span><span>Work Complete</span></span></li>\n <li><span><span>Reinstall</span></span></li>\n <li><span><span>Interlock Checks: keybank, door, gate</span></span><br>\n   &nbsp;</li>\n</ol><span>Needs OPS PPS interlock checks to close out.</span><span><span>8590</span></span><span><span>EBD sump pit shielding reconfiguration. </span></span><span><span>Disable HXR and SXR BTH Stoppers (ANR)</span></span><span><span>Work Approved</span></span>\n<ol>\n <li><span><span>Work Complete</span></span></li>\n <li><span><span>ADSO Inspection</span></span></li>\n <li><span><span>RP Inspection</span></span><br>\n   &nbsp;</li>\n</ol><span><span>Work is ongoing.</span></span><span><span>8592</span></span><span><span>BTM leak work</span></span><span><span>Disable HXR and SXR BTH Stoppers (ANR)</span></span><span><span><span>Work Approved</span></span></span>\n<ol>\n <li><span>Work Complete</span></li>\n <li><span>Refill BTMs - BTMDUMP &amp; BTMSFT refilled on 1/10. </span></li>\n <li><span>Lock up BTM boxes</span></li>\n</ol><span>Please make sure to unbypass Warning and sign off SAT line items. </span><span><span>This one is snarled up since scope of work is different than initially written, and there is a photon side RSWCF involved. Might just need signoff that control boxes are locked.</span></span><span><span>8583</span></span><span><span>LI20/21 beampipe reconfiguration</span></span>\n<p><span><span>Linac East Odd Sector key in ACR red keysafe</span></span></p>\n<p><span><span><span>OR</span></span></span></p>\n<p><span>VVS 5-15 control power and All Linac West SSAs 480 VAC locked off by ADSO.</span></p>\n<p>A</p><span><span>Work Approved</span></span>\n<ol>\n <li><span><span>Work Complete</span></span></li>\n <li><span><span>RP Inspection</span></span><br>\n   &nbsp;</li>\n</ol><span>All work complete signoffs are done only need ADSO review to close.</span><span><span>8593</span></span><span><span>Penetration shielding S25-10</span></span>\n<p><span><span><span><span>Linac East Odd Sector key in ACR red keysafe</span></span></span></span></p>\n<p><span><span><span><span><span>OR</span></span></span></span></span></p>\n<p><span>VVS 5-15 control power and All Linac West SSAs 480 VAC locked off by ADSO.</span></p>\n<p>A</p><span><span>WorkA Approved</span></span>\n<ol>\n <li><span>Work Complete</span></li>\n <li><span>RP Inspection</span><br>\n   &nbsp;</li>\n</ol><span><span>Work is complete needs RP signoff</span></span><span><span>8585</span></span><span><span>S14 hatch open to lower differential pumps</span></span>\n<p><span><span>Linac Middle Odd Sector key in ACR red keysafe</span></span></p>\n<p><span><span><span>OR</span></span></span></p>\n<p><span>VVS 5-15 control power and All Linac West SSAs 480 VAC locked off by ADSO.</span></p>\n<p>A</p><span><span>Work Approved</span></span>\n<ol>\n <li><span><span>Work Complete</span></span></li>\n <li><span><span>Relock hatch</span></span></li>\n <li><span><span>Safety Inspection</span></span><br>\n   &nbsp;</li>\n</ol><span>All jobs associated with the CATER are either complete or dropped. Needs cover in place and OPS Safety Inspection.</span><span><span>8596</span></span><span><span>Insulate exposed 110 VAC wiring in the keybank at sector 14 manway.</span></span><span><span>Linac Middle Odd Sector keyA <span><span>in ACR red keysafe </span></span>(except as needed to complete AOSD Linac Middle Interlock Checklist)</span></span><span><span><span><span><span>Work Approved</span></span></span></span></span>\n<ol>\n <li><span><span>RP approval</span></span></li>\n <li><span><span>Person Responsible - K. Jobe</span></span><br>\n   &nbsp;</li>\n</ol><span><span>Needs PPS group to re-energize keybanks, fill in \"Work Complete\" sign-off, then OPS PPS interlock checks for the keybank.</span></span><span><span>8586</span></span><span><span>B913 gas system tubing and cable relocation </span></span><span><span>Disable HXR and SXR BTH Stoppers (ANR)</span></span><span><span>Work Approved</span></span>\n<ol>\n <li><span><span>Work Complete</span></span></li>\n <li><span><span>BCS pre-run checkout</span></span><br>\n   &nbsp;</li>\n</ol><span><span>Work is ongoing.</span></span><span><span>8597</span></span><span><span>Insulate exposed 110 VAC wiring in the key bank at MCC for LINAC EAST.</span></span><span><span>Linac East Odd Sector key in ACR Red Keysafe (except as needed to complete AOSD Linac East Interlock Checklist).</span></span><span><span>Work Approved</span></span>\n<br>\n A\n<ol>\n <li><span><span>RP approval</span></span></li>\n <li><span><span>Person Responsible - K. Jobe</span></span><br>\n   &nbsp;</li>\n</ol><span><span>Needs PPS group to re-energize keybanks, fill in \"Work Complete\" sign-off, then OPS PPS interlock checks for the keybank.</span></span><span><span>8589</span></span><span><span>BTM H2.2 BT1K1-L2SI. </span></span><span><span>Disable HXR and SXR BTH Stoppers (ANR)</span></span><span><span>Work Approved</span></span>\n<ol>\n <li><span>Work Complete</span></li>\n <li><span>Refill BTMs - BTM BT1K1-L2SI refilled on 1/10</span></li>\n</ol><span><span>Fill adjustment is complete, and BTM was refilled. Might need refill again to update fill cycle information into UND&amp;EBD-FEE SAT section 15.</span></span>",
+    "lastName": "Smith",
+    "firstName": "Howard",
+    "userName": "hvs",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T21:52:47.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T17:37:28.000Z"
+    },
+    "version": {
+      "$numberLong": "2"
+    },
+    "_class": "edu.stanford.slac.elog_plus.model.Entry",
+    "supersededBy": "653847f35ec1e72404bf3705"
+  },
+  {
+    "_id": {
+      "$oid": "653847f35ec1e72404bf3702"
+    },
+    "originId": "MCC_1119254",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "Completed * LI30 thru LI21 filter pots, single filters PMs by CEFOM",
+    "text": "",
+    "lastName": "Delgado",
+    "firstName": "Sal",
+    "userName": "sdelgado",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [
+      "653847f25ec1e72404bf36fc"
+    ],
+    "loggedAt": {
+      "$date": "2022-01-14T21:55:48.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T21:55:48.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847f35ec1e72404bf3703"
+    },
+    "originId": "MCC_1119255",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675731"
+    ],
+    "title": "CVS Change: \"matlab/toolbox model_nameList.m",
+    "text": "Update of /afs/slac/g/lcls/cvs/matlab/toolbox\n<br>\nIn directory mcclogin:/afs/slac.stanford.edu/u/ad/colocho/work/matlab/toolbox\n<br>\n<br>\nModified Files:\n<br>\n model_nameList.m \n<br>\nLog Message:\n<br>\nPartial update for 12JAN22 model release\n<br>",
+    "lastName": "Colocho",
+    "firstName": "William",
+    "userName": "colocho",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T21:58:34.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T21:58:34.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847f35ec1e72404bf3704"
+    },
+    "originId": "MCC_1119256",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675730"
+    ],
+    "title": "19-4 PFN compartment cooling not operational CATER 154540",
+    "text": "Replaced bad fan",
+    "lastName": "Freese",
+    "firstName": "Allan",
+    "userName": "alf",
+    "tags": [
+      "a322161d-e930-4ad4-b481-7aa10be41996"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T22:07:43.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T22:07:43.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847f35ec1e72404bf3705"
+    },
+    "originId": "MCC_1119257",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "RSWCFs Winter Downtime --- Daily Update",
+    "text": "<span><strong>RSWCF</strong></span><span><strong>Description</strong></span><span><strong>Conditions</strong></span><span><strong>Status</strong></span><span><strong>Needs</strong></span><span><strong>Status Comments</strong></span><span><span>8550</span></span><span><span>TS&amp;R ST34 CHB communications issue</span></span><span><span>N/A</span></span><span><span>DO NOT APPROVE</span></span><span><span>DO NOT APPROVE - Work will not happen this downtime</span></span>A<span><span>8582</span></span><span><span>Muon shield reconfiguration</span></span>\n<p><span><span>Disable 30-BSY (ANR) </span></span></p>\n<p><span>OR</span></p>\n<p><span>VVS 5-15 control power and All Linac West SSAs 480 VAC locked off by ADSO.</span></p><span><span>Work Approved</span></span>\n<ol>\n <li><span><span>Work Complete</span></span></li>\n <li><span><span>RP Inspection</span></span><br>\n   &nbsp;</li>\n</ol><span>Work is complete needs RP signoff.</span><span><span>8591</span></span><span><span>Unlock BXSP1H for PS and magnet testing.</span></span>\n<p><span><span>Disable 30-BSY (ANR)</span></span></p>\n<p><span>OR</span></p>\n<p><span>VVS 5-15 control power and All Linac West SSAs 480 VAC locked off by ADSO.</span></p><span><span>Work Approved</span></span>\n<ol>\n <li><span><span>Work Complete</span></span></li>\n <li><span><span>ADSO lock PS back up</span></span><br>\n   &nbsp;</li>\n</ol><span><span>Work is complete per CATER, locks are in place, needs ADSO review.</span></span><span><span>8587</span></span><span><span>Remove/reinstall EBD-FEE PPS Door microswitches (for mirror assembly removal)</span></span><span><span>Disable HXR and SXR BTH Stoppers (ANR)</span></span><span><span>Work Approved</span></span>\n<ol>\n <li><span><span>Work Complete</span></span></li>\n <li><span><span>Reinstall</span></span></li>\n <li><span><span>Interlock Checks: keybank, door, gate</span></span><br>\n   &nbsp;</li>\n</ol><span>Needs OPS PPS interlock checks to close out.</span><span><span>8590</span></span><span><span>EBD sump pit shielding reconfiguration. </span></span><span><span>Disable HXR and SXR BTH Stoppers (ANR)</span></span><span><span>Work Approved</span></span>\n<ol>\n <li><span><span>Work Complete</span></span></li>\n <li><span><span>ADSO Inspection</span></span></li>\n <li><span><span>RP Inspection</span></span><br>\n   &nbsp;</li>\n</ol><span><span>Work is ongoing.</span></span><span><span>8592</span></span><span><span>BTM leak work</span></span><span><span>Disable HXR and SXR BTH Stoppers (ANR)</span></span><span><span><span>Work Approved</span></span></span>\n<ol>\n <li><span>Work Complete</span></li>\n <li><span>Refill BTMs - BTMDUMP &amp; BTMSFT refilled on 1/10. </span></li>\n <li><span>Lock up BTM boxes</span></li>\n</ol><span>Please make sure to unbypass Warning and sign off SAT line items. </span><span><span>This one is snarled up since scope of work is different than initially written, and there is a photon side RSWCF involved. Might just need signoff that control boxes are locked.</span></span><span><span>8583</span></span><span><span>LI20/21 beampipe reconfiguration</span></span>\n<p><span><span>Linac East Odd Sector key in ACR red keysafe</span></span></p>\n<p><span><span><span>OR</span></span></span></p>\n<p><span>VVS 5-15 control power and All Linac West SSAs 480 VAC locked off by ADSO.</span></p>\n<p>A</p><span><span>Work Approved</span></span>\n<ol>\n <li><span><span>Work Complete</span></span></li>\n <li><span><span>RP Inspection</span></span><br>\n   &nbsp;</li>\n</ol><span>All work complete signoffs are done only need ADSO review to close.</span><span><span>8593</span></span><span><span>Penetration shielding S25-10</span></span>\n<p><span><span><span><span>Linac East Odd Sector key in ACR red keysafe</span></span></span></span></p>\n<p><span><span><span><span><span>OR</span></span></span></span></span></p>\n<p><span>VVS 5-15 control power and All Linac West SSAs 480 VAC locked off by ADSO.</span></p>\n<p>A</p><span><span>WorkA Approved</span></span>\n<ol>\n <li><span>Work Complete</span></li>\n <li><span>RP Inspection</span><br>\n   &nbsp;</li>\n</ol><span><span>Work is complete needs RP signoff</span></span><span><span>8585</span></span><span><span>S14 hatch open to lower differential pumps</span></span>\n<p><span><span>Linac Middle Odd Sector key in ACR red keysafe</span></span></p>\n<p><span><span><span>OR</span></span></span></p>\n<p><span>VVS 5-15 control power and All Linac West SSAs 480 VAC locked off by ADSO.</span></p>\n<p>A</p><span><span>Work Approved</span></span>\n<ol>\n <li><span><span>Work Complete</span></span></li>\n <li><span><span>Relock hatch</span></span></li>\n <li><span><span>Safety Inspection</span></span><br>\n   &nbsp;</li>\n</ol><span>All jobs associated with the CATER are either complete or dropped. Needs cover in place and OPS Safety Inspection.</span><span><span>8596</span></span><span><span>Insulate exposed 110 VAC wiring in the keybank at sector 14 manway.</span></span><span><span>Linac Middle Odd Sector keyA <span><span>in ACR red keysafe </span></span>(except as needed to complete AOSD Linac Middle Interlock Checklist)</span></span><span><span><span><span><span>Work Approved</span></span></span></span></span>\n<ol>\n <li><span><span>RP approval</span></span></li>\n <li><span><span>Person Responsible - K. Jobe</span></span><br>\n   &nbsp;</li>\n</ol><span><span>Needs PPS group to re-energize keybanks, fill in \"Work Complete\" sign-off, then OPS PPS interlock checks for the keybank.</span></span><span><span>8586</span></span><span><span>B913 gas system tubing and cable relocation </span></span><span><span>Disable HXR and SXR BTH Stoppers (ANR)</span></span><span><span>Work Approved</span></span>\n<ol>\n <li><span><span>Work Complete</span></span></li>\n <li><span><span>BCS pre-run checkout</span></span><br>\n   &nbsp;</li>\n</ol><span><span>Work is ongoing.</span></span><span><span>8597</span></span><span><span>Insulate exposed 110 VAC wiring in the key bank at MCC for LINAC EAST.</span></span><span><span>Linac East Odd Sector key in ACR Red Keysafe (except as needed to complete AOSD Linac East Interlock Checklist).</span></span><span><span>Work Approved</span></span>\n<br>\n A\n<ol>\n <li><span><span>RP approval</span></span></li>\n <li><span><span>Person Responsible - K. Jobe</span></span><br>\n   &nbsp;</li>\n</ol><span><span>Needs PPS group to re-energize keybanks, fill in \"Work Complete\" sign-off, then OPS PPS interlock checks for the keybank.</span></span><span><span>8589</span></span><span><span>BTM H2.2 BT1K1-L2SI. </span></span><span><span>Disable HXR and SXR BTH Stoppers (ANR)</span></span><span><span>Work Approved</span></span>\n<ol>\n <li><span>Work Complete</span></li>\n <li><span>Refill BTMs - BTM BT1K1-L2SI refilled on 1/10</span></li>\n</ol><span><span>Fill adjustment is complete, and BTM was refilled. Might need refill again to update fill cycle information into UND&amp;EBD-FEE SAT section 15.</span></span><span>8600</span><span>Replace limit switch bracket for DM60 OUT limit switch to provide for a second switch</span><span>TBD</span><span>Work Not Approved</span><span>TBD</span><span>TBD</span>",
+    "lastName": "Smith",
+    "firstName": "Howard",
+    "userName": "hvs",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T22:20:46.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T17:37:28.000Z"
+    },
+    "version": {
+      "$numberLong": "2"
+    },
+    "_class": "edu.stanford.slac.elog_plus.model.Entry",
+    "supersededBy": "653847f45ec1e72404bf371e"
+  },
+  {
+    "_id": {
+      "$oid": "653847f35ec1e72404bf3706"
+    },
+    "originId": "MCC_1119258",
+    "logbooks": [
+      "6536f0b5fbf92e44a767572d",
+      "6536f0b5fbf92e44a7675730"
+    ],
+    "title": "10-2: Replace Large PFN Caps",
+    "text": "Replace all large PFN caps and set strap pattern to 2, 4, 5, 8, 8, 8, 5, 3. Lowered HV to 5kV and put in LOCAL for cap conditioning and PFN tuning once VVS power restored. Locked out with blue PEM lock. ct/rm",
+    "lastName": "Taylor",
+    "firstName": "Critt",
+    "userName": "ctaylor",
+    "tags": [
+      "076dfad9-0fc6-4839-8c42-d16e1e9ab051",
+      "a322161d-e930-4ad4-b481-7aa10be41996"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T22:22:42.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T22:22:42.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847f35ec1e72404bf3707"
+    },
+    "originId": "MCC_1119259",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675731"
+    ],
+    "title": "CVS Change: \"matlab/toolbox model_beamLineLCLS2cu.m",
+    "text": "Update of /afs/slac/g/lcls/cvs/matlab/toolbox\n<br>\nIn directory mcclogin:/tmp/cvs-serv52147\n<br>\n<br>\nModified Files:\n<br>\n model_beamLineLCLS2cu.m model_beamLineLCLS2cu.mat \n<br>\n model_beamLineLCLS2sc.m model_beamLineLCLS2sc.mat \n<br>\nLog Message:\n<br>\n12JAN22 model release\n<br>",
+    "lastName": "Colocho",
+    "firstName": "William",
+    "userName": "colocho",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T22:25:27.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T22:25:27.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847f35ec1e72404bf3708"
+    },
+    "originId": "MCC_1119260",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675731"
+    ],
+    "title": "CVS Change: \"matlab/toolbox model_rMatModelBL.m",
+    "text": "Update of /afs/slac/g/lcls/cvs/matlab/toolbox\n<br>\nIn directory mcclogin:/tmp/cvs-serv52616\n<br>\n<br>\nModified Files:\n<br>\n model_rMatModelBL.m \n<br>\nLog Message:\n<br>\n12JAN22 model release\n<br>",
+    "lastName": "Colocho",
+    "firstName": "William",
+    "userName": "colocho",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T22:25:57.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T22:25:57.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847f35ec1e72404bf3709"
+    },
+    "originId": "MCC_1119261",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "BT3K2 refill went too fast. Need to adjust fill rate.",
+    "text": "There are a series of RSWCFs for EBD-FEE BTMs, most have very confusing requirements spanning several BTMs with one form, and some requirements that we complete SAT section 15 checks at this time too (not sure where the SAT document is). AD RSWCF# 8592 addresses this BTM, but refers to an LCLS RSWCF to adjust fill rate. KBBOW",
+    "lastName": "Smith",
+    "firstName": "Howard",
+    "userName": "hvs",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T22:30:42.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T22:30:42.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847f35ec1e72404bf370a"
+    },
+    "originId": "MCC_1119262",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675730"
+    ],
+    "title": "* Re: Work in Sector 2 BC1 and BC2 Area Connecting Magnets",
+    "text": "1/14/2022: Complete Connecting magnets and correctors in Sector 4. XCE204, XCE202, YCE201, QE201, CQ21B and Apply label sticker to magnents from Sector 1 to 4. CH/PE",
+    "lastName": "Herr",
+    "firstName": "Chang",
+    "userName": "chang248",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [
+      "653847eb5ec1e72404bf368f"
+    ],
+    "loggedAt": {
+      "$date": "2022-01-14T22:30:55.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T22:30:55.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847f35ec1e72404bf370b"
+    },
+    "originId": "MCC_1119263",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "* Re: BT3K2 refill went too fast. Need to adjust fill rate.",
+    "text": "found a piece of paper on the EOIC desk (while looking for a different piece of paper) which is the SAT BTM testing sheet for EBD-FEE. It says with a sticky \"BTM tests for RSWCF 8592 and 8589\". This might help clear at least a little of the fog between were we are with the BTMS and getting all the forms closed.",
+    "lastName": "Smith",
+    "firstName": "Howard",
+    "userName": "hvs",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [
+      "653847f35ec1e72404bf3709"
+    ],
+    "loggedAt": {
+      "$date": "2022-01-14T22:36:55.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T22:36:55.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847f35ec1e72404bf370c"
+    },
+    "originId": "MCC_1119264",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675737"
+    ],
+    "title": "BSY Winter down",
+    "text": "HECO: Finished wire rope exchange on Crane #16 RPFO: Finished salvage forms so material could be brought to salvage",
+    "lastName": "Catania",
+    "firstName": "Brad",
+    "userName": "bcatania",
+    "tags": [
+      "3725fad2-c7f4-4e0c-b388-ba0962de63c1"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T22:41:34.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T22:41:34.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847f35ec1e72404bf370d"
+    },
+    "originId": "MCC_1119265",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675730"
+    ],
+    "title": "Work in B005-L2107",
+    "text": "Install two MCOR12s in B005-L2107, slot 12 and 13. Slot 12: BKXRASD, cable L2H00911 to TB04-1,2 Slot 13: BKYRASD, cable L2H00912 to TB04-3,4 CH/PE",
+    "lastName": "Herr",
+    "firstName": "Chang",
+    "userName": "chang248",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T22:43:30.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T22:43:30.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847f35ec1e72404bf370e"
+    },
+    "originId": "MCC_1119266",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675731"
+    ],
+    "title": "CVS Change: \"matlab/toolbox model_energyMagScale.m",
+    "text": "Update of /afs/slac/g/lcls/cvs/matlab/toolbox\n<br>\nIn directory mcclogin:/afs/slac.stanford.edu/u/ad/colocho/work/matlab/toolbox\n<br>\n<br>\nModified Files:\n<br>\n model_energyMagScale.m \n<br>\nLog Message:\n<br>\n _TRIM is now just T\n<br>",
+    "lastName": "Colocho",
+    "firstName": "William",
+    "userName": "colocho",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T22:51:16.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T22:51:16.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847f35ec1e72404bf370f"
+    },
+    "originId": "MCC_1119267",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "Report from Catania that the BSY Main Access threshold plug will not be going back in today.",
+    "text": "No riggers or forklift operators on site. We can probably do everything we need to do to lock the BSY tonight without it, then open the big doors under C/A Tuesday to insert the plug. Would require a vestibule search.",
+    "lastName": "Smith",
+    "firstName": "Howard",
+    "userName": "hvs",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T22:51:30.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T22:51:30.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847f45ec1e72404bf3710"
+    },
+    "originId": "MCC_1119268",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675724"
+    ],
+    "title": "second walkthrough complete",
+    "text": "nothing to report",
+    "lastName": "McKeown",
+    "firstName": "Jake",
+    "userName": "jakewm",
+    "tags": [
+      "bda8d02e-57a4-4ec7-90fd-46d0187d57a9"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T22:51:48.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T22:51:48.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847f45ec1e72404bf3711"
+    },
+    "originId": "MCC_1119269",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675731"
+    ],
+    "title": "CVS Change: \"matlab/toolbox model_nameRegion.m",
+    "text": "Update of /afs/slac/g/lcls/cvs/matlab/toolbox\n<br>\nIn directory mcclogin:/afs/slac.stanford.edu/u/ad/colocho/work/matlab/toolbox\n<br>\n<br>\nModified Files:\n<br>\n model_nameRegion.m \n<br>\nLog Message:\n<br>\n _TRIM is now just T\n<br>",
+    "lastName": "Colocho",
+    "firstName": "William",
+    "userName": "colocho",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T22:54:11.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T22:54:11.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847f45ec1e72404bf3712"
+    },
+    "originId": "MCC_1119270",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675731"
+    ],
+    "title": "CVS Change: \"matlab/toolbox model_nameList.m",
+    "text": "Update of /afs/slac/g/lcls/cvs/matlab/toolbox\n<br>\nIn directory mcclogin:/afs/slac.stanford.edu/u/ad/colocho/work/matlab/toolbox\n<br>\n<br>\nModified Files:\n<br>\n model_nameList.m \n<br>\nLog Message:\n<br>\n _TRIM is now just T\n<br>",
+    "lastName": "Colocho",
+    "firstName": "William",
+    "userName": "colocho",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T22:57:11.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T22:57:11.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847f45ec1e72404bf3713"
+    },
+    "originId": "MCC_1119271",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "Done * Re: S. Hoobler will be moving hard undulators 46 and 47",
+    "text": "",
+    "lastName": "Hoobler",
+    "firstName": "Sonya",
+    "userName": "sonya",
+    "tags": [
+      "68acd11d-05a8-45f5-b559-55a8d8833373"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [
+      "653847f35ec1e72404bf3700"
+    ],
+    "loggedAt": {
+      "$date": "2022-01-14T23:04:55.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T23:04:54.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847f45ec1e72404bf3714"
+    },
+    "originId": "MCC_1119272",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "FOC summary last 24 hours",
+    "text": "OFF NORMAL- B034 AED battery check by security that trigger a fire supervisory. BCS switch checks with PPS Group by CEFOI EBD dump transmitter work by CEFOI IR08 Transformer Gas Pack Almost empty, CEFOI to check EBD Dump PLC installation by CEFOI B913 gas system relocation by CEFOI scheduled CT905 Pump 2 Tripped, CEFOM reset it ODM Supervisory Comms Checked : Reset B057 CT905 strainer PM by CEFOM scheduled HTX2 CTW strainer PMs by CEFOM LI26, LI27 and LI28 filter pots, single filters PMs by CEFOM LI23, LI24 and LI25 filter pots, single filters PMs by CEFOM LI10 Alcove PMs by CEFOM LI22 and LI2 filter pots, single filters PMs by CEFOM LI10 ACS Surge Tank Plug by CEFOM",
+    "lastName": "Delgado",
+    "firstName": "Sal",
+    "userName": "sdelgado",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T23:08:30.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T23:08:30.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847f45ec1e72404bf3715"
+    },
+    "originId": "MCC_1119273",
+    "logbooks": [
+      "6536f0b5fbf92e44a767572d",
+      "6536f0b5fbf92e44a7675732",
+      "6536f0b5fbf92e44a7675730"
+    ],
+    "title": "20-8 modulator off status ... and why.",
+    "text": "I was asked to turn on modulator 20-8 after being told that the klystron is finished being replaced. Allan Johnson told me that the klystron is still being pumped down and that this will continue until tomorrow (Friday, 14 Jan, 2022). Allan said that he will turn on the modulator in order to run up the klystron ... etc. p.stiles",
+    "lastName": "Stiles",
+    "firstName": "Paul",
+    "userName": "stilespj",
+    "tags": [
+      "dce26dca-142d-40eb-9d1d-d480d8dc57f9",
+      "76b64875-66c2-48aa-bb25-d6b8d233e632",
+      "fe1151d3-12a3-4b07-b9ac-d9e4bfcd1561"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T23:13:34.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T23:13:34.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847f45ec1e72404bf3716"
+    },
+    "originId": "MCC_1119274",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675724"
+    ],
+    "title": "XFD End-of-Shift Summary: Day Shift, 01-14-2022 #21949",
+    "text": "<b>Date:</b> <i>Day shift, <span>01-14-2022</span></i>\n<br><b>Outgoing Duty Technician:</b> <i><span> ACC_status</span></i>\n<br><b>Incoming Duty Technician:</b> <i><span> ACC_status</span></i>\n<br><b>End-of-shift configuration:</b>\n<br>HutchStatusModeActivityHutch 1 (AMO)<span><b>Online</b></span><span>BL1/H1</span><span>N/A</span>Hutch 2 (SXR)<span>Offline</span><span>BL2/H1</span><span>N/A</span>Hutch 3 (XPP)<span>Offline</span><span>FEH</span><span>N/A</span>Hutch 4 (XCS)<span><b>Online</b></span><span>H5</span><span>N/A</span>Hutch 4.5 (MFX)<span><b>Online</b></span><span></span><span>N/A</span>Hutch 5 (CXI)<span><b>Online</b></span><span></span><span>N/A</span>Hutch 6 (MEC)<span><b>Online</b></span><span></span><span>N/A</span>XRT<span><b>Online</b></span><span>Permitted Access</span><span>N/A</span>\n<br><b>Shift notes:<br></b><span></span>\n<br><b>Open RSWCFs:</b> <span>1555 - Mirror MR1K2 will be vented in FEE. Mirror MR2K3 will be vented and removed to Metrology Lab where it will be checked then reinstalled in FEE. 1556 - Remove BTM B2K0 and BCS vacuum gauge MR2K3-TXI-GBC-1 attached with mirror MR2K3. BTM and BCM vacuum gauge will be restored and recertified before operation. 1552 - Upgrade the XCS LODCM tower. Once upgrade is complete, recertify system as needed, close the chamber, and pump down. 1554 - Install new pre-focus lens on the CXI line in the XRT at IDNO41. 1538 - Removal of TMO KB system for rework in the NEH Metrology Lab. 1526 - Operate CXI with DG2 and DGC focusing lenses unlocked. 1553 - install fresnel plate in CXI sample chamber 1560 - crystal installation &amp; commissioning 1561-.XCS lens change pack1: NA, pack2: 3x100um for 8.98keV (copper edge), pack3:7x200um for 9.831keV 1562-Reinstal beam tube to bypass XCS split and delay. Safety officer will remove lock on the diamond window gate valves cable 1563 - troubleshoot btm: BT3K2 re-fills too slow. unlock/lock btm control box after work. Re-fill under AD RSWCF #8592</span>\n<br><b>Time Accounting:</b>\n<br>ProgramScheduled Beam TimePlanned DowntimeUnplanned DowntimeActual BeamtimeLink",
+    "lastName": "McKeown",
+    "firstName": "Jake",
+    "userName": "jakewm",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T23:19:22.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T23:59:00.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847f45ec1e72404bf3717"
+    },
+    "originId": "MCC_1119275",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "B. Catania reports that everyone is out of the BSY",
+    "text": "",
+    "lastName": "Ausherman",
+    "firstName": "Andy",
+    "userName": "aausherm",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T23:36:32.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T23:36:32.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847f45ec1e72404bf3718"
+    },
+    "originId": "MCC_1119276",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675731"
+    ],
+    "title": "CVS Change: \"matlab/toolbox model_nameList.m",
+    "text": "Update of /afs/slac/g/lcls/cvs/matlab/toolbox\n<br>\nIn directory mcclogin:/afs/slac.stanford.edu/u/ad/colocho/work/matlab/toolbox\n<br>\n<br>\nModified Files:\n<br>\n model_nameList.m \n<br>\nLog Message:\n<br>\nFix mistakes, no PSSXH47 in SXR and add PSHXH46\n<br>",
+    "lastName": "Colocho",
+    "firstName": "William",
+    "userName": "colocho",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T23:37:03.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T23:37:03.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847f45ec1e72404bf3719"
+    },
+    "originId": "MCC_1119277",
+    "logbooks": [
+      "6536f0b5fbf92e44a767572a"
+    ],
+    "title": "Shift start: Friday swing",
+    "text": "<p>&nbsp;</p>\n<p><b>Operators:</b></p>\n<p>Nguyen</p>\n<p><b>Injector Status:</b></p>\n<p>Autofill</p>\n<p><b>SPEAR Status:</b></p>\n<p>BEAMS</p>\n<p><b>Program:</b></p>\n<p>500mA user beam with top-off fills every 5 minutes</p>\n<p></p>",
+    "lastName": "Nguyen",
+    "firstName": "Thomas",
+    "userName": "tnguyen",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-14T23:46:54.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-14T23:45:59.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  }
+]

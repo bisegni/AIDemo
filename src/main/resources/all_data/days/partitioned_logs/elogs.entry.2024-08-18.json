@@ -1,0 +1,65 @@
+[
+  {
+    "_id": {
+      "$oid": "66c24c1780cd711bf51d9e7b"
+    },
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "supersede user now should be fixed",
+    "text": "",
+    "lastName": "Bisegni",
+    "firstName": "Claudio",
+    "userName": "bisegni@slac.stanford.edu",
+    "tags": [
+      "0ba5394e-30cf-47f3-aaca-cfe5794332bd",
+      "9c6eb682-32f5-42c3-be93-2e703ebf645a",
+      "24a72353-7479-4335-bb4f-6bd1a167e40a",
+      "68acd11d-05a8-45f5-b559-55a8d8833373"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2024-08-18T19:31:35.390Z"
+    },
+    "createdDate": {
+      "$date": "2024-08-18T19:31:35.501Z"
+    },
+    "createdBy": "bisegni@slac.stanford.edu",
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry",
+    "eventAt": {
+      "$date": "2024-08-18T19:31:35.390Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "66c24dcf80cd711bf51d9e7c"
+    },
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "fix on supersede user",
+    "text": "<p>Supersede user now should work, the eventAt maintenance across the supersede operation is in dev</p>",
+    "lastName": "Bisegni",
+    "firstName": "Claudio",
+    "userName": "bisegni@slac.stanford.edu",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2024-08-18T19:38:55.800Z"
+    },
+    "createdDate": {
+      "$date": "2024-08-18T19:38:55.801Z"
+    },
+    "createdBy": "bisegni@slac.stanford.edu",
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry",
+    "eventAt": {
+      "$date": "2024-08-18T19:38:55.800Z"
+    }
+  }
+]

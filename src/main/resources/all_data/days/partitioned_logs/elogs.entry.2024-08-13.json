@@ -1,0 +1,619 @@
+[
+  {
+    "_id": {
+      "$oid": "66bb94b1e274085bba4192e5"
+    },
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "Logbook entry test",
+    "text": "<p>Message text to see what it looks like</p>",
+    "lastName": "Bisi",
+    "firstName": "Derikka",
+    "userName": "dabisi@slac.stanford.edu",
+    "tags": [
+      "68acd11d-05a8-45f5-b559-55a8d8833373",
+      "0ba5394e-30cf-47f3-aaca-cfe5794332bd"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2024-08-13T17:15:29.339Z"
+    },
+    "eventAt": {
+      "$date": "2024-08-13T14:15:00.000Z"
+    },
+    "createdDate": {
+      "$date": "2024-08-13T17:15:29.344Z"
+    },
+    "createdBy": "dabisi@slac.stanford.edu",
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "66bbacdce274085bba4192e6"
+    },
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "test test can you see this",
+    "text": "<p>Interesting umm</p>",
+    "lastName": "Wang",
+    "firstName": "Irene",
+    "userName": "wirene@slac.stanford.edu",
+    "tags": [
+      "68acd11d-05a8-45f5-b559-55a8d8833373",
+      "0ba5394e-30cf-47f3-aaca-cfe5794332bd",
+      "9c6eb682-32f5-42c3-be93-2e703ebf645a",
+      "24a72353-7479-4335-bb4f-6bd1a167e40a"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2024-08-13T18:58:36.370Z"
+    },
+    "createdDate": {
+      "$date": "2024-08-13T18:58:36.374Z"
+    },
+    "createdBy": "wirene@slac.stanford.edu",
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry",
+    "eventAt": {
+      "$date": "2024-08-13T18:58:36.370Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "66bbacfce274085bba4192e7"
+    },
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "can't attach photos:(",
+    "text": "<p>\ud83e\udd7a</p>",
+    "lastName": "Wang",
+    "firstName": "Irene",
+    "userName": "wirene@slac.stanford.edu",
+    "tags": [
+      "24a72353-7479-4335-bb4f-6bd1a167e40a",
+      "9c6eb682-32f5-42c3-be93-2e703ebf645a",
+      "0ba5394e-30cf-47f3-aaca-cfe5794332bd",
+      "68acd11d-05a8-45f5-b559-55a8d8833373"
+    ],
+    "attachments": [],
+    "followUps": [
+      "66bbc4ece274085bba4192ea"
+    ],
+    "references": [],
+    "loggedAt": {
+      "$date": "2024-08-13T18:59:08.450Z"
+    },
+    "eventAt": {
+      "$date": "2024-08-13T18:59:08.450Z"
+    },
+    "createdDate": {
+      "$date": "2024-08-13T18:59:08.454Z"
+    },
+    "createdBy": "wirene@slac.stanford.edu",
+    "version": 1,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "66bbad49e274085bba4192e8"
+    },
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "emojis but not in title... :(",
+    "text": "<p>\ud83e\udd7a</p>",
+    "lastName": "Wang",
+    "firstName": "Irene",
+    "userName": "wirene@slac.stanford.edu",
+    "tags": [
+      "0ba5394e-30cf-47f3-aaca-cfe5794332bd",
+      "9c6eb682-32f5-42c3-be93-2e703ebf645a",
+      "24a72353-7479-4335-bb4f-6bd1a167e40a",
+      "68acd11d-05a8-45f5-b559-55a8d8833373"
+    ],
+    "attachments": [],
+    "followUps": [
+      "66bbef4c2548424afa85c499"
+    ],
+    "references": [],
+    "loggedAt": {
+      "$date": "2024-08-13T19:00:25.585Z"
+    },
+    "eventAt": {
+      "$date": "2024-08-13T19:00:25.585Z"
+    },
+    "createdDate": {
+      "$date": "2024-08-13T19:00:25.589Z"
+    },
+    "createdBy": "wirene@slac.stanford.edu",
+    "version": 1,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "66bbc491e274085bba4192e9"
+    },
+    "logbooks": [
+      "6536f0b5fbf92e44a767571b"
+    ],
+    "title": "\ud83e\udd7a in title",
+    "text": "",
+    "lastName": "Mikulec",
+    "firstName": "Boogie",
+    "userName": "boogie@slac.stanford.edu",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2024-08-13T20:39:45.644Z"
+    },
+    "createdDate": {
+      "$date": "2024-08-13T20:39:45.646Z"
+    },
+    "createdBy": "boogie@slac.stanford.edu",
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry",
+    "eventAt": {
+      "$date": "2024-08-13T20:39:45.644Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "66bbc4ece274085bba4192ea"
+    },
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "Thank you for pointing this out. Photo attachments had been working, but there must have been a regression.",
+    "text": "",
+    "lastName": "Mikulec",
+    "firstName": "Boogie",
+    "userName": "boogie@slac.stanford.edu",
+    "tags": [
+      "24a72353-7479-4335-bb4f-6bd1a167e40a",
+      "9c6eb682-32f5-42c3-be93-2e703ebf645a",
+      "0ba5394e-30cf-47f3-aaca-cfe5794332bd",
+      "68acd11d-05a8-45f5-b559-55a8d8833373"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2024-08-13T20:41:16.799Z"
+    },
+    "eventAt": {
+      "$date": "2024-08-13T20:41:16.799Z"
+    },
+    "createdDate": {
+      "$date": "2024-08-13T20:41:16.802Z"
+    },
+    "createdBy": "boogie@slac.stanford.edu",
+    "version": {
+      "$numberLong": "2"
+    },
+    "_class": "edu.stanford.slac.elog_plus.model.Entry",
+    "supersededBy": "66bbc51be274085bba4192eb"
+  },
+  {
+    "_id": {
+      "$oid": "66bbc51be274085bba4192eb"
+    },
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "Thank you for pointing this out. Photo attachments had been working, so there must have been a regression.",
+    "text": "<p>Trying to supersede a follow up</p>",
+    "lastName": "Gorczany",
+    "firstName": "John",
+    "userName": "virgil.fahey",
+    "tags": [
+      "24a72353-7479-4335-bb4f-6bd1a167e40a",
+      "9c6eb682-32f5-42c3-be93-2e703ebf645a",
+      "0ba5394e-30cf-47f3-aaca-cfe5794332bd",
+      "68acd11d-05a8-45f5-b559-55a8d8833373"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2024-08-13T20:42:03.603Z"
+    },
+    "createdDate": {
+      "$date": "2024-08-13T20:42:03.607Z"
+    },
+    "createdBy": "boogie@slac.stanford.edu",
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry",
+    "eventAt": {
+      "$date": "2024-08-13T20:42:03.603Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "66bbe62ae274085bba4192ec"
+    },
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "can't see full title when it is too long without opening the entry ;o",
+    "text": "<p>\ud83e\udd7a</p>",
+    "lastName": "Wang",
+    "firstName": "Irene",
+    "userName": "wirene@slac.stanford.edu",
+    "tags": [
+      "68acd11d-05a8-45f5-b559-55a8d8833373",
+      "24a72353-7479-4335-bb4f-6bd1a167e40a",
+      "9c6eb682-32f5-42c3-be93-2e703ebf645a",
+      "0ba5394e-30cf-47f3-aaca-cfe5794332bd"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2024-08-13T23:03:06.169Z"
+    },
+    "eventAt": {
+      "$date": "2024-08-13T23:03:06.169Z"
+    },
+    "createdDate": {
+      "$date": "2024-08-13T23:03:06.173Z"
+    },
+    "createdBy": "wirene@slac.stanford.edu",
+    "version": {
+      "$numberLong": "2"
+    },
+    "_class": "edu.stanford.slac.elog_plus.model.Entry",
+    "supersededBy": "66be9dc665ea7d063fc544fa"
+  },
+  {
+    "_id": {
+      "$oid": "66bbee932548424afa85c497"
+    },
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "yay image attached? maybe maybe?",
+    "text": "<p>\ud83e\udd73\ud83e\udd73\ud83e\udd73</p>",
+    "lastName": "Wang",
+    "firstName": "Irene",
+    "userName": "wirene@slac.stanford.edu",
+    "tags": [
+      "0ba5394e-30cf-47f3-aaca-cfe5794332bd",
+      "9c6eb682-32f5-42c3-be93-2e703ebf645a",
+      "24a72353-7479-4335-bb4f-6bd1a167e40a",
+      "68acd11d-05a8-45f5-b559-55a8d8833373"
+    ],
+    "attachments": [
+      "66bbee412548424afa85c496"
+    ],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2024-08-13T23:38:59.941Z"
+    },
+    "createdDate": {
+      "$date": "2024-08-13T23:38:59.960Z"
+    },
+    "createdBy": "wirene@slac.stanford.edu",
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry",
+    "eventAt": {
+      "$date": "2024-08-13T23:38:59.941Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "66bbef4c2548424afa85c499"
+    },
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "Testing replying to another entry",
+    "text": "<p>\ud83e\udd2a</p>",
+    "lastName": "Blanchard",
+    "firstName": "Evan",
+    "userName": "blanch@slac.stanford.edu",
+    "tags": [],
+    "attachments": [],
+    "followUps": [
+      "66bbef762548424afa85c49b"
+    ],
+    "references": [],
+    "loggedAt": {
+      "$date": "2024-08-13T23:42:04.289Z"
+    },
+    "eventAt": {
+      "$date": "2024-08-13T23:40:00.000Z"
+    },
+    "createdDate": {
+      "$date": "2024-08-13T23:42:04.290Z"
+    },
+    "createdBy": "blanch@slac.stanford.edu",
+    "version": 1,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "66bbef5c2548424afa85c49a"
+    },
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "bday cake plot",
+    "text": "<p><strong>BIRTHDAY CAKE\ud83c\udf82</strong></p>",
+    "lastName": "Wang",
+    "firstName": "Irene",
+    "userName": "wirene@slac.stanford.edu",
+    "tags": [
+      "68acd11d-05a8-45f5-b559-55a8d8833373",
+      "24a72353-7479-4335-bb4f-6bd1a167e40a",
+      "9c6eb682-32f5-42c3-be93-2e703ebf645a",
+      "0ba5394e-30cf-47f3-aaca-cfe5794332bd"
+    ],
+    "attachments": [
+      "66bbef222548424afa85c498"
+    ],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2024-08-13T23:42:20.531Z"
+    },
+    "createdDate": {
+      "$date": "2024-08-13T23:42:20.537Z"
+    },
+    "createdBy": "wirene@slac.stanford.edu",
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry",
+    "eventAt": {
+      "$date": "2024-08-13T23:42:20.531Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "66bbef762548424afa85c49b"
+    },
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "\ud83c\udf5d",
+    "text": "",
+    "lastName": "Wang",
+    "firstName": "Irene",
+    "userName": "wirene@slac.stanford.edu",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2024-08-13T23:42:46.099Z"
+    },
+    "createdDate": {
+      "$date": "2024-08-13T23:42:46.100Z"
+    },
+    "createdBy": "wirene@slac.stanford.edu",
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry",
+    "eventAt": {
+      "$date": "2024-08-13T23:42:46.099Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "66bbefb02548424afa85c49c"
+    },
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "Now emoji in title \ud83e\udd73",
+    "text": "<p>PeRFeCt</p>",
+    "lastName": "Wang",
+    "firstName": "Irene",
+    "userName": "wirene@slac.stanford.edu",
+    "tags": [
+      "0ba5394e-30cf-47f3-aaca-cfe5794332bd",
+      "9c6eb682-32f5-42c3-be93-2e703ebf645a",
+      "24a72353-7479-4335-bb4f-6bd1a167e40a",
+      "68acd11d-05a8-45f5-b559-55a8d8833373"
+    ],
+    "attachments": [],
+    "followUps": [
+      "66bbf0162548424afa85c49d"
+    ],
+    "references": [],
+    "loggedAt": {
+      "$date": "2024-08-13T23:43:44.244Z"
+    },
+    "eventAt": {
+      "$date": "2024-08-13T23:43:44.244Z"
+    },
+    "createdDate": {
+      "$date": "2024-08-13T23:43:44.247Z"
+    },
+    "createdBy": "wirene@slac.stanford.edu",
+    "version": 1,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "66bbf0162548424afa85c49d"
+    },
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "\ud83d\ude31\ud83e\udd2f\ud83d\ude0f\ud83e\udd29\ud83d\ude01\ud83e\udd28\ud83d\ude24\ud83d\ude33",
+    "text": "",
+    "lastName": "Blanchard",
+    "firstName": "Evan",
+    "userName": "blanch@slac.stanford.edu",
+    "tags": [
+      "0ba5394e-30cf-47f3-aaca-cfe5794332bd",
+      "9c6eb682-32f5-42c3-be93-2e703ebf645a",
+      "24a72353-7479-4335-bb4f-6bd1a167e40a",
+      "68acd11d-05a8-45f5-b559-55a8d8833373"
+    ],
+    "attachments": [],
+    "followUps": [
+      "66bbf0972548424afa85c49e"
+    ],
+    "references": [],
+    "loggedAt": {
+      "$date": "2024-08-13T23:45:26.818Z"
+    },
+    "eventAt": {
+      "$date": "2024-08-13T23:45:26.818Z"
+    },
+    "createdDate": {
+      "$date": "2024-08-13T23:45:26.821Z"
+    },
+    "createdBy": "blanch@slac.stanford.edu",
+    "version": 1,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "66bbf0972548424afa85c49e"
+    },
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "\ud83e\udd75\ud83e\udd2a\ud83e\udd78",
+    "text": "",
+    "lastName": "Wang",
+    "firstName": "Irene",
+    "userName": "wirene@slac.stanford.edu",
+    "tags": [
+      "0ba5394e-30cf-47f3-aaca-cfe5794332bd",
+      "9c6eb682-32f5-42c3-be93-2e703ebf645a",
+      "24a72353-7479-4335-bb4f-6bd1a167e40a",
+      "68acd11d-05a8-45f5-b559-55a8d8833373"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2024-08-13T23:47:35.468Z"
+    },
+    "createdDate": {
+      "$date": "2024-08-13T23:47:35.472Z"
+    },
+    "createdBy": "wirene@slac.stanford.edu",
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry",
+    "eventAt": {
+      "$date": "2024-08-13T23:47:35.468Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "66bbf2332548424afa85c49f"
+    },
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "Explicit Event Time Test",
+    "text": "",
+    "lastName": "Blanchard",
+    "firstName": "Evan",
+    "userName": "blanch@slac.stanford.edu",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2024-08-13T23:54:27.329Z"
+    },
+    "eventAt": {
+      "$date": "1997-05-29T17:50:00.000Z"
+    },
+    "createdDate": {
+      "$date": "2024-08-13T23:54:27.331Z"
+    },
+    "createdBy": "blanch@slac.stanford.edu",
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "66bbf26e2548424afa85c4a0"
+    },
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "oldest elog",
+    "text": "<p>\ud83d\udc75</p>",
+    "lastName": "Wang",
+    "firstName": "Irene",
+    "userName": "wirene@slac.stanford.edu",
+    "tags": [
+      "68acd11d-05a8-45f5-b559-55a8d8833373",
+      "24a72353-7479-4335-bb4f-6bd1a167e40a",
+      "9c6eb682-32f5-42c3-be93-2e703ebf645a",
+      "0ba5394e-30cf-47f3-aaca-cfe5794332bd"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2024-08-13T23:55:26.934Z"
+    },
+    "eventAt": {
+      "$date": {
+        "$numberLong": "-3578809442000"
+      }
+    },
+    "createdDate": {
+      "$date": "2024-08-13T23:55:26.938Z"
+    },
+    "createdBy": "wirene@slac.stanford.edu",
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "66bbf2ff2548424afa85c4a1"
+    },
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "I want to be able to react to entries, add thumb up or something or other emoji respond like SLACK",
+    "text": "",
+    "lastName": "Wang",
+    "firstName": "Irene",
+    "userName": "wirene@slac.stanford.edu",
+    "tags": [
+      "0ba5394e-30cf-47f3-aaca-cfe5794332bd",
+      "9c6eb682-32f5-42c3-be93-2e703ebf645a",
+      "24a72353-7479-4335-bb4f-6bd1a167e40a",
+      "68acd11d-05a8-45f5-b559-55a8d8833373"
+    ],
+    "attachments": [],
+    "followUps": [
+      "66bd2bb117cfdb780f31af46"
+    ],
+    "references": [],
+    "loggedAt": {
+      "$date": "2024-08-13T23:57:51.595Z"
+    },
+    "eventAt": {
+      "$date": "2024-08-13T23:57:51.595Z"
+    },
+    "createdDate": {
+      "$date": "2024-08-13T23:57:51.599Z"
+    },
+    "createdBy": "wirene@slac.stanford.edu",
+    "version": {
+      "$numberLong": "3"
+    },
+    "_class": "edu.stanford.slac.elog_plus.model.Entry",
+    "supersededBy": "66be897665ea7d063fc544f7"
+  }
+]
