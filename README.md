@@ -36,6 +36,7 @@ docker run -it --rm --name postgres -p 5432:5432 -e POSTGRES_USER=postgres -e PO
 curl "http://localhost:8080/api/docs/load"
 ```
 (You can add more data from `src/main/resources/all_data/days`.)
+This command takes several minutes unless you have a GPU. You should see activity in the logs of the `ollama` container.
 
 2. Suggest a title and tags for an ELOG post:
 ```
