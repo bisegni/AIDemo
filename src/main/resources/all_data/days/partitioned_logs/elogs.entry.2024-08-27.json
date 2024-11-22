@@ -1,0 +1,293 @@
+[
+  {
+    "_id": {
+      "$oid": "66cd2f8deffc366ba9236ea1"
+    },
+    "logbooks": [
+      "6536f0b5fbf92e44a767571b"
+    ],
+    "title": "testacce with impersonation",
+    "text": "",
+    "lastName": "Lam",
+    "firstName": "Ada",
+    "userName": "ada@slac.stanford.edu",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2024-08-27T01:44:45.397Z"
+    },
+    "createdDate": {
+      "$date": "2024-08-27T01:44:45.463Z"
+    },
+    "createdBy": "ada@slac.stanford.edu",
+    "lastModifiedDate": {
+      "$date": "2024-08-27T01:44:45.463Z"
+    },
+    "lastModifiedBy": "ada@slac.stanford.edu",
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry",
+    "eventAt": {
+      "$date": "2024-08-27T01:44:45.397Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "66ce39cbeffc366ba9236ea3"
+    },
+    "logbooks": [
+      "6536f0b5fbf92e44a767571b"
+    ],
+    "title": "A",
+    "text": "<p>This is entry A, the root</p><ul><li><p>test</p></li><li><p>123</p></li></ul>",
+    "lastName": "Mikulec",
+    "firstName": "Boogie",
+    "userName": "boogie@slac.stanford.edu",
+    "tags": [],
+    "attachments": [
+      "66ce39b4effc366ba9236ea2"
+    ],
+    "followUps": [
+      "66ce39f3effc366ba9236ea6"
+    ],
+    "references": [],
+    "loggedAt": {
+      "$date": "2024-08-27T20:40:43.178Z"
+    },
+    "eventAt": {
+      "$date": "2024-08-27T20:40:43.178Z"
+    },
+    "createdDate": {
+      "$date": "2024-08-27T20:40:43.187Z"
+    },
+    "createdBy": "boogie@slac.stanford.edu",
+    "lastModifiedDate": {
+      "$date": "2024-08-27T20:41:23.135Z"
+    },
+    "lastModifiedBy": "boogie@slac.stanford.edu",
+    "version": 1,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "66ce39f3effc366ba9236ea6"
+    },
+    "logbooks": [
+      "6536f0b5fbf92e44a767571b"
+    ],
+    "title": "B",
+    "text": "<p>This is entry B with a tag and follow ups</p>",
+    "lastName": "Mikulec",
+    "firstName": "Boogie",
+    "userName": "boogie@slac.stanford.edu",
+    "tags": [
+      "6804a3ed-f471-4fd9-b486-4f09224d1a92"
+    ],
+    "attachments": [
+      "66ce39eeeffc366ba9236ea4",
+      "66ce39f1effc366ba9236ea5"
+    ],
+    "followUps": [
+      "66ce3a98effc366ba9236ea9",
+      "66ce3ac6effc366ba9236eaa"
+    ],
+    "references": [],
+    "loggedAt": {
+      "$date": "2024-08-27T20:41:23.124Z"
+    },
+    "eventAt": {
+      "$date": "2024-08-27T20:41:23.124Z"
+    },
+    "createdDate": {
+      "$date": "2024-08-27T20:41:23.131Z"
+    },
+    "createdBy": "boogie@slac.stanford.edu",
+    "lastModifiedDate": {
+      "$date": "2024-08-28T20:19:03.136Z"
+    },
+    "lastModifiedBy": "boogie@slac.stanford.edu",
+    "version": {
+      "$numberLong": "4"
+    },
+    "_class": "edu.stanford.slac.elog_plus.model.Entry",
+    "supersededBy": "66cf8637effc366ba9236eae"
+  },
+  {
+    "_id": {
+      "$oid": "66ce3a45effc366ba9236ea8"
+    },
+    "logbooks": [
+      "6536f0b5fbf92e44a767571b"
+    ],
+    "title": "C",
+    "text": "<p>Contains a reference to</p><elog-entry-ref id=\"66d2542fd437717027f092fa\"></elog-entry-ref>",
+    "lastName": "Mikulec",
+    "firstName": "Boogie",
+    "userName": "boogie@slac.stanford.edu",
+    "tags": [
+      "6922c8d3-bc43-40e2-8082-48d9a0d79d21"
+    ],
+    "attachments": [],
+    "followUps": [
+      "66ce3c14effc366ba9236eac",
+      "66ce3c35effc366ba9236ead"
+    ],
+    "references": [
+      "66d2542fd437717027f092fa"
+    ],
+    "loggedAt": {
+      "$date": "2024-08-27T20:42:45.288Z"
+    },
+    "eventAt": {
+      "$date": "2024-08-27T20:42:45.288Z"
+    },
+    "createdDate": {
+      "$date": "2024-08-27T20:42:45.292Z"
+    },
+    "createdBy": "boogie@slac.stanford.edu",
+    "lastModifiedDate": {
+      "$date": "2024-08-30T23:22:23.494Z"
+    },
+    "lastModifiedBy": "boogie@slac.stanford.edu",
+    "version": 4,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "66ce3a98effc366ba9236ea9"
+    },
+    "logbooks": [
+      "6536f0b5fbf92e44a767571b"
+    ],
+    "title": "D",
+    "text": "<p>This follows up B which follow ups A</p>",
+    "lastName": "Mikulec",
+    "firstName": "Boogie",
+    "userName": "boogie@slac.stanford.edu",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2024-08-27T20:44:08.644Z"
+    },
+    "createdDate": {
+      "$date": "2024-08-27T20:44:08.645Z"
+    },
+    "createdBy": "boogie@slac.stanford.edu",
+    "lastModifiedDate": {
+      "$date": "2024-08-27T20:44:08.645Z"
+    },
+    "lastModifiedBy": "boogie@slac.stanford.edu",
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry",
+    "eventAt": {
+      "$date": "2024-08-27T20:44:08.644Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "66ce3ac6effc366ba9236eaa"
+    },
+    "logbooks": [
+      "6536f0b5fbf92e44a767571b"
+    ],
+    "title": "E",
+    "text": "<h2>This is entry E</h2>",
+    "lastName": "Mikulec",
+    "firstName": "Boogie",
+    "userName": "boogie@slac.stanford.edu",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2024-08-27T20:44:54.137Z"
+    },
+    "createdDate": {
+      "$date": "2024-08-27T20:44:54.139Z"
+    },
+    "createdBy": "boogie@slac.stanford.edu",
+    "lastModifiedDate": {
+      "$date": "2024-08-27T20:44:54.139Z"
+    },
+    "lastModifiedBy": "boogie@slac.stanford.edu",
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry",
+    "eventAt": {
+      "$date": "2024-08-27T20:44:54.137Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "66ce3c14effc366ba9236eac"
+    },
+    "logbooks": [
+      "6536f0b5fbf92e44a767571b"
+    ],
+    "title": "F",
+    "text": "",
+    "lastName": "Mikulec",
+    "firstName": "Boogie",
+    "userName": "boogie@slac.stanford.edu",
+    "tags": [
+      "6922c8d3-bc43-40e2-8082-48d9a0d79d21",
+      "6804a3ed-f471-4fd9-b486-4f09224d1a92"
+    ],
+    "attachments": [
+      "66ce3c10effc366ba9236eab"
+    ],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2024-08-27T20:50:28.809Z"
+    },
+    "createdDate": {
+      "$date": "2024-08-27T20:50:28.813Z"
+    },
+    "createdBy": "boogie@slac.stanford.edu",
+    "lastModifiedDate": {
+      "$date": "2024-08-27T20:50:28.813Z"
+    },
+    "lastModifiedBy": "boogie@slac.stanford.edu",
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry",
+    "eventAt": {
+      "$date": "2024-08-27T20:50:28.809Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "66ce3c35effc366ba9236ead"
+    },
+    "logbooks": [
+      "6536f0b5fbf92e44a767571b"
+    ],
+    "title": "G",
+    "text": "",
+    "lastName": "Mikulec",
+    "firstName": "Boogie",
+    "userName": "boogie@slac.stanford.edu",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2024-08-27T20:51:01.965Z"
+    },
+    "createdDate": {
+      "$date": "2024-08-27T20:51:01.966Z"
+    },
+    "createdBy": "boogie@slac.stanford.edu",
+    "lastModifiedDate": {
+      "$date": "2024-08-27T20:51:01.966Z"
+    },
+    "lastModifiedBy": "boogie@slac.stanford.edu",
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry",
+    "eventAt": {
+      "$date": "2024-08-27T20:51:01.965Z"
+    }
+  }
+]

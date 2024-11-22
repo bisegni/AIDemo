@@ -1,0 +1,101 @@
+[
+  {
+    "_id": {
+      "$oid": "66bcd14c2548424afa85c4a3"
+    },
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "GIF Test",
+    "text": "<p></p>",
+    "lastName": "Rouland",
+    "firstName": "Reed",
+    "userName": "reedrou@slac.stanford.edu",
+    "tags": [],
+    "attachments": [
+      "66bcd1132548424afa85c4a2"
+    ],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2024-08-14T15:46:20.498Z"
+    },
+    "eventAt": {
+      "$date": "1999-02-01T07:59:00.000Z"
+    },
+    "createdDate": {
+      "$date": "2024-08-14T15:46:20.502Z"
+    },
+    "createdBy": "reedrou@slac.stanford.edu",
+    "version": {
+      "$numberLong": "2"
+    },
+    "_class": "edu.stanford.slac.elog_plus.model.Entry",
+    "supersededBy": "66bcd2d22548424afa85c4a4"
+  },
+  {
+    "_id": {
+      "$oid": "66bcd2d22548424afa85c4a4"
+    },
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "GIF Test",
+    "text": "<p>Phooey</p>",
+    "lastName": "Terry",
+    "firstName": "Dick",
+    "userName": "marisa.bednar",
+    "tags": [],
+    "attachments": [
+      "66bcd1132548424afa85c4a2"
+    ],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2024-08-14T15:52:50.944Z"
+    },
+    "eventAt": {
+      "$date": "1999-02-01T07:59:00.000Z"
+    },
+    "createdDate": {
+      "$date": "2024-08-14T15:52:50.946Z"
+    },
+    "createdBy": "reedrou@slac.stanford.edu",
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "66bd2bb117cfdb780f31af46"
+    },
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "\ud83d\udc4d",
+    "text": "",
+    "lastName": "Charlery",
+    "firstName": "Bjon",
+    "userName": "charlery@slac.stanford.edu",
+    "tags": [
+      "0ba5394e-30cf-47f3-aaca-cfe5794332bd",
+      "9c6eb682-32f5-42c3-be93-2e703ebf645a",
+      "24a72353-7479-4335-bb4f-6bd1a167e40a",
+      "68acd11d-05a8-45f5-b559-55a8d8833373"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2024-08-14T22:12:01.342Z"
+    },
+    "createdDate": {
+      "$date": "2024-08-14T22:12:01.397Z"
+    },
+    "createdBy": "charlery@slac.stanford.edu",
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry",
+    "eventAt": {
+      "$date": "2024-08-14T22:12:01.342Z"
+    }
+  }
+]

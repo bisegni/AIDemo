@@ -1,0 +1,939 @@
+[
+  {
+    "_id": {
+      "$oid": "653847cb5ec1e72404bf346a"
+    },
+    "originId": "MCC_1118658",
+    "logbooks": [
+      "6536f0b5fbf92e44a767572c"
+    ],
+    "title": "DAY-SHIFT Report 2022-01-08, Sat",
+    "text": "DAY-SHIFT Report 2022-01-08, Sat PROGRAM: Accelerator Physics, various currents as program dictates BEAMLINES: 0530 All open except BL17 1430 BL17 open FAULTS: None EXPERIMENTS: 1040 Emptied condensation tray from BL14-3 AC unit",
+    "lastName": "Pople",
+    "firstName": "John",
+    "userName": "pople",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-09T01:23:37.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-09T01:23:37.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847cb5ec1e72404bf346b"
+    },
+    "originId": "MCC_1118659",
+    "logbooks": [
+      "6536f0b5fbf92e44a767572a"
+    ],
+    "title": "Shift summary: Saturday swing",
+    "text": "SUMMARY: Beam all shift, no missed fills or beam loss. INJECTOR: Autofill, average 43mA/min, 92% injection efficiency. SPEAR: 500mA with top-off fills every 5 minutes for Beamline commissioning.",
+    "lastName": "Nguyen",
+    "firstName": "Thomas",
+    "userName": "tnguyen",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-09T07:46:14.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-09T07:45:00.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847cb5ec1e72404bf346c"
+    },
+    "originId": "MCC_1118660",
+    "logbooks": [
+      "6536f0b5fbf92e44a767572a"
+    ],
+    "title": "Shift Start, Sun, 09 Jan 2022, Owl.",
+    "text": "Program Prepare for User Beams Injector Autofill is running, fill rate is above 40mA/min. SPEAR 3GeV, 7nm lattice, 500mA for BL Startup. BLs All BLs are open.",
+    "lastName": "Hoover",
+    "firstName": "Chris",
+    "userName": "hoover",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-09T07:48:12.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-09T07:45:12.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847cb5ec1e72404bf346e"
+    },
+    "originId": "MCC_1118661",
+    "logbooks": [
+      "6536f0b5fbf92e44a767572a"
+    ],
+    "title": "Steady injection near 45mA/min.",
+    "text": "",
+    "lastName": "Hoover",
+    "firstName": "Chris",
+    "userName": "hoover",
+    "tags": [],
+    "attachments": [
+      "653847cb5ec1e72404bf346d"
+    ],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-09T09:36:34.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-09T09:36:34.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847cb5ec1e72404bf3470"
+    },
+    "originId": "MCC_1118662",
+    "logbooks": [
+      "6536f0b5fbf92e44a767572a"
+    ],
+    "title": "FAULT lost all beam. MS3-SD is off.",
+    "text": "",
+    "lastName": "Hoover",
+    "firstName": "Chris",
+    "userName": "hoover",
+    "tags": [],
+    "attachments": [
+      "653847cb5ec1e72404bf346f"
+    ],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-09T12:48:48.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-09T12:48:48.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847cb5ec1e72404bf3471"
+    },
+    "originId": "MCC_1118663",
+    "logbooks": [
+      "6536f0b5fbf92e44a767572a"
+    ],
+    "title": "MS3-SD fault is #9 Ripple. Resets OK. Begin STDZ of just that power supply.",
+    "text": "",
+    "lastName": "Hoover",
+    "firstName": "Chris",
+    "userName": "hoover",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-09T12:56:34.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-09T12:56:34.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847cb5ec1e72404bf3472"
+    },
+    "originId": "MCC_1118664",
+    "logbooks": [
+      "6536f0b5fbf92e44a767572a"
+    ],
+    "title": "Beam on PR2 OK. Pulling out BL-15 ID gap.",
+    "text": "Gap to restore is 9.206mm.",
+    "lastName": "Hoover",
+    "firstName": "Chris",
+    "userName": "hoover",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-09T13:00:19.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-09T13:00:19.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847cb5ec1e72404bf3473"
+    },
+    "originId": "MCC_1118665",
+    "logbooks": [
+      "6536f0b5fbf92e44a767572a"
+    ],
+    "title": "INJECT 20mA stored, fill rate is 45mA/min.",
+    "text": "",
+    "lastName": "Hoover",
+    "firstName": "Chris",
+    "userName": "hoover",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-09T13:01:57.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-09T13:01:57.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847cb5ec1e72404bf3474"
+    },
+    "originId": "MCC_1118666",
+    "logbooks": [
+      "6536f0b5fbf92e44a767572a"
+    ],
+    "title": "150mA, opening BLs.",
+    "text": "",
+    "lastName": "Hoover",
+    "firstName": "Chris",
+    "userName": "hoover",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-09T13:04:59.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-09T13:04:59.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847cb5ec1e72404bf3475"
+    },
+    "originId": "MCC_1118667",
+    "logbooks": [
+      "6536f0b5fbf92e44a767572a"
+    ],
+    "title": "500mA, BLs are open and steered. Still in AP mode....not yet in BEAMS mode.",
+    "text": "Recovered BL-15 gap to 9.206mm.",
+    "lastName": "Hoover",
+    "firstName": "Chris",
+    "userName": "hoover",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-09T13:14:34.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-09T13:12:03.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847cc5ec1e72404bf3476"
+    },
+    "originId": "MCC_1118668",
+    "logbooks": [
+      "6536f0b5fbf92e44a767572a"
+    ],
+    "title": "Autofill 5 minute refills are restored.Fill rate is 45mA/min.",
+    "text": "",
+    "lastName": "Hoover",
+    "firstName": "Chris",
+    "userName": "hoover",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-09T13:16:21.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-09T13:15:45.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847cc5ec1e72404bf3477"
+    },
+    "originId": "MCC_1118669",
+    "logbooks": [
+      "6536f0b5fbf92e44a767572a"
+    ],
+    "title": "Tuning during the fill from zero....",
+    "text": "Adjusted the following during the ~11 minutes to fill to 500mA. Vernier Timing Delay LTB-B3Trim Inj Sept Peaking Strip Hettel Knob 55 -&gt; 50 BTS traj correction Peak fill rate was 47mA/min BTS charge is kind of stuck, just barely over .50nA.",
+    "lastName": "Hoover",
+    "firstName": "Chris",
+    "userName": "hoover",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-09T13:20:24.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-09T13:16:25.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847cc5ec1e72404bf3478"
+    },
+    "originId": "MCC_1118670",
+    "logbooks": [
+      "6536f0b5fbf92e44a767572c"
+    ],
+    "title": "NIGHT-Shift Report 1/8-9/2021 Sat-Sun",
+    "text": "PROGRAM: AP/PAMM SPEAR delivering various currents as program dictates. BEAMLINES: All open. 0450-0505 All closed when SPEAR lost beam. FAULTS: None. EXPERIMENTS: No concerns. OPERATIONS: Nothing to report.",
+    "lastName": "Gooding",
+    "firstName": "Sarah",
+    "userName": "sarahed",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-09T13:30:20.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-09T13:30:20.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847cc5ec1e72404bf347a"
+    },
+    "originId": "MCC_1118671",
+    "logbooks": [
+      "6536f0b5fbf92e44a767572a"
+    ],
+    "title": "Steady injection near 45mA/min.",
+    "text": "",
+    "lastName": "Hoover",
+    "firstName": "Chris",
+    "userName": "hoover",
+    "tags": [],
+    "attachments": [
+      "653847cc5ec1e72404bf3479"
+    ],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-09T16:42:30.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-09T16:42:30.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847cc5ec1e72404bf347b"
+    },
+    "originId": "MCC_1118672",
+    "logbooks": [
+      "6536f0b5fbf92e44a767572a"
+    ],
+    "title": "Gave gap ownership for 12-1 and 12-2 to staff.",
+    "text": "Silvia Russi",
+    "lastName": "Hoover",
+    "firstName": "Chris",
+    "userName": "hoover",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-09T19:08:13.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-09T19:08:13.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847cc5ec1e72404bf347c"
+    },
+    "originId": "MCC_1118673",
+    "logbooks": [
+      "6536f0b5fbf92e44a767572a"
+    ],
+    "title": "Shift start: Sunday swing",
+    "text": "<p><strong>Operators:</strong></p>\n<p>Nguyen</p>\n<p><strong>Injector Status:</strong></p>\n<p>Autofill</p>\n<p><strong>SPEAR Status:</strong></p>\n<p>ACCPHY</p>\n<p><strong>Program:</strong></p>\n<p>Beamline commissioning with 500mA top-off fills every 5 minutes</p>",
+    "lastName": "Nguyen",
+    "firstName": "Thomas",
+    "userName": "tnguyen",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-09T19:42:13.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-09T19:45:59.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847cc5ec1e72404bf347d"
+    },
+    "originId": "MCC_1118674",
+    "logbooks": [
+      "6536f0b5fbf92e44a767572a"
+    ],
+    "title": "Shift Summary, Sun, 09 Jan 2022, Owl.",
+    "text": "Program Prepare for User Beams Injector Autofill is running, fill rate is above 40mA/min. SPEAR 3GeV, 7nm lattice, 500mA for BL Startup. No beam for 24 min near 5am due to Ripple fault on MS3-SD, reset OK. CATER 154521 BLs All BLs are open.",
+    "lastName": "Hoover",
+    "firstName": "Chris",
+    "userName": "hoover",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-09T19:45:05.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-09T20:00:20.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847cc5ec1e72404bf347e"
+    },
+    "originId": "MCC_1118675",
+    "logbooks": [
+      "6536f0b5fbf92e44a767572a"
+    ],
+    "title": "CATER Id: 154521 * Re: MS3-SD fault is #9 Ripple. Resets OK.",
+    "text": "",
+    "lastName": "Hoover",
+    "firstName": "Chris",
+    "userName": "hoover",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [
+      "653847cb5ec1e72404bf3471"
+    ],
+    "loggedAt": {
+      "$date": "2022-01-09T19:46:22.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-09T16:30:38.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847cc5ec1e72404bf347f"
+    },
+    "originId": "MCC_1118676",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "OFF NORMAL - B040A Rm. 146 water leak reported by Amy Cordones",
+    "text": "The four 5's have been called and CEFOM Hector en route to evaluate the leak and isolate valves if more are needed. Amy Cordones close the valve that had the original leak. Cynthia Patty called to get someone to help with the issue.",
+    "lastName": "Regalado",
+    "firstName": "Eli",
+    "userName": "alvaro",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-09T21:10:26.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-09T21:10:26.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847cc5ec1e72404bf3480"
+    },
+    "originId": "MCC_1118677",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675733",
+      "6536f0b5fbf92e44a7675730"
+    ],
+    "title": "shop: updated PRC and RFS chassis in depot",
+    "text": "Added and created the new PRC and RFS chassis in depot.",
+    "lastName": "Nguyen",
+    "firstName": "Phillip",
+    "userName": "phillip",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-09T21:20:43.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-09T21:20:43.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847cc5ec1e72404bf3481"
+    },
+    "originId": "MCC_1118678",
+    "logbooks": [
+      "6536f0b5fbf92e44a767572a"
+    ],
+    "title": "Lost all beam",
+    "text": "",
+    "lastName": "Nguyen",
+    "firstName": "Thomas",
+    "userName": "tnguyen",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-09T21:37:23.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-09T21:18:47.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847cc5ec1e72404bf3483"
+    },
+    "originId": "MCC_1118679",
+    "logbooks": [
+      "6536f0b5fbf92e44a767572a"
+    ],
+    "title": "RF station cleared fault and turned on by itself due to Auto Reset Tries Left '3'",
+    "text": "",
+    "lastName": "Nguyen",
+    "firstName": "Thomas",
+    "userName": "tnguyen",
+    "tags": [],
+    "attachments": [
+      "653847cc5ec1e72404bf3482"
+    ],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-09T21:40:27.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-09T21:20:45.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847cc5ec1e72404bf3484"
+    },
+    "originId": "MCC_1118680",
+    "logbooks": [
+      "6536f0b5fbf92e44a767572a"
+    ],
+    "title": "Pulled IVUN gaps out to clear B9V interlock",
+    "text": "BL12-1, 12-2 and 15 6.349mm, 7.42mm and 9.21mm respectively",
+    "lastName": "Nguyen",
+    "firstName": "Thomas",
+    "userName": "tnguyen",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-09T21:43:09.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-09T21:23:54.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847cc5ec1e72404bf3485"
+    },
+    "originId": "MCC_1118681",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "* Re: OFF NORMAL - B040A Rm. 146 water leak reported by Amy Cordones",
+    "text": "CEFOM Hector reported that the leak estimated about 50 gallons. CEFOE electricians were called to help open breakers since there is a good amount of water on the floor with electrical extension cord. CEFOE Christian en route and will be there around 1445 hours.",
+    "lastName": "Regalado",
+    "firstName": "Eli",
+    "userName": "alvaro",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [
+      "653847cc5ec1e72404bf347f"
+    ],
+    "loggedAt": {
+      "$date": "2022-01-09T21:43:37.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-09T21:43:37.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847cc5ec1e72404bf3486"
+    },
+    "originId": "MCC_1118682",
+    "logbooks": [
+      "6536f0b5fbf92e44a767572a"
+    ],
+    "title": "Injecting",
+    "text": "",
+    "lastName": "Nguyen",
+    "firstName": "Thomas",
+    "userName": "tnguyen",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-09T21:43:38.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-09T21:24:21.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847cc5ec1e72404bf3487"
+    },
+    "originId": "MCC_1118683",
+    "logbooks": [
+      "6536f0b5fbf92e44a767572a"
+    ],
+    "title": "Opened all BLs",
+    "text": "",
+    "lastName": "Nguyen",
+    "firstName": "Thomas",
+    "userName": "tnguyen",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-09T21:44:08.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-09T21:26:42.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847cc5ec1e72404bf3488"
+    },
+    "originId": "MCC_1118684",
+    "logbooks": [
+      "6536f0b5fbf92e44a767572a"
+    ],
+    "title": "* Re: Pulled IVUN gaps out to clear B9V interlock. Restored IVUNs gap and ownership",
+    "text": "",
+    "lastName": "Nguyen",
+    "firstName": "Thomas",
+    "userName": "tnguyen",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [
+      "653847cc5ec1e72404bf3484"
+    ],
+    "loggedAt": {
+      "$date": "2022-01-09T21:45:28.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-09T21:30:36.000Z"
+    },
+    "version": {
+      "$numberLong": "2"
+    },
+    "_class": "edu.stanford.slac.elog_plus.model.Entry",
+    "supersededBy": "653847cd5ec1e72404bf348f"
+  },
+  {
+    "_id": {
+      "$oid": "653847cc5ec1e72404bf3489"
+    },
+    "originId": "MCC_1118685",
+    "logbooks": [
+      "6536f0b5fbf92e44a767572a"
+    ],
+    "title": "500mA delivered",
+    "text": "",
+    "lastName": "Nguyen",
+    "firstName": "Thomas",
+    "userName": "tnguyen",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-09T21:46:13.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-09T21:34:32.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847cc5ec1e72404bf348a"
+    },
+    "originId": "MCC_1118686",
+    "logbooks": [
+      "6536f0b5fbf92e44a767572a"
+    ],
+    "title": "Autofill back to Run mode",
+    "text": "",
+    "lastName": "Nguyen",
+    "firstName": "Thomas",
+    "userName": "tnguyen",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-09T21:46:53.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-09T21:35:24.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847cc5ec1e72404bf348c"
+    },
+    "originId": "MCC_1118688",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675730"
+    ],
+    "title": "Shop: Updated Copley power modules in depot",
+    "text": "Copley power modules fed by a Genesys 50-200 bulk power supply.",
+    "lastName": "Nguyen",
+    "firstName": "Phillip",
+    "userName": "phillip",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-09T21:47:14.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-09T21:47:14.000Z"
+    },
+    "version": {
+      "$numberLong": "2"
+    },
+    "_class": "edu.stanford.slac.elog_plus.model.Entry",
+    "supersededBy": "653847cd5ec1e72404bf348e"
+  },
+  {
+    "_id": {
+      "$oid": "653847cc5ec1e72404bf348b"
+    },
+    "originId": "MCC_1118687",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "* Re: OFF NORMAL - B040A Rm. 146 water leak reported by Amy Cordones",
+    "text": "Water leak was reported to be process water, CEFOM Hector reported.",
+    "lastName": "Regalado",
+    "firstName": "Eli",
+    "userName": "alvaro",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [
+      "653847cc5ec1e72404bf3485"
+    ],
+    "loggedAt": {
+      "$date": "2022-01-09T21:47:14.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-09T21:47:14.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847cc5ec1e72404bf348d"
+    },
+    "originId": "MCC_1118689",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "* UPDATE: OFF NORMAL - B040A Rm. 156 water leak reported by Amy Cordones",
+    "text": "",
+    "lastName": "Regalado",
+    "firstName": "Eli",
+    "userName": "alvaro",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [
+      "653847cc5ec1e72404bf348b"
+    ],
+    "loggedAt": {
+      "$date": "2022-01-09T21:54:27.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-09T21:54:27.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847cd5ec1e72404bf348e"
+    },
+    "originId": "MCC_1118690",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675730"
+    ],
+    "title": "Shop: Updated Copley power modules in depot",
+    "text": "Copley power modules fed by a Genesys 50-200 bulk power supply. Rack = B005-L20, level 13 QDBL 1 in = PCD10192; out = PCD10200 QDBL 2 in = PCD10264; out = PCD10190",
+    "lastName": "Nguyen",
+    "firstName": "Phillip",
+    "userName": "phillip",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-09T21:55:33.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-09T21:47:14.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847cd5ec1e72404bf348f"
+    },
+    "originId": "MCC_1118691",
+    "logbooks": [
+      "6536f0b5fbf92e44a767572a"
+    ],
+    "title": "* Re: Pulled IVUN gaps out to clear B9V interlock ---&gt; Restored IVUNs gap and ownership",
+    "text": "",
+    "lastName": "Nguyen",
+    "firstName": "Thomas",
+    "userName": "tnguyen",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [
+      "653847cc5ec1e72404bf3484"
+    ],
+    "loggedAt": {
+      "$date": "2022-01-09T21:58:34.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-09T21:30:36.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "653847cd5ec1e72404bf3490"
+    },
+    "originId": "MCC_1118692",
+    "logbooks": [
+      "6536f0b5fbf92e44a767572a"
+    ],
+    "title": "Checked Master substation and 507 substation but don't see any power disturbance at the time of beam loss 13:18. So the cause is unknown at this time",
+    "text": "",
+    "lastName": "Nguyen",
+    "firstName": "Thomas",
+    "userName": "tnguyen",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-01-09T22:06:05.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-01-09T22:06:05.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  }
+]

@@ -1,0 +1,466 @@
+[
+  {
+    "_id": {
+      "$oid": "66bd4aabe12a727f59111fb1"
+    },
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "test Ps image",
+    "text": "",
+    "lastName": "Bisegni",
+    "firstName": "Claudio",
+    "userName": "bisegni@slac.stanford.edu",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2024-08-15T00:24:11.249Z"
+    },
+    "eventAt": {
+      "$date": "2024-08-15T00:24:11.249Z"
+    },
+    "createdDate": {
+      "$date": "2024-08-15T00:24:11.324Z"
+    },
+    "createdBy": "bisegni@slac.stanford.edu",
+    "version": {
+      "$numberLong": "2"
+    },
+    "_class": "edu.stanford.slac.elog_plus.model.Entry",
+    "supersededBy": "66bd4ad8e12a727f59111fb3"
+  },
+  {
+    "_id": {
+      "$oid": "66bd4ad8e12a727f59111fb3"
+    },
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "test Ps image",
+    "text": "",
+    "lastName": "Hansen",
+    "firstName": "Librada",
+    "userName": "ned.ernser",
+    "tags": [],
+    "attachments": [
+      "66bd4ac7e12a727f59111fb2"
+    ],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2024-08-15T00:24:56.503Z"
+    },
+    "createdDate": {
+      "$date": "2024-08-15T00:24:56.514Z"
+    },
+    "createdBy": "bisegni@slac.stanford.edu",
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry",
+    "eventAt": {
+      "$date": "2024-08-15T00:24:56.503Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "66bd4b23e12a727f59111fb5"
+    },
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "test pdf",
+    "text": "",
+    "lastName": "Bisegni",
+    "firstName": "Claudio",
+    "userName": "bisegni@slac.stanford.edu",
+    "tags": [],
+    "attachments": [
+      "66bd4b1fe12a727f59111fb4"
+    ],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2024-08-15T00:26:11.150Z"
+    },
+    "createdDate": {
+      "$date": "2024-08-15T00:26:11.191Z"
+    },
+    "createdBy": "bisegni@slac.stanford.edu",
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry",
+    "eventAt": {
+      "$date": "2024-08-15T00:26:11.150Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "66bd585665ea7d063fc544e9"
+    },
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "another postscript test",
+    "text": "",
+    "lastName": "Bisegni",
+    "firstName": "Claudio",
+    "userName": "bisegni@slac.stanford.edu",
+    "tags": [],
+    "attachments": [
+      "66bd584765ea7d063fc544e8"
+    ],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2024-08-15T01:22:30.890Z"
+    },
+    "createdDate": {
+      "$date": "2024-08-15T01:22:30.995Z"
+    },
+    "createdBy": "bisegni@slac.stanford.edu",
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry",
+    "eventAt": {
+      "$date": "2024-08-15T01:22:30.890Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "66be335f65ea7d063fc544ea"
+    },
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "Aesthetic requests for test elog:",
+    "text": "<p>It seems like a lot of the needed technical functionality is here. Here are some requests to make this test log easier to use.</p><p>Important:<br>- sort entries by shift, not just by day<br>- alternate (white) entries between white and lightly shaded for easier following AND/OR...<br>- add color coding for different programs (in the current elog, it is light blue for LCLS (Cu), frosted orange for FACET, and light pink for LCLS-SC)<br>- I wish it was easier to follow chains of followed-up entries. I like how in the current elog, followup entries are highlighted green and whether entries are originals or followups is indicated with the F/f flags.<br>- the image functionality should eventually be interoperable with the print queue system. Dragging and dropping files from the OPI is not practical. 90% or so of images in the elog come from an OPI application called Screen Grabber that prints to a print queue that the elog can access. Ask Matt Gibbs about this for more information.</p><p>Less important:<br>- images seem to render at an extremely large size. Maybe make the default size smaller?<br>- have some way for a user to set a default logbook. For most of us, 99% of our entries will be in the mccelog, so I'd like that to be the default for me so I don't have to specify it every time.<br>- some operators have made GIF-grabbing applications. At present, they just make an entry with a GIF attached that a user then supersedes to write in. It might be nice to figure out a way for these applications to print into the (new and/or current) elog's print queue.<br>- The T flag is kind of nice so we know if entries have discussion in them that we should open them to read.</p><p>Thanks!</p>",
+    "lastName": "Cassidy",
+    "firstName": "Christopher",
+    "userName": "cassidy@slac.stanford.edu",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2024-08-15T16:57:03.029Z"
+    },
+    "eventAt": {
+      "$date": "2024-08-15T16:57:03.029Z"
+    },
+    "createdDate": {
+      "$date": "2024-08-15T16:57:03.033Z"
+    },
+    "createdBy": "cassidy@slac.stanford.edu",
+    "version": {
+      "$numberLong": "2"
+    },
+    "_class": "edu.stanford.slac.elog_plus.model.Entry",
+    "supersededBy": "66be35bb65ea7d063fc544eb"
+  },
+  {
+    "_id": {
+      "$oid": "66be35bb65ea7d063fc544eb"
+    },
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "Aesthetic requests for test elog:",
+    "text": "<p>It seems like a lot of the needed technical functionality is here. Here are some requests to make this test log easier to use.</p><p>Important:<br>- sort entries by shift, not just by day<br>- alternate (white) entries between white and lightly shaded for easier following AND/OR...<br>- add color coding for different programs (in the current elog, it is light blue for LCLS (Cu), frosted orange for FACET, and light pink for LCLS-SC)<br>- I wish it was easier to follow chains of followed-up entries. I like how in the current elog, followup entries are highlighted green and whether entries are originals or followups is indicated with the F/f flags.<br>- the image functionality should eventually be interoperable with the print queue system. Dragging and dropping files from the OPI is not practical. 90% or so of images in the elog come from an OPI application called Screen Grabber that prints to a print queue that the elog can access. Ask Matt Gibbs about this for more information.</p><p>Less important:<br>- images seem to render at an extremely large size. Maybe make the default size smaller?<br>- have some way for a user to set a default logbook. For most of us, 99% of our entries will be in the mccelog, so I'd like that to be the default for me so I don't have to specify it every time.<br>- some operators have made GIF-grabbing applications. At present, they just make an entry with a GIF attached that a user then supersedes to write in. It might be nice to figure out a way for these applications to print into the (new and/or current) elog's print queue.<br>- The T flag in the current elog is kind of nice so we know if entries have discussion in them that we should open them to read.</p><p>Thanks!</p>",
+    "lastName": "Klocko",
+    "firstName": "Nam",
+    "userName": "quentin.leannon",
+    "tags": [],
+    "attachments": [],
+    "followUps": [
+      "66be370b65ea7d063fc544ee",
+      "66be812765ea7d063fc544f6"
+    ],
+    "references": [],
+    "loggedAt": {
+      "$date": "2024-08-15T17:07:07.190Z"
+    },
+    "eventAt": {
+      "$date": "2024-08-15T17:07:07.190Z"
+    },
+    "createdDate": {
+      "$date": "2024-08-15T17:07:07.192Z"
+    },
+    "createdBy": "cassidy@slac.stanford.edu",
+    "version": 2,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "66be360d65ea7d063fc544ec"
+    },
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "test",
+    "text": "",
+    "lastName": "Cassidy",
+    "firstName": "Christopher",
+    "userName": "cassidy@slac.stanford.edu",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2024-08-15T17:08:29.970Z"
+    },
+    "createdDate": {
+      "$date": "2024-08-15T17:08:29.972Z"
+    },
+    "createdBy": "cassidy@slac.stanford.edu",
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry",
+    "eventAt": {
+      "$date": "2024-08-15T17:08:29.970Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "66be370b65ea7d063fc544ee"
+    },
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "User changed?? Bug?",
+    "text": "<p>I am logged in as Christopher Cassidy, but after I superseded the entry at 10:07 (originally written at 0957... more on this in a bit), the user reads \"Nam Klocko\". However, I was then able to make another entry as myself.</p><p>Semi-relatedly, it is confusing and unlike the current elog to have the time stamps on entries change when they are superseded. It should go like this:</p><p>I make an entry at 0900 saying \"This thingf hapened at 0900\"</p><p>At 1000, I see the mistakes, and supersede. There should now be an entry at 0900 that says \"This thing happened at 0900.\"</p>",
+    "lastName": "Cassidy",
+    "firstName": "Christopher",
+    "userName": "cassidy@slac.stanford.edu",
+    "tags": [],
+    "attachments": [
+      "66be36f765ea7d063fc544ed"
+    ],
+    "followUps": [
+      "66be788165ea7d063fc544f1",
+      "66c24dcf80cd711bf51d9e7c"
+    ],
+    "references": [],
+    "loggedAt": {
+      "$date": "2024-08-15T17:12:43.585Z"
+    },
+    "eventAt": {
+      "$date": "2024-08-15T17:12:43.585Z"
+    },
+    "createdDate": {
+      "$date": "2024-08-15T17:12:43.588Z"
+    },
+    "createdBy": "cassidy@slac.stanford.edu",
+    "version": 2,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "66be731565ea7d063fc544ef"
+    },
+    "logbooks": [
+      "6536f0b5fbf92e44a767571b"
+    ],
+    "title": "Supersede User Change Bug?",
+    "text": "",
+    "lastName": "Mikulec",
+    "firstName": "Boogie",
+    "userName": "boogie@slac.stanford.edu",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2024-08-15T21:28:53.690Z"
+    },
+    "eventAt": {
+      "$date": "2024-08-15T21:28:53.690Z"
+    },
+    "createdDate": {
+      "$date": "2024-08-15T21:28:53.692Z"
+    },
+    "createdBy": "boogie@slac.stanford.edu",
+    "version": {
+      "$numberLong": "2"
+    },
+    "_class": "edu.stanford.slac.elog_plus.model.Entry",
+    "supersededBy": "66be732365ea7d063fc544f0"
+  },
+  {
+    "_id": {
+      "$oid": "66be732365ea7d063fc544f0"
+    },
+    "logbooks": [
+      "6536f0b5fbf92e44a767571b"
+    ],
+    "title": "I should now be a different user?",
+    "text": "",
+    "lastName": "Tremblay",
+    "firstName": "Lucio",
+    "userName": "danny.reichel",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2024-08-15T21:29:07.478Z"
+    },
+    "createdDate": {
+      "$date": "2024-08-15T21:29:07.479Z"
+    },
+    "createdBy": "boogie@slac.stanford.edu",
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry",
+    "eventAt": {
+      "$date": "2024-08-15T21:29:07.478Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "66be788165ea7d063fc544f1"
+    },
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "Question and Follow up",
+    "text": "<p>Thank you for the report. We are still working out some kinks for superseding, so this is very helpful. The user change when superseding is definitely a bug, and <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://github.com/eed-web-application/elog-plus/issues/258\">I have reported it</a>. </p><p>As for the log times with superseding, we'll have some discussion about how to make this work, because what you described is desired behavior. However, we also want to make sure that users are able to see when entries are superseded.</p>",
+    "lastName": "Mikulec",
+    "firstName": "Boogie",
+    "userName": "boogie@slac.stanford.edu",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2024-08-15T21:52:01.763Z"
+    },
+    "createdDate": {
+      "$date": "2024-08-15T21:52:01.764Z"
+    },
+    "createdBy": "boogie@slac.stanford.edu",
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry",
+    "eventAt": {
+      "$date": "2024-08-15T21:52:01.763Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "66be7d8465ea7d063fc544f2"
+    },
+    "logbooks": [
+      "6536f0b5fbf92e44a767571b"
+    ],
+    "title": "This is Referenced",
+    "text": "",
+    "lastName": "Mikulec",
+    "firstName": "Boogie",
+    "userName": "boogie@slac.stanford.edu",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2024-08-15T22:13:24.965Z"
+    },
+    "createdDate": {
+      "$date": "2024-08-15T22:13:24.967Z"
+    },
+    "createdBy": "boogie@slac.stanford.edu",
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry",
+    "eventAt": {
+      "$date": "2024-08-15T22:13:24.965Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "66be7dc865ea7d063fc544f3"
+    },
+    "logbooks": [
+      "6536f0b5fbf92e44a767571b"
+    ],
+    "title": "This is Referenced and Contains a Reference",
+    "text": "<elog-entry-ref id=\"66be7d8465ea7d063fc544f2\"></elog-entry-ref><p></p>",
+    "lastName": "Mikulec",
+    "firstName": "Boogie",
+    "userName": "boogie@slac.stanford.edu",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [
+      "66be7d8465ea7d063fc544f2"
+    ],
+    "loggedAt": {
+      "$date": "2024-08-15T22:14:32.427Z"
+    },
+    "createdDate": {
+      "$date": "2024-08-15T22:14:32.430Z"
+    },
+    "createdBy": "boogie@slac.stanford.edu",
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry",
+    "eventAt": {
+      "$date": "2024-08-15T22:14:32.427Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "66be7de665ea7d063fc544f4"
+    },
+    "logbooks": [
+      "6536f0b5fbf92e44a767571b"
+    ],
+    "title": "This just Contains a Reference",
+    "text": "<elog-entry-ref id=\"66be7dc865ea7d063fc544f3\"></elog-entry-ref>",
+    "lastName": "Mikulec",
+    "firstName": "Boogie",
+    "userName": "boogie@slac.stanford.edu",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [
+      "66be7dc865ea7d063fc544f3"
+    ],
+    "loggedAt": {
+      "$date": "2024-08-15T22:15:02.994Z"
+    },
+    "createdDate": {
+      "$date": "2024-08-15T22:15:02.996Z"
+    },
+    "createdBy": "boogie@slac.stanford.edu",
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry",
+    "eventAt": {
+      "$date": "2024-08-15T22:15:02.994Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "66be812765ea7d063fc544f6"
+    },
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "Great Suggestions!",
+    "text": "<p>Thank you for the wonderful suggestions! I'll try to go point by point and respond:</p><ul><li><p>\"sort entries by shift, not just by day\": Are you suggesting <em>grouping</em> by shifts? If so, this is the existing behavior. However, it groups by day when there are no logbook filters. Since shifts are specific to each logbook (i.e., one logbook shifts may differ from another), we made the decision to just ignore grouping by shifts when there are no logbook filters and just use days. Although when one or more logbooks are selected, entries are grouped by shift. If you meant something else or if you did mean grouping and still have prefer different behavior, let me know.</p></li><li><p>\"alternate (white) entries between white and lightly shaded for easier following AND/OR...\": I'll take this into consideration and experiment with the design.</p></li><li><p>\"add color coding for different programs (in the current elog, it is light blue for LCLS (Cu), frosted orange for FACET, and light pink for LCLS-SC)\": Difficulty is that entries may belong to multiple logbooks and thus choosing one color is not possible. However, we understand the readability of entries needs to be worked on and will try to make it better.</p></li><li><p>\"I wish it was easier to follow chains of followed-up entries. I like how in the current elog, followup entries are highlighted green and whether entries are originals or followups is indicated with the F/f flags.\": We tried to resolve these issue by using icons to the left of the entries. Follow ups have a chat bubble icon on the left (which you should be able to see in this entry). Furthermore, we have three different icons for different configurations of references (see figure 1). However, there are still issues with this design and bugs to fix. We will take this into consideration and make it a priority, as this is a very important part of the ELog.</p></li><li><p>\"the image functionality should eventually be interoperable with the print queue system. Dragging and dropping files from the OPI is not practical. 90% or so of images in the elog come from an OPI application called Screen Grabber that prints to a print queue that the elog can access. Ask Matt Gibbs about this for more information.\": I'm pretty sure Claudio Bisegni is working on this right now (if not already almost completed). However, I let him know just in case.</p></li><li><p>\"images seem to render at an extremely large size. Maybe make the default size smaller?\" This is a problem and should be fixed.</p></li><li><p>\"have some way for a user to set a default logbook. For most of us, 99% of our entries will be in the mccelog, so I'd like that to be the default for me so I don't have to specify it every time.\" The core idea behind this elog design was to as much power as possible in the filter system. Since filters are saved in the URL, users can save specific configurations of filters by bookmarking the URL. This way users could have, for example, MCC bookmark with the MCC selected, and another bookmark with specific tags as well.</p></li></ul><p>I have a meeting, so I'll respond to the rest of the suggestions once its over. Thank you once again.</p><p></p>",
+    "lastName": "Mikulec",
+    "firstName": "Boogie",
+    "userName": "boogie@slac.stanford.edu",
+    "tags": [],
+    "attachments": [
+      "66be7ec865ea7d063fc544f5"
+    ],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2024-08-15T22:28:55.360Z"
+    },
+    "createdDate": {
+      "$date": "2024-08-15T22:28:55.362Z"
+    },
+    "createdBy": "boogie@slac.stanford.edu",
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry",
+    "eventAt": {
+      "$date": "2024-08-15T22:28:55.360Z"
+    }
+  }
+]

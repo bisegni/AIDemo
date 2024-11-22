@@ -1,0 +1,33 @@
+[
+  {
+    "_id": {
+      "$oid": "66ad3ee79788773b34f9fde1"
+    },
+    "logbooks": [
+      "6536f0b5fbf92e44a767571b"
+    ],
+    "title": "Tag test",
+    "text": "<p></p>",
+    "lastName": "Mikulec",
+    "firstName": "Boogie",
+    "userName": "boogie@slac.stanford.edu",
+    "tags": [
+      "6804a3ed-f471-4fd9-b486-4f09224d1a92"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2024-08-02T20:17:43.811Z"
+    },
+    "createdDate": {
+      "$date": "2024-08-02T20:17:43.939Z"
+    },
+    "createdBy": "boogie@slac.stanford.edu",
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry",
+    "eventAt": {
+      "$date": "2024-08-02T20:17:43.811Z"
+    }
+  }
+]
