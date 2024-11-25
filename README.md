@@ -21,7 +21,7 @@ ollama pull llama3.1:latest
 
 3. Spin up the pgvector database:
 ```
-docker run -it --rm --name postgres -p 5432:5432 -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=postgres pgvector/pgvector:pg17
+docker run --name postgres -p 5432:5432 -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=postgres pgvector/pgvector:pg17
 ```
 
 4. Start the Spring server:
