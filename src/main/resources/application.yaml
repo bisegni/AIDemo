@@ -14,5 +14,5 @@ spring:
       pgvector:
         initialize-schema: true
         index-type: HNSW
-        distance-type: COSINE_DISTANCE
+        distance-type: negative_inner_product
         dimensions: 1024

@@ -53,23 +53,23 @@ public class RagController {
             Please output *only* the JSON document and nothing else.
             """;
     private String template = """
-            You're assisting with questions about the employees working in the company.
-            Use the information from the DOCUMENTS section to provide accurate answers but act as if you knew this information innately.
-            If unsure, simply state that you don't know.
+            You're assisting to respond to user query summarizing information from the provided from the DOCUMENTS section to provide 
+            accurate answers but act as if you knew this information innately.
             DOCUMENTS:
             {documents}
             
-            respond directly to the answer without giving personal opinions or additional information.
+            respond directly to the answer without giving personal opinions or additional information, skip irrelevant information and don't specify
+            that for some entry in  DOCUMENTS there wasn't no answer. Please answer directly tyo the question leaving out stuff that can be similar
+            but arent the same.
             """;
-    String summarizationPrompt = """
-            Using a professional and informative tone, go straight to the summarization with personal preface and summarize the key information from the following responses:
-            {context}
-
-            The summary should:            
-            - Be no more than [desired word or sentence count].
-            - Be written in clear and concise language.
-            - Fully address the original question.
-            - remove entry where nothing has been found
+    String filterAndCleanPrompt = """
+            Task: Create a Concise Professional Summary
+            
+            Rules:
+            	1.	Combine all relevant information into a single, well-structured paragraph.
+            	2.	Use professional language and ensure clarity and brevity.
+            	3.	Start directly with the summary, with no introductory or concluding phrases.
+            	4.	Ensure all important details are captured in a seamless flow..
             """;
     String llmPrompt = """
             You are an advanced language model assisting with queries for a Spring AI Vector Index. 
@@ -84,32 +84,36 @@ public class RagController {
                - eventDate >= "2024-11-01"
                - eventDate >= "2024-11-14" && eventDate < "2024-11-15"
             3. If the request implies filtering for a specific date without a time, treat the date as the start of the day. 
-               For example:
-               - If the user requests "What happened on 11/14/2024?" the expression should be:
-                 `eventDate >= "2024-11-14" && eventDate < "2024-11-15"`
-            4. The output must use the SQL logical operators `&&` (for "AND") and `||` (for "OR").
-            5. The values for `eventDate` must be enclosed in double quotes (`"`), and the format must strictly follow `YYYY-MM-DD`.
-            6. If no filtering by `eventDate` is required, return the message: 'NO_INDEX'
+            Construct a simple filter expression for the eventDate field based on user requests.
+            Context:
+            	1.	Metadata:
+            	•	eventDate is in YYYY-MM-DD format.
+            	2.	Rules:
+            	•	If filtering by eventDate, return expressions like:
+            	•	eventDate == "YYYY-MM-DD"
+            	•	eventDate >= "YYYY-MM-DD" && eventDate < "YYYY-MM-DD"
+            	•	For a specific date without time, use a range:
+            	•	User asks: “What happened on 11/14/2024?” →
+            eventDate >= "2024-11-14" && eventDate < "2024-11-15"
+            	•	Use SQL-style operators && and ||, and enclose dates in double quotes.
+            	•	If no filtering is needed, return: NO_INDEX.
             
             Tasks:
-            1. Analyze the user's request to determine whether filtering by `eventDate` is necessary.
-            2. If necessary, construct the exact filter expression in the specified format. 
-               - For a specific date, generate an equality or range expression.
-               - Use the `YYYY-MM-DD` format for all dates in the expression.
-            3. Return only the string representation of the filter expression. Ensure the field name is `eventDate`, 
-               and use `&&` and `||` as logical operators. Avoid including any additional text or explanations.
+            	1.	Analyze Request:
+            	•	Determine if eventDate filtering is required.
+            	2.	Construct Filter:
+            	•	Use specified formats and operators.
+            	3.	Return Result:
+            	•	Exact filter string or NO_INDEX.
             
-            Example Scenarios:
-            - User asks: "What happened on 11/14/2024?" → Return:
-              eventDate >= "2024-11-14" && eventDate < "2024-11-15"
-            - User asks: "Show me events after 11/01/2024." → Return:
-              eventDate >= "2024-11-01"
-            - User asks: "Retrieve all events." → Return:
-              No query on eventDate is necessary.
-            
-            Output:
-            - Return only the exact string representation of the filter expression for `eventDate`, 
-              or indicate that no query is needed.
+            Examples:
+            	•	User: “What happened on 11/14/2024?” →
+            eventDate >= "2024-11-14" && eventDate < "2024-11-15"
+            	•	User: “Show events after 11/01/2024.” →
+            eventDate >= "2024-11-01"
+            	•	User: “Retrieve all events.” →
+            NO_INDEX
+            return only the index found or NO_INDEX, without additional information or personal opinions.
             """;
 
     public RagController(ChatClient.Builder builder, VectorStore vectorStore) {
@@ -130,7 +134,7 @@ public class RagController {
     }
 
     @GetMapping("/summarize")
-    public TitleAndTagsDTO  summarize(@RequestParam(value = "message") String message) throws JsonProcessingException {
+    public TitleAndTagsDTO summarize(@RequestParam(value = "message") String message) throws JsonProcessingException {
         Message indexCreationMessage = new SystemPromptTemplate(titleTagsPrompt).createMessage();
         var indexAnswer = chatClient.prompt(new Prompt(List.of(indexCreationMessage, new UserMessage(message)))).call();
         var jsonAnswer = indexAnswer.content();
@@ -184,14 +188,13 @@ public class RagController {
             var ccResponse = chatClient.prompt(prompt).call();
 
             // summarize the response
-//            var summarizedBatchAnswer = chatClient.prompt(new Prompt(List.of(new SystemPromptTemplate(summarizationPrompt).createMessage(Map.of("context", ccResponse.content())), new UserMessage(message)))).call();
-//            var content = summarizedBatchAnswer.content();
-            finalResponse.append(ccResponse.content()).append("\n");
+            var partialContent = ccResponse.content();
+            finalResponse.append(partialContent).append("\n");
         }
-
-
+        var summarizedBatchAnswer = chatClient.prompt(new Prompt(List.of(new SystemPromptTemplate(filterAndCleanPrompt).createMessage(), new UserMessage(finalResponse.toString())))).call();
+        var filteredContent = summarizedBatchAnswer.content();
         return new AnswerDTO(
-                finalResponse.toString(),
+                filteredContent,
                 relatedDocumentDTOs);
     }
 
