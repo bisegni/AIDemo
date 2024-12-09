@@ -63,13 +63,8 @@ public class RagController {
             but arent the same.
             """;
     String filterAndCleanPrompt = """
-            Task: Create a Concise Professional Summary
-            
-            Rules:
-            	1.	Combine all relevant information into a single, well-structured paragraph.
-            	2.	Use professional language and ensure clarity and brevity.
-            	3.	Start directly with the summary, with no introductory or concluding phrases.
-            	4.	Ensure all important details are captured in a seamless flow..
+            Create a summary going directly to the summarization and  do not include any introductory phrases like “Here is the summary” or similar.
+            ensure all important details are captured in a seamless flow
             """;
     String llmPrompt = """
             You are an advanced language model assisting with queries for a Spring AI Vector Index. 
