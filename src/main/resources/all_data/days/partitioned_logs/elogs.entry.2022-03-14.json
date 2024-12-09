@@ -1,0 +1,5831 @@
+[
+  {
+    "_id": {
+      "$oid": "65384adc5ec1e72404bf652e"
+    },
+    "originId": "MCC_1129765",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "Broke the facet physics log",
+    "text": "",
+    "lastName": "Daligault",
+    "firstName": "Tom",
+    "userName": "tdaligau",
+    "tags": [
+      "0ba5394e-30cf-47f3-aaca-cfe5794332bd"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T00:02:10.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T00:02:10.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384adc5ec1e72404bf652f"
+    },
+    "originId": "MCC_1129766",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "E320 wants beam off. in S20 for about an hour or so.",
+    "text": "",
+    "lastName": "Smith",
+    "firstName": "Howard",
+    "userName": "hvs",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T00:02:13.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T00:02:13.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384adc5ec1e72404bf6530"
+    },
+    "originId": "MCC_1129767",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "Tom was making a table in the FACET elog and appears to have broken it.",
+    "text": "",
+    "lastName": "Smith",
+    "firstName": "Howard",
+    "userName": "hvs",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T00:03:07.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T00:03:07.000Z"
+    },
+    "version": {
+      "$numberLong": "2"
+    },
+    "_class": "edu.stanford.slac.elog_plus.model.Entry",
+    "supersededBy": "65384adc5ec1e72404bf6532"
+  },
+  {
+    "_id": {
+      "$oid": "65384adc5ec1e72404bf6532"
+    },
+    "originId": "MCC_1129768",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "Tom was making a table in the FACET elog and appears to have broken it.",
+    "text": "",
+    "lastName": "Smith",
+    "firstName": "Howard",
+    "userName": "hvs",
+    "tags": [],
+    "attachments": [
+      "65384adc5ec1e72404bf6531"
+    ],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T00:03:51.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T00:03:07.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384adc5ec1e72404bf6533"
+    },
+    "originId": "MCC_1129769",
+    "logbooks": [
+      "6536f0b5fbf92e44a767572c"
+    ],
+    "title": "SSRL-BLDO dayshift report 2022-Mar-13",
+    "text": "Program: Beam to users w/500ma 5mih. freq. fill mode. Beam lines: All open except BL17 Faults/Alarms: None this shift. Experiments: At shift change BL2-1 is having spec issues. Restarted spec now detector windows need to be started S. Gooding will try and get this going.",
+    "lastName": "Day",
+    "firstName": "David",
+    "userName": "dday",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T00:31:07.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T00:31:07.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384adc5ec1e72404bf6534"
+    },
+    "originId": "MCC_1129770",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "Doing 11-1 phase PAD calibration.",
+    "text": "",
+    "lastName": "Smith",
+    "firstName": "Howard",
+    "userName": "hvs",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T01:11:09.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T01:11:09.000Z"
+    },
+    "version": {
+      "$numberLong": "2"
+    },
+    "_class": "edu.stanford.slac.elog_plus.model.Entry",
+    "supersededBy": "65384adc5ec1e72404bf6535"
+  },
+  {
+    "_id": {
+      "$oid": "65384adc5ec1e72404bf6535"
+    },
+    "originId": "MCC_1129771",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "Doing 11-1 phase PAD calibration.",
+    "text": "",
+    "lastName": "Smith",
+    "firstName": "Howard",
+    "userName": "hvs",
+    "tags": [
+      "0ba5394e-30cf-47f3-aaca-cfe5794332bd"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T01:12:00.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T01:11:09.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384adc5ec1e72404bf6536"
+    },
+    "originId": "MCC_1129772",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "* Re: Doing 11-1 phase PAD calibration.",
+    "text": "Beam recovered after LI11-1 and L11-2 PAD Beckhoff phase scans. Basically 20 degrees per DAC volt.",
+    "lastName": "Smith",
+    "firstName": "Howard",
+    "userName": "hvs",
+    "tags": [
+      "0ba5394e-30cf-47f3-aaca-cfe5794332bd"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [
+      "65384adc5ec1e72404bf6535"
+    ],
+    "loggedAt": {
+      "$date": "2022-03-14T01:30:10.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T01:30:10.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384adc5ec1e72404bf6537"
+    },
+    "originId": "MCC_1129773",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "E120 is done we can have beam back.",
+    "text": "",
+    "lastName": "Smith",
+    "firstName": "Howard",
+    "userName": "hvs",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T01:30:49.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T01:17:28.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384adc5ec1e72404bf6538"
+    },
+    "originId": "MCC_1129774",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675724"
+    ],
+    "title": "First walkthrough complete, no issues found.",
+    "text": "",
+    "lastName": "Eshelman",
+    "firstName": "Christina",
+    "userName": "horimoto",
+    "tags": [
+      "bda8d02e-57a4-4ec7-90fd-46d0187d57a9"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T02:22:19.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T02:22:19.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384adc5ec1e72404bf6539"
+    },
+    "originId": "MCC_1129775",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "XPP and MFX done, starting the energy change",
+    "text": "",
+    "lastName": "Cotter",
+    "firstName": "James",
+    "userName": "jcotter",
+    "tags": [
+      "68acd11d-05a8-45f5-b559-55a8d8833373"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T04:02:18.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T04:02:18.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384add5ec1e72404bf653a"
+    },
+    "originId": "MCC_1129776",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "Again * Re: 25-2 WGV",
+    "text": "",
+    "lastName": "Cotter",
+    "firstName": "James",
+    "userName": "jcotter",
+    "tags": [
+      "68acd11d-05a8-45f5-b559-55a8d8833373"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [
+      "65384adc5ec1e72404bf652c"
+    ],
+    "loggedAt": {
+      "$date": "2022-03-14T04:06:24.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T04:06:24.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384add5ec1e72404bf653b"
+    },
+    "originId": "MCC_1129777",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "FEE Summary fault holding off beam - called XCS but they didn't pick up",
+    "text": "",
+    "lastName": "Cotter",
+    "firstName": "James",
+    "userName": "jcotter",
+    "tags": [
+      "68acd11d-05a8-45f5-b559-55a8d8833373"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T04:28:05.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T04:28:05.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384add5ec1e72404bf653c"
+    },
+    "originId": "MCC_1129778",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "2.3 mJ to XCS",
+    "text": "",
+    "lastName": "Cotter",
+    "firstName": "James",
+    "userName": "jcotter",
+    "tags": [
+      "68acd11d-05a8-45f5-b559-55a8d8833373"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T04:40:27.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T04:40:27.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384add5ec1e72404bf653d"
+    },
+    "originId": "MCC_1129779",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "Tuned up to ~2.5 mJ",
+    "text": "",
+    "lastName": "Cotter",
+    "firstName": "James",
+    "userName": "jcotter",
+    "tags": [
+      "68acd11d-05a8-45f5-b559-55a8d8833373"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T05:26:13.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T05:26:13.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384add5ec1e72404bf653f"
+    },
+    "originId": "MCC_1129780",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "Huge FACET dump throughput improvement (93% overall transmission) with +8.5mm bump in BC14 energy feedback.",
+    "text": "This must some sort of longitudinal thing but I am going to go with it. Also tweaking LI18 Q601-901 on throughput.",
+    "lastName": "Smith",
+    "firstName": "Howard",
+    "userName": "hvs",
+    "tags": [],
+    "attachments": [
+      "65384add5ec1e72404bf653e"
+    ],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T05:31:28.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T05:31:28.000Z"
+    },
+    "version": {
+      "$numberLong": "2"
+    },
+    "_class": "edu.stanford.slac.elog_plus.model.Entry",
+    "supersededBy": "65384add5ec1e72404bf6541"
+  },
+  {
+    "_id": {
+      "$oid": "65384add5ec1e72404bf6541"
+    },
+    "originId": "MCC_1129781",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "Huge FACET dump throughput improvement (93% overall transmission) with +8.5mm bump in BC14 energy feedback.",
+    "text": "This must some sort of longitudinal thing but I am going to go with it. Also tweaking LI18 Q601-901 on throughput.",
+    "lastName": "Smith",
+    "firstName": "Howard",
+    "userName": "hvs",
+    "tags": [
+      "0ba5394e-30cf-47f3-aaca-cfe5794332bd"
+    ],
+    "attachments": [
+      "65384add5ec1e72404bf6540"
+    ],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T05:31:44.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T05:31:28.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384add5ec1e72404bf6542"
+    },
+    "originId": "MCC_1129782",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "MCC Shift Change: Swing Shift, Sunday, 13-Mar-2022",
+    "text": "XPP MFX until 9PM then XCS at 9.65GeV 8.1keV FACET Development.",
+    "lastName": "Smith",
+    "firstName": "Howard",
+    "userName": "hvs",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T05:45:39.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-13T23:00:00.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384add5ec1e72404bf6544"
+    },
+    "originId": "MCC_1129783",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "LCLS Program Information",
+    "text": "",
+    "lastName": "Smith",
+    "firstName": "Howard",
+    "userName": "hvs",
+    "tags": [
+      "68acd11d-05a8-45f5-b559-55a8d8833373"
+    ],
+    "attachments": [
+      "65384add5ec1e72404bf6543"
+    ],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T05:47:09.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-13T23:05:44.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384add5ec1e72404bf6545"
+    },
+    "originId": "MCC_1129784",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "FACET Program Information",
+    "text": "",
+    "lastName": "Smith",
+    "firstName": "Howard",
+    "userName": "hvs",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T05:47:19.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T05:47:18.000Z"
+    },
+    "version": {
+      "$numberLong": "2"
+    },
+    "_class": "edu.stanford.slac.elog_plus.model.Entry",
+    "supersededBy": "65384add5ec1e72404bf6547"
+  },
+  {
+    "_id": {
+      "$oid": "65384add5ec1e72404bf6547"
+    },
+    "originId": "MCC_1129785",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "FACET Program Information",
+    "text": "",
+    "lastName": "Smith",
+    "firstName": "Howard",
+    "userName": "hvs",
+    "tags": [
+      "0ba5394e-30cf-47f3-aaca-cfe5794332bd"
+    ],
+    "attachments": [
+      "65384add5ec1e72404bf6546"
+    ],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T05:47:41.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-13T23:08:29.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384add5ec1e72404bf6549"
+    },
+    "originId": "MCC_1129786",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "There is some instability in Y that is causing the FEL to drop out and oscillate rapidly",
+    "text": "There is a bad orbit in the undulators in Y. Going to look at BSA data.",
+    "lastName": "Cotter",
+    "firstName": "James",
+    "userName": "jcotter",
+    "tags": [
+      "68acd11d-05a8-45f5-b559-55a8d8833373"
+    ],
+    "attachments": [
+      "65384add5ec1e72404bf6548"
+    ],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T05:58:24.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T05:58:24.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384add5ec1e72404bf654a"
+    },
+    "originId": "MCC_1129787",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "New matlab BSA GUI NOT WORKING",
+    "text": "Data all NaNs after load data that was fine. Data saved plotted UNDH BPM vs time but now won't plot one BPM verses another. ...very annoying that folks \"improve\" our essential tools to the point of making them non-operational. Progress...towards extinction.",
+    "lastName": "Smith",
+    "firstName": "Howard",
+    "userName": "hvs",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T06:10:51.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T06:10:51.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ade5ec1e72404bf654b"
+    },
+    "originId": "MCC_1129788",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "Turning off LI28 launch feedback fixed our jitter problem.",
+    "text": "Way to go James!",
+    "lastName": "Smith",
+    "firstName": "Howard",
+    "userName": "hvs",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T06:13:00.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T06:13:00.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ade5ec1e72404bf654d"
+    },
+    "originId": "MCC_1129789",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "Looks like the LI29 401 BPM started jumping at 10:50, exactly at the start of the oscillations",
+    "text": "This must have caused the LI28 feedback to compensate which created the rapid oscillations in Y and killed the FEL. Putting the feedback in compute fixed the problem. Howard removed the 401 BPM from the feedback, reenabled and not things are stable.",
+    "lastName": "Cotter",
+    "firstName": "James",
+    "userName": "jcotter",
+    "tags": [
+      "68acd11d-05a8-45f5-b559-55a8d8833373"
+    ],
+    "attachments": [
+      "65384ade5ec1e72404bf654c"
+    ],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T06:20:35.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T06:20:35.000Z"
+    },
+    "version": {
+      "$numberLong": "2"
+    },
+    "_class": "edu.stanford.slac.elog_plus.model.Entry",
+    "supersededBy": "65384ade5ec1e72404bf654f"
+  },
+  {
+    "_id": {
+      "$oid": "65384ade5ec1e72404bf654f"
+    },
+    "originId": "MCC_1129790",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "Looks like the LI29 401 BPM started jumping at 10:50, exactly at the start of the oscillations",
+    "text": "This must have caused the LI28 feedback to compensate which created the rapid oscillations in Y and killed the FEL. Putting the feedback in compute fixed the problem. Howard removed the 401 BPM from the feedback, reenabled and things are now stable.",
+    "lastName": "Cotter",
+    "firstName": "James",
+    "userName": "jcotter",
+    "tags": [
+      "68acd11d-05a8-45f5-b559-55a8d8833373"
+    ],
+    "attachments": [
+      "65384ade5ec1e72404bf654e"
+    ],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T06:21:43.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T06:20:35.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ade5ec1e72404bf6550"
+    },
+    "originId": "MCC_1129791",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "11-8 MOD fault, won't reset",
+    "text": "",
+    "lastName": "Daligault",
+    "firstName": "Tom",
+    "userName": "tdaligau",
+    "tags": [
+      "0ba5394e-30cf-47f3-aaca-cfe5794332bd"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T06:24:44.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T06:24:44.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ade5ec1e72404bf6551"
+    },
+    "originId": "MCC_1129792",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "* Re: Huge FACET dump throughput improvement (93% overall transmission) with +8.5mm bump in BC14 energy feedback.",
+    "text": "Turns out we could get the same effect by putting the BC14 setpoint to zero and moving the phase of all L3 SBSTs to -10 degrees.",
+    "lastName": "Smith",
+    "firstName": "Howard",
+    "userName": "hvs",
+    "tags": [
+      "0ba5394e-30cf-47f3-aaca-cfe5794332bd"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [
+      "65384add5ec1e72404bf6541"
+    ],
+    "loggedAt": {
+      "$date": "2022-03-14T06:33:00.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T06:33:00.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ade5ec1e72404bf6553"
+    },
+    "originId": "MCC_1129793",
+    "logbooks": [
+      "6536f0b5fbf92e44a767572a"
+    ],
+    "title": "Shift summary: Sunday swing",
+    "text": "SUMMARY: User beam for all 12 hours of this shift. The average fill rate is 48mA/minute, and the average calculated efficiency is 100%. INJECTOR: 300mV Q, no tuning needed. SPEAR: 500mA autofill topoffs every 5 minutes, as scheduled.",
+    "lastName": "Haggart",
+    "firstName": "Craig",
+    "userName": "haggart",
+    "tags": [],
+    "attachments": [
+      "65384ade5ec1e72404bf6552"
+    ],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T06:43:23.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T06:45:00.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ade5ec1e72404bf6554"
+    },
+    "originId": "MCC_1129794",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "SWING SHIFT SUMMARY",
+    "text": "Comment # Comment 1Delivered HXR until 9PM to MFX-LY64 shared with XPP-LX88 190pC 10.7Gev 9.8keV 2.2mJ. 2Delivered HXR to XCS-LY54 190pC 9.65GeV 8.1keV 2.4mJ. 3Problem with XCS running huge FEL jitter due to vertical orbit oscillations; chased down to (known) oscillations in LI29 BPM 401 vertical feeding into LI28 steering feedback. Fixed by removing BPM from feedback (0.3 hours or unstable delivery). 4FACET-MD. Hunt for beam signals from LI19 WS344 without success. E120 experiment did some LASER stuff inhibiting beam to S20 for 0.3 hours. Run a PAD calibration of L1 11-1 and 11-2 phase shifters during E120 beam off time. Working on throughput improvements.\n<br>\n<br>Program Delivered User Off Tuning Config \u0394s Accl. Down Sched. Off FACET-II_comm7.70.00.00.00.0.3Inj_user8.00.00.00.00.0MFX_user2.50.00.00.50.05SPEAR_user8.00.00.00.00.0XPP-MFX5.00.00.00.00.03\n<br>",
+    "lastName": "Smith",
+    "firstName": "Howard",
+    "userName": "hvs",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T06:44:46.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T06:59:59.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ade5ec1e72404bf6555"
+    },
+    "originId": "MCC_1129795",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "FACET swing summary",
+    "text": "http://physics-elog.slac.stanford.edu/facetelog/show.jsp?dir=/2022/10/13.03&amp;pos=2022-03-13T23:59:45",
+    "lastName": "Daligault",
+    "firstName": "Tom",
+    "userName": "tdaligau",
+    "tags": [
+      "0ba5394e-30cf-47f3-aaca-cfe5794332bd"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T06:51:13.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T06:51:13.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384adf5ec1e72404bf6558"
+    },
+    "originId": "MCC_1129796",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "This is a mistake, it's really LI29 201 * Re: Looks like the LI29 401 BPM started jumping at 10:50, exactly at the start of the oscillations",
+    "text": "401 probably just felt the downstream effects.",
+    "lastName": "Cotter",
+    "firstName": "James",
+    "userName": "jcotter",
+    "tags": [
+      "68acd11d-05a8-45f5-b559-55a8d8833373"
+    ],
+    "attachments": [
+      "65384ade5ec1e72404bf6556",
+      "65384ade5ec1e72404bf6557"
+    ],
+    "followUps": [],
+    "references": [
+      "65384ade5ec1e72404bf654f"
+    ],
+    "loggedAt": {
+      "$date": "2022-03-14T06:53:53.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T06:53:52.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384adf5ec1e72404bf6559"
+    },
+    "originId": "MCC_1129797",
+    "logbooks": [
+      "6536f0b5fbf92e44a767572a"
+    ],
+    "title": "Shift Start, Mon, 14 Mar 2022, Owl.",
+    "text": "Program User Beams Injector Autofill is running, fill rate is near 50mA/min. SPEAR BEAMS, 3GeV, 7nm lattice, 500mA. BLs All BLs are open; except BL-17 is shut.",
+    "lastName": "Hoover",
+    "firstName": "Chris",
+    "userName": "hoover",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T06:55:28.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T06:45:38.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384adf5ec1e72404bf655b"
+    },
+    "originId": "MCC_1129798",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675724"
+    ],
+    "title": "Second walkthrough complete",
+    "text": "Sent an email to Jeff Aldrich, in the NEH setup room the gammaflux has flashing alarm lights on it, seemingly indicating the temperature is too low.",
+    "lastName": "Eshelman",
+    "firstName": "Christina",
+    "userName": "horimoto",
+    "tags": [
+      "bda8d02e-57a4-4ec7-90fd-46d0187d57a9"
+    ],
+    "attachments": [
+      "65384adf5ec1e72404bf655a"
+    ],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T07:02:06.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T07:02:06.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384adf5ec1e72404bf655c"
+    },
+    "originId": "MCC_1129799",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675724"
+    ],
+    "title": "LCLS End of Shift Report (Swing Shift)",
+    "text": "Date/Time: 3/13/2022 Swing Shift 1400-2430 Outgoing Duty Tech: Christina Eshelman Incoming Duty Tech: ACR Hutch 1.1: Online Idle Hutch 1.2: Offline Idle Hutch 1.3: Online FEH Beam until 2100 Hutch 2.2: Online Idle Hutch 4 : Online H5 Idle Hutch 4.5: Online Beam until 2100 Hutch 5 : Online Idle Hutch 6 : Online Took off sticky mat sheets Shift Notes: Weekly inspections Worked on ticket 2331 Cleaning desk and phone Bringing phone to ACR State of BTMs: ST1K3.1, ST1K3.2, ST1L1.1, ST1L1.2 are bypassed and therefore show up as red. Open RSWCFs: 1582 - Use XCS pre-focusing lenses during FEL operation. (OK to run) 1569 CXI Operate CXI with DG2 focusing lenses unlocked (OK to run) Time Accounting (hrs): TMO: - TXI: - XPP: 7 RIX: - XCS: 3.5 MFX:7 CXI: - MEC: -",
+    "lastName": "Eshelman",
+    "firstName": "Christina",
+    "userName": "horimoto",
+    "tags": [
+      "bda8d02e-57a4-4ec7-90fd-46d0187d57a9"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T07:04:53.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T07:04:53.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384adf5ec1e72404bf655d"
+    },
+    "originId": "MCC_1129800",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "Took LI29 BPM 201 out of the LI28 steering FB",
+    "text": "",
+    "lastName": "Shtalenkova",
+    "firstName": "Jane",
+    "userName": "yshtalen",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T07:15:06.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T07:15:06.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384adf5ec1e72404bf655e"
+    },
+    "originId": "MCC_1129801",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "Daily BCS Checks - 3/14/2022 - Passed",
+    "text": "LCLS BCS checks performed using the 2/22/2022 version of the checklist. [Passed] LI28 --&gt; Summary Chassis --&gt; LI28 PIC GAS PS1 Currently ACTIVE, must not be BYPASS. [Passed] LI28 --&gt; Summary Chassis --&gt; LI28 PIC GAS PS2 Currently ACTIVE, must not be BYPASS. [Passed] LI28 --&gt; PIC Chassis --&gt; IC 951 Status Currently ACTIVE, must not be BYPASS. [Passed] LI28 --&gt; PIC Chassis --&gt; IC 961 Status Currently ACTIVE, must not be BYPASS. [Passed] LI24 --&gt; Summary Chassis --&gt; PIC Summary #1 Currently ACTIVE, must not be BYPASS. [Passed] LI24 --&gt; Summary Chassis --&gt; PIC Summary #2 Currently ACTIVE, must not be BYPASS. [Passed] LI24 --&gt; Summary Chassis --&gt; LION Gas Pressure #1 Currently ACTIVE, must not be BYPASS. [Passed] LI24 --&gt; Summary Chassis --&gt; LION Gas Pressure #2 Currently ACTIVE, must not be BYPASS. [Passed] LI24 --&gt; PIC Chassis --&gt; CH01: BC2LION-1N Currently ACTIVE, must not be BYPASS. [Passed] LI24 --&gt; PIC Chassis --&gt; CH02: BC2LION-1S Currently ACTIVE, must not be BYPASS. [Passed] LCLS Injector --&gt; Summary Chassis --&gt; CH01: PIC Summary #1 Currently ACTIVE, must not be BYPASS. [Passed] LCLS Injector --&gt; Summary Chassis --&gt; CH02: PIC Summary #2 Currently ACTIVE, must not be BYPASS. [Passed] LCLS Injector --&gt; Summary Chassis --&gt; CH03: Dump Flow Switch Currently ACTIVE, must not be BYPASS. [Passed] LCLS Injector --&gt; Summary Chassis --&gt; CH04: Dump Flow Switch Currently ACTIVE, must not be BYPASS. [Passed] LCLS Injector --&gt; Summary Chassis --&gt; CH05: LION Gas Pres #1 Currently ACTIVE, must not be BYPASS. [Passed] LCLS Injector --&gt; Summary Chassis --&gt; CH06: LION Gas Pres #2 Currently ACTIVE, must not be BYPASS. [Passed] LCLS Injector --&gt; PIC Chassis --&gt; INJLION-1N Currently ACTIVE, must not be BYPASS. [Passed] LCLS Injector --&gt; PIC Chassis --&gt; INJLION-1S Currently ACTIVE, must not be BYPASS. [Passed] LCLS Injector --&gt; PIC Chassis --&gt; BC1LION-1N Currently ACTIVE, must not be BYPASS. [Passed] LCLS Injector --&gt; PIC Chassis --&gt; BC1LION-1S Currently ACTIVE, must not be BYPASS. [Passed] B136 / B005 --&gt; DTC --&gt; DTC CH1: BLRCUS (active/inactive) Currently ACTIVE, must not be BYPASS. [Passed] B136 / B005 --&gt; DTC --&gt; DTC CH3: BRCUS1 (active/inactive) Currently ACTIVE, must not be BYPASS. [Passed] B136 / B005 --&gt; Digital Summary Chassis 2 --&gt; CH01: R119B PIC SUM1 Currently ACTIVE, must not be BYPASS. [Passed] B136 / B005 --&gt; Digital Summary Chassis 2 --&gt; CH02: R119B PIC SUM2 Currently ACTIVE, must not be BYPASS. [Passed] B136 / B005 --&gt; Digital Summary Chassis 2 --&gt; CH03: R119C PIC SUM1 Currently ACTIVE, must not be BYPASS. [Passed] B136 / B005 --&gt; Digital Summary Chassis 2 --&gt; CH04: R119C PIC SUM2 Currently ACTIVE, must not be BYPASS. [Passed] B136 / B005 --&gt; Digital Summary Chassis 2 --&gt; CH05: R119D PIC SUM1 Currently ACTIVE, must not be BYPASS. [Passed] B136 / B005 --&gt; Digital Summary Chassis 2 --&gt; CH06: R119D PIC SUM2 Currently ACTIVE, must not be BYPASS. [Passed] B136 / B005 --&gt; Digital Summary Chassis 2 --&gt; CH09: 136 DTC SUM1 Currently ACTIVE, must not be BYPASS. [Passed] B136 / B005 --&gt; Digital Summary Chassis 2 --&gt; CH10: 136 DTC SUM2 Currently ACTIVE, must not be BYPASS. [Passed] B136 / B005 --&gt; Digital Summary Chassis 2 --&gt; CH11: 005 DTC SUM1 Currently ACTIVE, must not be BYPASS. [Passed] B136 / B005 --&gt; Digital Summary Chassis 2 --&gt; CH12: 005 DTC SUM2 Currently ACTIVE, must not be BYPASS. [Passed] B136 / B005 --&gt; Digital Summary Chassis 2 --&gt; CH13: 005 PPS1-BCS Currently ACTIVE, must not be BYPASS. [Passed] B136 / B005 --&gt; Digital Summary Chassis 2 --&gt; CH14: 005 PPS2-BCS Currently ACTIVE, must not be BYPASS. [Passed] B136 / B005 --&gt; Digital Summary Chassis 1 --&gt; CH01: D2 FS1 Currently ACTIVE, must not be BYPASS. [Passed] B136 / B005 --&gt; Digital Summary Chassis 1 --&gt; CH02: D2 FS2 Currently ACTIVE, must not be BYPASS. [Passed] B136 / B005 --&gt; Digital Summary Chassis 1 --&gt; CH03: ST CLTS FS1 Currently ACTIVE, must not be BYPASS. [Passed] B136 / B005 --&gt; Digital Summary Chassis 1 --&gt; CH04: ST CLTS FS2 Currently ACTIVE, must not be BYPASS. [Passed] B136 / B005 --&gt; Digital Summary Chassis 1 --&gt; CH07: BSY PIC GAS PS1 Currently ACTIVE, must not be BYPASS. [Passed] B136 / B005 --&gt; Digital Summary Chassis 1 --&gt; CH08: BSY PIC GAS PS2 Currently ACTIVE, must not be BYPASS. [Passed] B911 --&gt; Bypass and Summary Chassis #1 --&gt; CH01: PIC Summary #1 Currently ACTIVE, must not be BYPASS. [Passed] B911 --&gt; Bypass and Summary Chassis #1 --&gt; CH02: PIC Summary #2 Currently ACTIVE, must not be BYPASS. [Passed] B911 --&gt; Bypass and Summary Chassis #1 --&gt; CH07: BTHW Summary #1 Currently ACTIVE, must not be BYPASS. [Passed] B911 --&gt; Bypass and Summary Chassis #1 --&gt; CH08: BTHW Summary #2 Currently ACTIVE, must not be BYPASS. [Passed] B911 --&gt; Bypass and Summary Chassis #2 (BTHW) --&gt; CH1: PIC Summary #1 Currently ACTIVE, must not be BYPASS. [Passed] B911 --&gt; Bypass and Summary Chassis #2 (BTHW) --&gt; CH2: PIC Summary #2 Currently ACTIVE, must not be BYPASS. [Passed] B911 --&gt; Bypass and Summary Chassis #2 (BTHW) --&gt; CH3: DTC Summary #1 Currently ACTIVE, must not be BYPASS. [Passed] B911 --&gt; Bypass and Summary Chassis #2 (BTHW) --&gt; CH4: DTC Summary #2 Currently ACTIVE, must not be BYPASS. [Passed] B911 --&gt; PIC Chassis 1 --&gt; CH1: LTU-LION-1N Currently ACTIVE, must not be BYPASS. [Passed] B911 --&gt; PIC Chassis 1 --&gt; CH2: LTU-LION-1S Currently ACTIVE, must not be BYPASS. [Passed] B911 --&gt; PIC Chassis 1 --&gt; CH3: LTU-LION-2N Currently ACTIVE, must not be BYPASS. [Passed] B911 --&gt; PIC Chassis 1 --&gt; CH4: LTU-LION-2S Currently ACTIVE, must not be BYPASS. [Passed] B911 --&gt; PIC Chassis 1 --&gt; CH5: LTU-LION-3N Currently ACTIVE, must not be BYPASS. [Passed] B911 --&gt; PIC Chassis 1 --&gt; CH6: LTU-LION-3S Currently ACTIVE, must not be BYPASS. [Passed] B911 --&gt; PIC Chassis 1 --&gt; CH9: LTU-PIC-BTM22-IC1 Currently ACTIVE, must not be BYPASS. [Passed] B911 --&gt; PIC Chassis 1 --&gt; CH10: LTU-PIC-BTM42-IC1 Currently ACTIVE, must not be BYPASS. [Passed] B911 --&gt; PIC Chassis 2 --&gt; CH01: PIC-BTM1-IC1 Currently ACTIVE, must not be BYPASS. [Passed] B911 --&gt; PIC Chassis 2 --&gt; CH02: PIC-BTM01B-IC1 Currently ACTIVE, must not be BYPASS. [Passed] B911 --&gt; PIC Chassis 2 --&gt; CH03: PIC-BTM2-IC1 Currently ACTIVE, must not be BYPASS. [Passed] B911 --&gt; PIC Chassis 2 --&gt; CH05: PIC-BTM3-IC1 Currently ACTIVE, must not be BYPASS. [Passed] B911 --&gt; PIC Chassis 2 --&gt; CH06: PIC-BTM03B-IC1 Currently ACTIVE, must not be BYPASS. [Passed] B911 --&gt; PIC Chassis 2 --&gt; CH07: PIC-BTM4-IC1 Currently ACTIVE, must not be BYPASS. [Passed] B911 --&gt; PIC Chassis 2 --&gt; CH08: PIC-BTM04B-IC1 Currently ACTIVE, must not be BYPASS. [Passed] B911 --&gt; PIC Chassis 2 --&gt; CH09: PIC-TDUND-IC1 Currently ACTIVE, must not be BYPASS. [Passed] B911 --&gt; DTC --&gt; CH1: BYD1 (active/inactive) Currently ACTIVE, must not be BYPASS. [Passed] B911 --&gt; DTC --&gt; CH2: BYD1 (redundant) (active/inactive) Currently ACTIVE, must not be BYPASS. [Passed] B911 --&gt; DTC --&gt; CH3: BY1B (active/inactive) Currently ACTIVE, must not be BYPASS. [Passed] B911 --&gt; DTC --&gt; CH4: BYD1B (active/inactive) Currently ACTIVE, must not be BYPASS. [Passed] B913 --&gt; Digital Summary Chassis #1 --&gt; CH01: PIC SUM #1 Currently ACTIVE, must not be BYPASS. [Passed] B913 --&gt; Digital Summary Chassis #1 --&gt; CH02: PIC SUM #2 Currently ACTIVE, must not be BYPASS. [Passed] B913 --&gt; Digital Summary Chassis #1 --&gt; CH03: LION GAS PSW #1 Currently ACTIVE, must not be BYPASS. [Passed] B913 --&gt; Digital Summary Chassis #1 --&gt; CH04: LION GAS PSW #2 Currently ACTIVE, must not be BYPASS. [Passed] B913 --&gt; Digital Summary Chassis #1 --&gt; CH05: PIC GAS PSW #1 Currently ACTIVE, must not be BYPASS. [Passed] B913 --&gt; Digital Summary Chassis #1 --&gt; CH06: PIC GAS PSW #2 Currently ACTIVE, must not be BYPASS. [Passed] B913 --&gt; PIC Chassis #1 --&gt; CH01: LTU LION-4N Currently ACTIVE, must not be BYPASS. [Passed] B913 --&gt; PIC Chassis #1 --&gt; CH02: LTU LION-4S Currently ACTIVE, must not be BYPASS. [Passed] B913 --&gt; PIC Chassis #1 --&gt; CH03: LTU LION-5N Currently ACTIVE, must not be BYPASS. [Passed] B913 --&gt; PIC Chassis #1 --&gt; CH04: LTU LION-5S Currently ACTIVE, must not be BYPASS. [Passed] B913 --&gt; PIC Chassis #1 --&gt; CH05: LTU LION-6N Currently ACTIVE, must not be BYPASS. [Passed] B913 --&gt; PIC Chassis #1 --&gt; CH06: LTU LION-6S Currently ACTIVE, must not be BYPASS. [Passed] B913 --&gt; PIC Chassis #1 --&gt; CH07: LTU LION-7N Currently ACTIVE, must not be BYPASS. [Passed] B913 --&gt; PIC Chassis #1 --&gt; CH08: LTU LION-7S Currently ACTIVE, must not be BYPASS. [Passed] B913 --&gt; PIC Chassis #1 --&gt; CH10: PIC-TDUNDB-IC1 Currently ACTIVE, must not be BYPASS. [Passed] B921 --&gt; PICS --&gt; DUMP PIC Chassis #1 --&gt; CH01: PIC-BTMQUE/PCPM0-IC1 Currently ACTIVE, must not be BYPASS. [Passed] B921 --&gt; PICS --&gt; DUMP PIC Chassis #1 --&gt; CH03: PIC-PCPM1-IC1 Currently ACTIVE, must not be BYPASS. [Passed] B921 --&gt; PICS --&gt; DUMP PIC Chassis #1 --&gt; CH04: PIC-PCPM1B-IC1 Currently ACTIVE, must not be BYPASS. [Passed] B921 --&gt; PICS --&gt; DUMP PIC Chassis #1 --&gt; CH05: PIC-PCPM2-IC1 Currently ACTIVE, must not be BYPASS. [Passed] B921 --&gt; PICS --&gt; DUMP PIC Chassis #1 --&gt; CH06: PIC-PCPM2B-IC1 Currently ACTIVE, must not be BYPASS. [Passed] B921 --&gt; PICS --&gt; DUMP PIC Chassis #1 --&gt; CH07: PIC-BYD-IC1 Currently ACTIVE, must not be BYPASS. [Passed] B921 --&gt; PICS --&gt; DUMP PIC Chassis #1 --&gt; CH08: PIC-BYDB-IC1 Currently ACTIVE, must not be BYPASS. [Passed] B921 --&gt; PICS --&gt; DUMP PIC Chassis #1 --&gt; CH010: PIC-BTMQUEB/PCPM0B-IC1 Currently ACTIVE, must not be BYPASS. [Passed] B921 --&gt; PICS --&gt; DUMP PIC Chassis #2 --&gt; CH01: PIC-PCPM3-IC1 Currently ACTIVE, must not be BYPASS. [Passed] B921 --&gt; PICS --&gt; DUMP PIC Chassis #2 --&gt; CH02: PIC-PCPM3B-IC1 Currently ACTIVE, must not be BYPASS. [Passed] B921 --&gt; PICS --&gt; DUMP PIC Chassis #2 --&gt; CH03: PIC-PCTCX-IC1 Currently ACTIVE, must not be BYPASS. [Passed] B921 --&gt; PICS --&gt; DUMP PIC Chassis #2 --&gt; CH05: PIC-SFTDMP-IC1 Currently ACTIVE, must not be BYPASS. [Passed] B921 --&gt; PICS --&gt; DUMP PIC Chassis #2 --&gt; CH06: PIC-SFTDMPB-IC1 Currently ACTIVE, must not be BYPASS. [Passed] B921 --&gt; DTC --&gt; DTC1 CH1: BYDSS (active/inactive) Currently ACTIVE, must not be BYPASS. [Passed] B921 --&gt; DTC --&gt; DTC1 CH2: BYDSH (active/inactive) Currently ACTIVE, must not be BYPASS. [Passed] B921 --&gt; Digital Summary Chassis --&gt; CH1: DTC SUM1 Currently ACTIVE, must not be BYPASS. [Passed] B921 --&gt; Digital Summary Chassis --&gt; CH2: DTC SUM2 Currently ACTIVE, must not be BYPASS. [Passed] B921 --&gt; Digital Summary Chassis --&gt; CH3: ND1S Currently ACTIVE, must not be BYPASS. [Passed] B921 --&gt; Digital Summary Chassis --&gt; CH4: ND1H Currently ACTIVE, must not be BYPASS. [Passed] B921 --&gt; Digital Summary Chassis --&gt; CH5: ND2S Currently ACTIVE, must not be BYPASS. [Passed] B921 --&gt; Digital Summary Chassis --&gt; CH9: PIC SUM1 Currently ACTIVE, must not be BYPASS. [Passed] B921 --&gt; Digital Summary Chassis --&gt; CH10: PIC SUM2 Currently ACTIVE, must not be BYPASS. [Passed] B921 --&gt; Digital Summary Chassis --&gt; CH11: EDMP FS1 Currently ACTIVE, must not be BYPASS. [Passed] B921 --&gt; Digital Summary Chassis --&gt; CH12: EDMP FS2 Currently ACTIVE, must not be BYPASS. [Passed] B921 --&gt; Digital Summary Chassis --&gt; CH13: VAT SUM1 Currently ACTIVE, must not be BYPASS. [Passed] B921 --&gt; Digital Summary Chassis --&gt; CH14: VAT SUM2 Currently ACTIVE, must not be BYPASS. [Passed] B921 --&gt; Digital Summary Chassis --&gt; CH15: VAT SUM3 Currently ACTIVE, must not be BYPASS. [Passed] B921 --&gt; Digital Summary Chassis --&gt; CH16: VAT SUM4 Currently ACTIVE, must not be BYPASS. *** ST950/960 status is NOT_IN *** [Passed] LI28 --&gt; Summary Chassis --&gt; CH01: PIC Summary 1 Currently BYPASS, must not be ACTIVE. [Passed] LI28 --&gt; Summary Chassis --&gt; CH02: PIC Summary 2 Currently BYPASS, must not be ACTIVE. [Passed] LI28 --&gt; Summary Chassis --&gt; CH03: ST950 Flwswch 1 Currently BYPASS, must not be ACTIVE. [Passed] LI28 --&gt; Summary Chassis --&gt; CH04: ST950 Flwswch 2 Currently BYPASS, must not be ACTIVE. [Passed] LI28 --&gt; Summary Chassis --&gt; CH05: ST960 Flwswch 1 Currently BYPASS, must not be ACTIVE. [Passed] LI28 --&gt; Summary Chassis --&gt; CH06: ST960 Flwswch 2 Currently BYPASS, must not be ACTIVE. [Passed] B136 / B005 --&gt; DTC --&gt; B136 --&gt; DTC CH1: BLRCUS (low trip) Currently at 6.55054551003, must be 6.55 +/- 0.01 [Passed] B136 / B005 --&gt; DTC --&gt; B136 --&gt; DTC CH1: BLRCUS (high trip) Currently at 7.7843900206, must be 7.78 +/- 0.01 [Passed] B136 / B005 --&gt; DTC --&gt; B136 --&gt; DTC CH3: BRCUS1 (low trip) Currently at 6.64148928054, must be 6.64 +/- 0.01 [Passed] B136 / B005 --&gt; DTC --&gt; B136 --&gt; DTC CH3: BRCUS1 (high trip) Currently at 7.93545433738, must be 7.93 +/- 0.01 [Passed] B136 / B005 --&gt; DTC --&gt; B005 --&gt; DTC1 CH1: BY1-BY2 (low trip) Currently at 6.18616006714, must be 6.19 +/- 0.01 [Passed] B136 / B005 --&gt; DTC --&gt; B005 --&gt; DTC1 CH1: BY1-BY2 (high trip) Currently at 7.09224078737, must be 7.09 +/- 0.01 [Passed] B911 --&gt; DTC --&gt; DTC1 CH1: BYD1 (low trip) Currently at 6.45441367208, must be 6.45 +/- 0.01 [Passed] B911 --&gt; DTC --&gt; DTC1 CH1: BYD1 (high trip) Currently at 8.43076218814, must be 8.43 +/- 0.01 [Passed] B911 --&gt; DTC --&gt; DTC1 CH2: BYD1 (redundant) (low trip) Currently at 6.56183718624, must be 6.56 +/- 0.01 [Passed] B911 --&gt; DTC --&gt; DTC1 CH2: BYD1 (redundant) (high trip) Currently at 8.4762340734, must be 8.47 +/- 0.01 [Passed] B911 --&gt; DTC --&gt; DTC1 CH3: BY1B (low trip) Currently at 6.27405203326, must be 6.27 +/- 0.01 [Passed] B911 --&gt; DTC --&gt; DTC1 CH3: BY1B (high trip) Currently at 6.70038910506, must be 6.7 +/- 0.01 [Passed] B911 --&gt; DTC --&gt; DTC1 CH4: BYD1B (low trip) Currently at 6.8560311284, must be 6.86 +/- 0.01 [Passed] B911 --&gt; DTC --&gt; DTC1 CH4: BYD1B (high trip) Currently at 8.81315327687, must be 8.81 +/- 0.01 [Passed] B921 --&gt; DTC --&gt; DTC1 CH1: BYDSS (low trip) Currently at 6.20813305867, must be 6.21 +/- 0.01 [Passed] B921 --&gt; DTC --&gt; DTC1 CH1: BYDSS (high trip) Currently at 6.79987792782, must be 6.8 +/- 0.01 [Passed] B921 --&gt; DTC --&gt; DTC1 CH2: BYDSH (low trip) Currently at 6.16754406043, must be 6.17 +/- 0.01 [Passed] B921 --&gt; DTC --&gt; DTC1 CH2: BYDSH (high trip) Currently at 7.25734340429, must be 7.26 +/- 0.01 [Passed] B136 / B005 --&gt; R119B PICs --&gt; CH01: PCBSY4-IC1 Currently ACTIVE, must not be BYPASS. [Passed] B136 / B005 --&gt; R119B PICs --&gt; CH02: PCBSY5-IC1 Currently ACTIVE, must not be BYPASS. [Passed] B136 / B005 --&gt; R119B PICs --&gt; CH04: ST34B-IC1 Currently ACTIVE, must not be BYPASS. [Passed] B136 / B005 --&gt; R119B PICs --&gt; CH05: PCBP33-IC1 Currently ACTIVE, must not be BYPASS. [Passed] B136 / B005 --&gt; R119B PICs --&gt; CH08: ST60-IC1 Currently ACTIVE, must not be BYPASS. [Passed] B136 / B005 --&gt; R119C PICs --&gt; CH07: BLRCUS-IC1 Currently ACTIVE, must not be BYPASS. [Passed] B136 / B005 --&gt; R119C PICs --&gt; CH08: ST61-IC1 Currently ACTIVE, must not be BYPASS. [Passed] B136 / B005 --&gt; R119C PICs --&gt; CH10: PCSP3S-IC1 Currently ACTIVE, must not be BYPASS. [Passed] B136 / B005 --&gt; R119D PICs --&gt; CH01: PCSP4S-IC1 Currently ACTIVE, must not be BYPASS. [Passed] B136 / B005 --&gt; R119D PICs --&gt; CH05: STCLTS-IC1 Currently ACTIVE, must not be BYPASS. [Passed] B136 / B005 --&gt; R119D PICs --&gt; CH07: ST34A-IC1 Currently ACTIVE, must not be BYPASS. [Passed] B136 / B005 --&gt; R119D PICs --&gt; CH10: D2-IC1 Currently ACTIVE, must not be BYPASS. *** D2 stopper status is NOT_IN *** *** ST34 stopper status is IN *** *** STCLTS stopper status is IN *** [Passed] B136 / B005 --&gt; DTC --&gt; B005 --&gt; DTC1 CH1: BY1-BY2 (active/inactive) Currently ACTIVE, must not be BYPASS. LCLS BCS checks successful. FACET BCS checks performed using the 3/1/2021 version of the checklist. [Passed] LI20 --&gt; PIC Summary 1 Currently ACTIVE, must not be BYPASS. [Passed] LI20 --&gt; PIC Summary 2 Currently ACTIVE, must not be BYPASS. [Passed] LI20 --&gt; LION Gas Pressure Switch 1 Currently ACTIVE, must not be BYPASS. [Passed] LI20 --&gt; LION Gas Pressure Switch 2 Currently ACTIVE, must not be BYPASS. [Passed] LI20 --&gt; PIC Gas Pressure Switch 1 Currently ACTIVE, must not be BYPASS. [Passed] LI20 --&gt; PIC Gas Pressure Switch 2 Currently ACTIVE, must not be BYPASS. [Passed] LI20 --&gt; FACET-II Dump Flow Switch 1 Currently ACTIVE, must not be BYPASS. [Passed] LI20 --&gt; FACET-II Dump Flow Switch 2 Currently ACTIVE, must not be BYPASS. [Passed] LI20 --&gt; B1 Dump Flow Switch 1 Currently ACTIVE, must not be BYPASS. [Passed] LI20 --&gt; B1 Dump Flow Switch 2 Currently ACTIVE, must not be BYPASS. [Passed] LI20 --&gt; LI19 LION 1N Currently OK, must not be BYPASS. [Passed] LI20 --&gt; LI19 LION 1S Currently OK, must not be BYPASS. [Passed] LI20 --&gt; LI19 LION 2N Currently OK, must not be BYPASS. [Passed] LI20 --&gt; LI19 LION 2S Currently OK, must not be BYPASS. [Passed] LI20 --&gt; LI19 LION 3N Currently OK, must not be BYPASS. [Passed] LI20 --&gt; LI19 LION 3S Currently OK, must not be BYPASS. [Passed] LI20 --&gt; SCAVEXT-LION-1N Currently OK, must not be BYPASS. [Passed] LI20 --&gt; SCAVEXT-LION-1S Currently OK, must not be BYPASS. [Passed] LI20 --&gt; FDMP-IC1 Currently OK, must not be BYPASS. [Passed] LI20 --&gt; FDMP-IC2 Currently OK, must not be BYPASS. FACET BCS checks successful.",
+    "lastName": "Physics",
+    "userName": "physics",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T07:15:08.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T07:15:07.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384adf5ec1e72404bf655f"
+    },
+    "originId": "MCC_1129802",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "* Re: Took LI29 BPM 201 out of the LI28 steering FB --&gt; and offlined the BPM",
+    "text": "",
+    "lastName": "Shtalenkova",
+    "firstName": "Jane",
+    "userName": "yshtalen",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [
+      "65384adf5ec1e72404bf655d"
+    ],
+    "loggedAt": {
+      "$date": "2022-03-14T07:17:46.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T07:17:46.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384adf5ec1e72404bf6560"
+    },
+    "originId": "MCC_1129803",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "Tried wozzling BC14 energy to see if a different L3 phase would give better transmission. Doesn't look like it.",
+    "text": "",
+    "lastName": "Barcklay",
+    "firstName": "Rachel",
+    "userName": "barcklay",
+    "tags": [
+      "0ba5394e-30cf-47f3-aaca-cfe5794332bd"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T07:57:51.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T07:57:51.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384adf5ec1e72404bf6561"
+    },
+    "originId": "MCC_1129804",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "MCC Shift Change: Owl Shift, Monday, 14-Mar-2022",
+    "text": "LCLS HXR: Deliver 8 keV, 9.65 GeV to XCS. FACET: Transmission and emittance.",
+    "lastName": "Shtalenkova",
+    "firstName": "Jane",
+    "userName": "yshtalen",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T08:05:15.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T07:00:00.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384adf5ec1e72404bf6562"
+    },
+    "originId": "MCC_1129805",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "After Eloss, FEL is up at 2.57mJ",
+    "text": "",
+    "lastName": "Wang",
+    "firstName": "Irene",
+    "userName": "wirene",
+    "tags": [
+      "68acd11d-05a8-45f5-b559-55a8d8833373"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T08:21:20.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T08:21:20.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384adf5ec1e72404bf6563"
+    },
+    "originId": "MCC_1129806",
+    "logbooks": [
+      "6536f0b5fbf92e44a767573d"
+    ],
+    "title": "swing shift HRS log",
+    "text": "\"03/13/22 21:07 - Roland Evans - C0 (common) - HRS.4K.00-SWING Shift Summary Cryoplant/LINAC Mode:4K Plant Walkdown performed, Yes Abnormal Observation:No HRS-Smartsheet to SLAC ELOG Transfer: Y Operational Achievements, Problems, Alarms, Trips:N/A Current Follow-up Items, None Operational Direction: Continued steady 4K operations\" 03/13/22 16:31 - Roland Evans - C0 (common) - HRS.00.00-Performed plant walk through, found no issues.",
+    "lastName": "Grays",
+    "firstName": "James",
+    "userName": "jgraysjr",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T09:04:13.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T09:04:13.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384adf5ec1e72404bf6564"
+    },
+    "originId": "MCC_1129807",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d",
+      "6536f0b5fbf92e44a7675724"
+    ],
+    "title": "2nd walkthrough complete. No trouble found.",
+    "text": "",
+    "lastName": "Barcklay",
+    "firstName": "Rachel",
+    "userName": "barcklay",
+    "tags": [
+      "68acd11d-05a8-45f5-b559-55a8d8833373",
+      "bda8d02e-57a4-4ec7-90fd-46d0187d57a9"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T12:12:18.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T12:12:18.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384adf5ec1e72404bf6565"
+    },
+    "originId": "MCC_1129808",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "Moved CH1 waveplate to increase transmission so LH FB can work.",
+    "text": "",
+    "lastName": "Shtalenkova",
+    "firstName": "Jane",
+    "userName": "yshtalen",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T12:18:19.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T12:18:19.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384adf5ec1e72404bf6566"
+    },
+    "originId": "MCC_1129809",
+    "logbooks": [
+      "6536f0b5fbf92e44a767572a"
+    ],
+    "title": "Begin Checklist for switching from User Beams to AccPhy.",
+    "text": "https://aosd.slac.stanford.edu/wiki/index.php/Checklist_for_Switching_from_User_Beam_to_A.P.",
+    "lastName": "Hoover",
+    "firstName": "Chris",
+    "userName": "hoover",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T12:27:31.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T12:27:31.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384adf5ec1e72404bf6567"
+    },
+    "originId": "MCC_1129810",
+    "logbooks": [
+      "6536f0b5fbf92e44a767572a"
+    ],
+    "title": "NIGHT-Shift Report 3/13-14/2022 Sun-Mon",
+    "text": "PROGRAM: SPEAR to BEAMS delivering 500mA to users with top-off every 5 mins. BEAMLINES: All open, except BL17. FAULTS: None. EXPERIMENTS: 1730-1830 BL2-1 user support. SPEC recovery after a crash. Started new SPEC session, loaded Pilatus and visualization software and reset detector ROIs from a previous pdi file. SPEC still hangs after starting a lup scan. T. Dunn provided support to get us over the line. Pd start 1, pd stop, then sauto on and we were back up and running. Thanks Tim! 0105 Loaned magnetic stirrer to BL2-1 users from Lab 209. Returned to lab 0400. OPERATIONS: 1910 Reset tripped PP-3 circuit breaker to bring power back to outlets in kitchen. 1930 Standard gas order placed.",
+    "lastName": "Gooding",
+    "firstName": "Sarah",
+    "userName": "sarahed",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T12:28:07.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T12:28:07.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384adf5ec1e72404bf6569"
+    },
+    "originId": "MCC_1129811",
+    "logbooks": [
+      "6536f0b5fbf92e44a767572a"
+    ],
+    "title": "Screen shot of insertion device gaps/phases for reference",
+    "text": "",
+    "lastName": "Hoover",
+    "firstName": "Chris",
+    "userName": "hoover",
+    "tags": [],
+    "attachments": [
+      "65384adf5ec1e72404bf6568"
+    ],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T12:28:44.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T12:28:44.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae05ec1e72404bf656a"
+    },
+    "originId": "MCC_1129812",
+    "logbooks": [
+      "6536f0b5fbf92e44a767572a"
+    ],
+    "title": "Saved record of Dels",
+    "text": "save_BLDS_Dels in MATLAB",
+    "lastName": "Hoover",
+    "firstName": "Chris",
+    "userName": "hoover",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T12:31:50.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T12:31:50.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae05ec1e72404bf656e"
+    },
+    "originId": "MCC_1129814",
+    "logbooks": [
+      "6536f0b5fbf92e44a767572a"
+    ],
+    "title": "AccPhy schedule, screenshot.",
+    "text": "",
+    "lastName": "Hoover",
+    "firstName": "Chris",
+    "userName": "hoover",
+    "tags": [],
+    "attachments": [
+      "65384ae05ec1e72404bf656d"
+    ],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T12:36:36.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T12:36:36.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae05ec1e72404bf656f"
+    },
+    "originId": "MCC_1129815",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "Area weather check: chance of rain Monday and Tuesday",
+    "text": "",
+    "lastName": "St.Pierre",
+    "firstName": "Larry",
+    "userName": "larrys",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T12:49:56.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T12:49:56.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae05ec1e72404bf6570"
+    },
+    "originId": "MCC_1129816",
+    "logbooks": [
+      "6536f0b5fbf92e44a767572a"
+    ],
+    "title": "Set Injector Autofill to OFF; no more refills needed, switching to AP mode at 6am.",
+    "text": "",
+    "lastName": "Hoover",
+    "firstName": "Chris",
+    "userName": "hoover",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T12:57:20.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T12:57:20.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae05ec1e72404bf6571"
+    },
+    "originId": "MCC_1129817",
+    "logbooks": [
+      "6536f0b5fbf92e44a767572a"
+    ],
+    "title": "Begin 48 hour AP period. Closing BLs.",
+    "text": "",
+    "lastName": "Hoover",
+    "firstName": "Chris",
+    "userName": "hoover",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T12:59:36.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T13:00:52.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae05ec1e72404bf6572"
+    },
+    "originId": "MCC_1129818",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "DCS PLC status: all good or accounted for",
+    "text": "",
+    "lastName": "St.Pierre",
+    "firstName": "Larry",
+    "userName": "larrys",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T12:59:47.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T12:59:47.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae05ec1e72404bf6573"
+    },
+    "originId": "MCC_1129819",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "DCS alarms: all good or accounted for",
+    "text": "",
+    "lastName": "St.Pierre",
+    "firstName": "Larry",
+    "userName": "larrys",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T13:00:25.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T13:00:25.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae05ec1e72404bf6574"
+    },
+    "originId": "MCC_1129820",
+    "logbooks": [
+      "6536f0b5fbf92e44a767572a"
+    ],
+    "title": "IVUN gaps are open; begin dumping stored beam.",
+    "text": "",
+    "lastName": "Hoover",
+    "firstName": "Chris",
+    "userName": "hoover",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T13:03:27.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T13:03:27.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae05ec1e72404bf6575"
+    },
+    "originId": "MCC_1129821",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "ACR, SPEAR E-log weekend check: see text",
+    "text": "12:36 * Re: OFF NORMAL - LI08 30C pump tripped on low level. CEFOM Hector en route E_Regalado Event: 13-Mar-22 FACILITIES 1129738 CEFOM Hector found three leaks in the mechanical alcove. All three leaks were repaired and the pump back on. On the rotameter, conductivity polishing loop valve, and the valve to the conductivity supply form the pump.",
+    "lastName": "St.Pierre",
+    "firstName": "Larry",
+    "userName": "larrys",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T13:08:47.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T13:08:47.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae05ec1e72404bf6576"
+    },
+    "originId": "MCC_1129822",
+    "logbooks": [
+      "6536f0b5fbf92e44a767572a"
+    ],
+    "title": "Established beam on PR2 screen for AP User; maintaing contact throuh 9am zoom room.",
+    "text": "Injector ON/OFF as needed. Chopper ON/OFF as needed.",
+    "lastName": "Hoover",
+    "firstName": "Chris",
+    "userName": "hoover",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T13:21:32.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T13:21:32.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae05ec1e72404bf6577"
+    },
+    "originId": "MCC_1129823",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "Suddenly lost 70% pulse intensity...",
+    "text": "",
+    "lastName": "Shtalenkova",
+    "firstName": "Jane",
+    "userName": "yshtalen",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T13:28:05.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T13:28:05.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae15ec1e72404bf6578"
+    },
+    "originId": "MCC_1129824",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "LI01-LI10 check VAT valves CEFOI",
+    "text": "Butler support Sweden",
+    "lastName": "St.Pierre",
+    "firstName": "Larry",
+    "userName": "larrys",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T13:29:06.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T13:29:06.000Z"
+    },
+    "version": {
+      "$numberLong": "2"
+    },
+    "_class": "edu.stanford.slac.elog_plus.model.Entry",
+    "supersededBy": "65384ae15ec1e72404bf658f"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae15ec1e72404bf6579"
+    },
+    "originId": "MCC_1129825",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "LI02 HE guard supply line installation CEFOI",
+    "text": "Di support Moore",
+    "lastName": "St.Pierre",
+    "firstName": "Larry",
+    "userName": "larrys",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T13:31:11.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T13:31:11.000Z"
+    },
+    "version": {
+      "$numberLong": "2"
+    },
+    "_class": "edu.stanford.slac.elog_plus.model.Entry",
+    "supersededBy": "65384ae15ec1e72404bf658b"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae15ec1e72404bf657a"
+    },
+    "originId": "MCC_1129826",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "* Re: Suddenly lost 70% pulse intensity... --&gt; orbit has not changed, no stations tripped, 6x6 looks fine, magnets look fine...",
+    "text": "",
+    "lastName": "Shtalenkova",
+    "firstName": "Jane",
+    "userName": "yshtalen",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [
+      "65384ae05ec1e72404bf6577"
+    ],
+    "loggedAt": {
+      "$date": "2022-03-14T13:31:32.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T13:31:32.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae15ec1e72404bf657b"
+    },
+    "originId": "MCC_1129827",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "LI21 supply line sub booster checking thickness of line CEFOI",
+    "text": "Mortenson",
+    "lastName": "St.Pierre",
+    "firstName": "Larry",
+    "userName": "larrys",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T13:32:45.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T13:32:45.000Z"
+    },
+    "version": {
+      "$numberLong": "2"
+    },
+    "_class": "edu.stanford.slac.elog_plus.model.Entry",
+    "supersededBy": "65384ae15ec1e72404bf658e"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae15ec1e72404bf657c"
+    },
+    "originId": "MCC_1129828",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "* Re: Suddenly lost 70% pulse intensity... --&gt; recovered on its own... ? strange",
+    "text": "",
+    "lastName": "Shtalenkova",
+    "firstName": "Jane",
+    "userName": "yshtalen",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [
+      "65384ae05ec1e72404bf6577"
+    ],
+    "loggedAt": {
+      "$date": "2022-03-14T13:33:44.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T13:33:44.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae15ec1e72404bf657d"
+    },
+    "originId": "MCC_1129829",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "CT chemical calibration CEFOI",
+    "text": "Delgado and Espinoza",
+    "lastName": "St.Pierre",
+    "firstName": "Larry",
+    "userName": "larrys",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T13:34:40.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T13:34:40.000Z"
+    },
+    "version": {
+      "$numberLong": "2"
+    },
+    "_class": "edu.stanford.slac.elog_plus.model.Entry",
+    "supersededBy": "65384ae15ec1e72404bf6589"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae15ec1e72404bf657e"
+    },
+    "originId": "MCC_1129830",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "LCLS2 operation verification CEFOI",
+    "text": "Regalado",
+    "lastName": "St.Pierre",
+    "firstName": "Larry",
+    "userName": "larrys",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T13:36:03.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T13:36:03.000Z"
+    },
+    "version": {
+      "$numberLong": "2"
+    },
+    "_class": "edu.stanford.slac.elog_plus.model.Entry",
+    "supersededBy": "65384ae15ec1e72404bf6580"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae15ec1e72404bf657f"
+    },
+    "originId": "MCC_1129831",
+    "logbooks": [
+      "6536f0b5fbf92e44a767573d"
+    ],
+    "title": "OWL Shift HRS-Log",
+    "text": "\"03/14/22 06:30 - James Grays - C0 (common) - HRS.00.00-OWL Shift Summary Cryoplant/LINAC Mode: 4K Plant Walkdown performed, Abnormal Observation:Yes/ no abnormal observations HRS-Smartsheet to SLAC ELOG Transfer: Yes Operational Achievements, Problems, Alarms, Trips:None Current Follow-up Items, Operational Direction: maintain dewar liquid level\"",
+    "lastName": "Nicoletta",
+    "firstName": "Mike",
+    "userName": "mnicolet",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T13:36:16.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T13:36:16.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae15ec1e72404bf6580"
+    },
+    "originId": "MCC_1129832",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "LCLS-II operation verification CEFOI",
+    "text": "Regalado",
+    "lastName": "St.Pierre",
+    "firstName": "Larry",
+    "userName": "larrys",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T13:37:11.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T13:36:03.000Z"
+    },
+    "version": {
+      "$numberLong": "2"
+    },
+    "_class": "edu.stanford.slac.elog_plus.model.Entry",
+    "supersededBy": "65384ae15ec1e72404bf6588"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae15ec1e72404bf6581"
+    },
+    "originId": "MCC_1129833",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "LI13-6 WG1 fault CATER 155688 CEFOI",
+    "text": "Delgado and Espinosa",
+    "lastName": "St.Pierre",
+    "firstName": "Larry",
+    "userName": "larrys",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T13:40:12.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T13:40:12.000Z"
+    },
+    "version": {
+      "$numberLong": "2"
+    },
+    "_class": "edu.stanford.slac.elog_plus.model.Entry",
+    "supersededBy": "65384ae15ec1e72404bf6587"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae15ec1e72404bf6582"
+    },
+    "originId": "MCC_1129834",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "LI23-2 Waveguide1 water fault CATER 155706 CEFOI",
+    "text": "Delgado and Espinosa",
+    "lastName": "St.Pierre",
+    "firstName": "Larry",
+    "userName": "larrys",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T13:42:32.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T13:42:32.000Z"
+    },
+    "version": {
+      "$numberLong": "2"
+    },
+    "_class": "edu.stanford.slac.elog_plus.model.Entry",
+    "supersededBy": "65384ae15ec1e72404bf6586"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae15ec1e72404bf6583"
+    },
+    "originId": "MCC_1129835",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "B913 ION chamber bottle pressure CEFOI",
+    "text": "Butler",
+    "lastName": "St.Pierre",
+    "firstName": "Larry",
+    "userName": "larrys",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T13:45:47.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T13:45:47.000Z"
+    },
+    "version": {
+      "$numberLong": "2"
+    },
+    "_class": "edu.stanford.slac.elog_plus.model.Entry",
+    "supersededBy": "65384ae15ec1e72404bf6584"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae15ec1e72404bf6584"
+    },
+    "originId": "MCC_1129836",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "B913 ION chamber bottle pressure CEFOI",
+    "text": "CEFOI Butler",
+    "lastName": "Manley-Arrieta",
+    "firstName": "Daniel",
+    "userName": "dpmanley",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T13:57:46.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T13:15:21.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae15ec1e72404bf6585"
+    },
+    "originId": "MCC_1129837",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "CS, WCS and KCS switch checks on EPICS: LI23-2 WG1 being looked at CEFOI",
+    "text": "",
+    "lastName": "St.Pierre",
+    "firstName": "Larry",
+    "userName": "larrys",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T13:58:09.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T13:58:09.000Z"
+    },
+    "version": {
+      "$numberLong": "2"
+    },
+    "_class": "edu.stanford.slac.elog_plus.model.Entry",
+    "supersededBy": "65384ae15ec1e72404bf658d"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae15ec1e72404bf6586"
+    },
+    "originId": "MCC_1129838",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "LI23-2 Waveguide1 water fault CATER 155706 CEFOI",
+    "text": "CEFOI Delgado and Espinosa",
+    "lastName": "Manley-Arrieta",
+    "firstName": "Daniel",
+    "userName": "dpmanley",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T13:58:29.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T13:15:58.000Z"
+    },
+    "version": {
+      "$numberLong": "2"
+    },
+    "_class": "edu.stanford.slac.elog_plus.model.Entry",
+    "supersededBy": "65384ae45ec1e72404bf65c3"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae15ec1e72404bf6587"
+    },
+    "originId": "MCC_1129839",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "LI13-6 WCS fault CATER 155688 CEFOI",
+    "text": "CEFOI Delgado and Espinosa",
+    "lastName": "Manley-Arrieta",
+    "firstName": "Daniel",
+    "userName": "dpmanley",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T13:59:00.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T13:15:34.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae15ec1e72404bf6588"
+    },
+    "originId": "MCC_1129840",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "LCLS-II LI02, LI05, LI08, LI09 water systems operation verification CEFOI",
+    "text": "CEFOI Regalado",
+    "lastName": "Manley-Arrieta",
+    "firstName": "Daniel",
+    "userName": "dpmanley",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T14:01:16.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T13:15:08.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae15ec1e72404bf6589"
+    },
+    "originId": "MCC_1129841",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "CT chemical calibration CEFOI",
+    "text": "CEFOI Delgado and Espinoza",
+    "lastName": "Manley-Arrieta",
+    "firstName": "Daniel",
+    "userName": "dpmanley",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T14:02:07.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T13:15:49.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae15ec1e72404bf658a"
+    },
+    "originId": "MCC_1129842",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "B023/B007 air systems: normal, on B023, dew point (-115.1) DegF",
+    "text": "",
+    "lastName": "St.Pierre",
+    "firstName": "Larry",
+    "userName": "larrys",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T14:02:10.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T14:02:10.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae15ec1e72404bf658b"
+    },
+    "originId": "MCC_1129843",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "LI02 HE guard supply line installation CEFOI",
+    "text": "CEFOI Dy, Moore",
+    "lastName": "Manley-Arrieta",
+    "firstName": "Daniel",
+    "userName": "dpmanley",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T14:02:57.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T13:15:11.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae15ec1e72404bf658c"
+    },
+    "originId": "MCC_1129844",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "CUP Compressed Air: normal, dew point (-90.9) DegF",
+    "text": "",
+    "lastName": "St.Pierre",
+    "firstName": "Larry",
+    "userName": "larrys",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T14:03:04.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T14:03:04.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae15ec1e72404bf658d"
+    },
+    "originId": "MCC_1129845",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "ACS, WCS and KCS switch checks on EPICS: LI23-2 WG1 being looked at CEFOI",
+    "text": "",
+    "lastName": "Manley-Arrieta",
+    "firstName": "Daniel",
+    "userName": "dpmanley",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T14:03:16.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T13:58:09.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae15ec1e72404bf658e"
+    },
+    "originId": "MCC_1129846",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "LI21 sub booster supply line checking thickness of line CEFOI",
+    "text": "CEFOI Mortenson",
+    "lastName": "Manley-Arrieta",
+    "firstName": "Daniel",
+    "userName": "dpmanley",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T14:03:59.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T13:15:25.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae15ec1e72404bf658f"
+    },
+    "originId": "MCC_1129847",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "LI01-LI10 check VAT valves CEFOI",
+    "text": "CEFOI, Butler support physicist",
+    "lastName": "Manley-Arrieta",
+    "firstName": "Daniel",
+    "userName": "dpmanley",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T14:04:46.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T13:15:09.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae25ec1e72404bf6590"
+    },
+    "originId": "MCC_1129848",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "Onsite lift stations, poly tanks, Arc sumps: normal",
+    "text": "",
+    "lastName": "St.Pierre",
+    "firstName": "Larry",
+    "userName": "larrys",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T14:11:24.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T14:11:24.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae25ec1e72404bf6591"
+    },
+    "originId": "MCC_1129849",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "Site sumps levels: normal",
+    "text": "",
+    "lastName": "St.Pierre",
+    "firstName": "Larry",
+    "userName": "larrys",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T14:17:44.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T14:17:44.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae25ec1e72404bf6592"
+    },
+    "originId": "MCC_1129850",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "Sewers: normal",
+    "text": "",
+    "lastName": "St.Pierre",
+    "firstName": "Larry",
+    "userName": "larrys",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T14:20:54.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T14:20:54.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae25ec1e72404bf6593"
+    },
+    "originId": "MCC_1129851",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675730"
+    ],
+    "title": "* Re: LCLS2 S1-2 Mag",
+    "text": "Undo LOTO, Closed breaker on in Gallery S1 RACKS LKG01-54,55.56.57 and S2 LKG02-52,53",
+    "lastName": "Erebia",
+    "firstName": "Pete",
+    "userName": "perebia",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [
+      "65384a9c5ec1e72404bf60db"
+    ],
+    "loggedAt": {
+      "$date": "2022-03-14T14:28:58.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-11T17:15:47.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae25ec1e72404bf6594"
+    },
+    "originId": "MCC_1129852",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "Linac West --&gt; PERM (left in CA over the weekend)",
+    "text": "",
+    "lastName": "Shtalenkova",
+    "firstName": "Jane",
+    "userName": "yshtalen",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T14:32:53.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T14:32:53.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae25ec1e72404bf6595"
+    },
+    "originId": "MCC_1129853",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "LI09 Conductivity checks CEFOI",
+    "text": "CEFOI \u00e2\u0080\u008bEspinosa and Delgado conduct a conductivity test on Sector 09 Return: 0.53 uS on Display 0.54 uS on Ignition 0.58 uS on Myron Supply: 0.49 uS on Display 0.49 uS on Ignition 0.66 uS on Myron",
+    "lastName": "St.Pierre",
+    "firstName": "Larry",
+    "userName": "larrys",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T14:33:32.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T14:33:32.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae25ec1e72404bf6596"
+    },
+    "originId": "MCC_1129854",
+    "logbooks": [
+      "6536f0b5fbf92e44a767572a"
+    ],
+    "title": "Will store beam in SPEAR for next 15 min or so.....both programs are OK for this.",
+    "text": "",
+    "lastName": "Hoover",
+    "firstName": "Chris",
+    "userName": "hoover",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T14:33:41.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T14:33:41.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae25ec1e72404bf6597"
+    },
+    "originId": "MCC_1129855",
+    "logbooks": [
+      "6536f0b5fbf92e44a767572a"
+    ],
+    "title": "100mA stored, fill rate is over 50mA/min; tested Traj correction OK.",
+    "text": "",
+    "lastName": "Hoover",
+    "firstName": "Chris",
+    "userName": "hoover",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T14:35:28.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T14:35:28.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae25ec1e72404bf6598"
+    },
+    "originId": "MCC_1129856",
+    "logbooks": [
+      "6536f0b5fbf92e44a767572a"
+    ],
+    "title": "Stop injection at 150mA; BTS seems good. Will give SPEAR klystron back to Sebek program.",
+    "text": "",
+    "lastName": "Hoover",
+    "firstName": "Chris",
+    "userName": "hoover",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T14:37:28.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T14:37:28.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae25ec1e72404bf6599"
+    },
+    "originId": "MCC_1129857",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "LI11WCS surge tank level lowered from 100% to 84% CEFOM Fernando",
+    "text": "will watch level",
+    "lastName": "St.Pierre",
+    "firstName": "Larry",
+    "userName": "larrys",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T14:40:41.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T14:40:41.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae25ec1e72404bf659a"
+    },
+    "originId": "MCC_1129858",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "LI11ACS surge tank level lowered from 100% to 88% CEFOM Fernando",
+    "text": "will watch level",
+    "lastName": "St.Pierre",
+    "firstName": "Larry",
+    "userName": "larrys",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T14:41:12.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T14:41:12.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae25ec1e72404bf659b"
+    },
+    "originId": "MCC_1129859",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "OWL SHIFT SUMMARY",
+    "text": "Comment # Comment 1LCLS: Delivered 8 keV, 9.65 GeV beam to XCS. ~2.6 mJ 2FACET: Seeing LI11 X emittance of 4.4 this morning.  3LCLS: Offlined BPM 201 which is jumping dramatically and reconfigured LI28 steering FB. \n<br>\n<br>Program Delivered User Off Tuning Config \u0394s Accl. Down Sched. Off FACET-II_comm8.00.00.00.00.00LCLS-MD-CU_SXR0.00.00.00.00.08XCS_user8.00.00.00.00.00\n<br>",
+    "lastName": "Shtalenkova",
+    "firstName": "Jane",
+    "userName": "yshtalen",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T14:44:30.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T14:59:59.000Z"
+    },
+    "version": {
+      "$numberLong": "2"
+    },
+    "_class": "edu.stanford.slac.elog_plus.model.Entry",
+    "supersededBy": "65384ae45ec1e72404bf65bd"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae25ec1e72404bf659c"
+    },
+    "originId": "MCC_1129860",
+    "logbooks": [
+      "6536f0b5fbf92e44a767572a"
+    ],
+    "title": "Shift Start: Monday Day",
+    "text": "<p><strong>Operators:</strong></p>\n<p>Sommer, Schroder</p>\n<p><strong>Injector Status:</strong></p>\n<p>Up as needed for AP, 51 mA/min, Efficiency 100%</p>\n<p><strong>SPEAR Status:</strong></p>\n<p>Filled as needed for AP</p>\n<p><strong>Program:</strong></p>\n<p>AP in progress</p>",
+    "lastName": "Sommer",
+    "firstName": "Tom",
+    "userName": "sommer",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T14:45:14.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T14:45:14.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae25ec1e72404bf659d"
+    },
+    "originId": "MCC_1129861",
+    "logbooks": [
+      "6536f0b5fbf92e44a767572d",
+      "6536f0b5fbf92e44a7675730"
+    ],
+    "title": "15-8 WGV fault CATER 155418",
+    "text": "Found vacuum cart hooked up and radiation barrier down. Turned off HV and keyed off station. Reset VGC and WGV fault cleared.",
+    "lastName": "Freese",
+    "firstName": "Allan",
+    "userName": "alf",
+    "tags": [
+      "076dfad9-0fc6-4839-8c42-d16e1e9ab051",
+      "a322161d-e930-4ad4-b481-7aa10be41996"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T14:47:07.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T14:47:07.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae25ec1e72404bf659e"
+    },
+    "originId": "MCC_1129862",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "Sudden FEL drop by 60%",
+    "text": "",
+    "lastName": "Wang",
+    "firstName": "Irene",
+    "userName": "wirene",
+    "tags": [
+      "68acd11d-05a8-45f5-b559-55a8d8833373"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T14:53:59.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T14:53:59.000Z"
+    },
+    "version": {
+      "$numberLong": "2"
+    },
+    "_class": "edu.stanford.slac.elog_plus.model.Entry",
+    "supersededBy": "65384ae25ec1e72404bf65a1"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae25ec1e72404bf659f"
+    },
+    "originId": "MCC_1129863",
+    "logbooks": [
+      "6536f0b5fbf92e44a767572a"
+    ],
+    "title": "Shift Summary, Mon, 14 Mar 2022, Owl.",
+    "text": "Summary User Beams 6hrs of 8hr shift; no losses, no missed refills. AP beams OK for 2 hours. Injector 500mA refills this shift; fill rate is near 50mA/min. BTS BPM SPARK program from 6am to 8am OK. Tested BPMs at various rep rates OK. Traj correction tested OK. Brief fill to SPEAR with 52mA/min. Report of BPM4 module swapped. SPEAR 3GeV 500mA 7nm lattice User beam until 6am. Switch to AP checklist completed OK. RF station inspection, documentation and training in progress 6am-8am. BLs All BLs open this shift; except BL-17 is shut. All BLs shut at 6am.",
+    "lastName": "Hoover",
+    "firstName": "Chris",
+    "userName": "hoover",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T14:54:36.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T15:00:12.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae25ec1e72404bf65a1"
+    },
+    "originId": "MCC_1129864",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "Sudden FEL drop by 60%",
+    "text": "",
+    "lastName": "Wang",
+    "firstName": "Irene",
+    "userName": "wirene",
+    "tags": [
+      "68acd11d-05a8-45f5-b559-55a8d8833373"
+    ],
+    "attachments": [
+      "65384ae25ec1e72404bf65a0"
+    ],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T14:55:06.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T14:53:59.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae25ec1e72404bf65a2"
+    },
+    "originId": "MCC_1129865",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "B640 CEFOE request smoke detector impaired need to contact CEFTT for work order",
+    "text": "CEFOE Constantin",
+    "lastName": "St.Pierre",
+    "firstName": "Larry",
+    "userName": "larrys",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T15:03:40.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T15:03:40.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae25ec1e72404bf65a3"
+    },
+    "originId": "MCC_1129866",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "B05 fire detector panel trouble supervisory alarm contact CEFTT",
+    "text": "CEFTT Mike",
+    "lastName": "St.Pierre",
+    "firstName": "Larry",
+    "userName": "larrys",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T15:06:04.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T15:06:04.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae25ec1e72404bf65a4"
+    },
+    "originId": "MCC_1129867",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "D. McCormick requested to power cycle LI11 crate 2 and trying to fix LI11 501 BPM. Should only take a couple minutes.",
+    "text": "",
+    "lastName": "Duong",
+    "firstName": "Tri",
+    "userName": "thduong2",
+    "tags": [
+      "0ba5394e-30cf-47f3-aaca-cfe5794332bd"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T15:06:14.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T15:06:14.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae25ec1e72404bf65a5"
+    },
+    "originId": "MCC_1129868",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "No obvious cause for the drop in FEL, longitudinal feedback saw a disturbance when it happened",
+    "text": "Longitudinal saw it as far upstream as BC1 (peak current dropped out several times in a short span, then recovered). Looking for the smoking gun.",
+    "lastName": "Ripman",
+    "firstName": "Ben",
+    "userName": "bripman",
+    "tags": [
+      "68acd11d-05a8-45f5-b559-55a8d8833373"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T15:07:10.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T15:07:10.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae35ec1e72404bf65a6"
+    },
+    "originId": "MCC_1129869",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "FEL just spontaneously recovered",
+    "text": "",
+    "lastName": "Ripman",
+    "firstName": "Ben",
+    "userName": "bripman",
+    "tags": [
+      "68acd11d-05a8-45f5-b559-55a8d8833373"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T15:09:55.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T15:09:55.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae35ec1e72404bf65a7"
+    },
+    "originId": "MCC_1129870",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "LCLS-II MAG parameter requested",
+    "text": "",
+    "lastName": "St.Pierre",
+    "firstName": "Larry",
+    "userName": "larrys",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T15:18:43.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T14:45:55.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae35ec1e72404bf65a8"
+    },
+    "originId": "MCC_1129871",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675724"
+    ],
+    "title": "First walk through complete",
+    "text": "nothing new to report",
+    "lastName": "McKeown",
+    "firstName": "Jake",
+    "userName": "jakewm",
+    "tags": [
+      "bda8d02e-57a4-4ec7-90fd-46d0187d57a9"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T15:19:09.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T15:19:09.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae35ec1e72404bf65a9"
+    },
+    "originId": "MCC_1129872",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "update * Re: LCLS-II MAG parameter requested",
+    "text": "Dian Yeremian requested notify CEFOI Alcazar MAG ready @ 8:07am and to notify Abas Abdol",
+    "lastName": "St.Pierre",
+    "firstName": "Larry",
+    "userName": "larrys",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [
+      "65384ae35ec1e72404bf65a7"
+    ],
+    "loggedAt": {
+      "$date": "2022-03-14T15:24:06.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T15:24:06.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae35ec1e72404bf65aa"
+    },
+    "originId": "MCC_1129873",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "update * Re: B913 ION chamber bottle pressure CEFOI",
+    "text": "gas bottles changed",
+    "lastName": "St.Pierre",
+    "firstName": "Larry",
+    "userName": "larrys",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [
+      "65384ae15ec1e72404bf6584"
+    ],
+    "loggedAt": {
+      "$date": "2022-03-14T15:25:39.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T15:25:39.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae35ec1e72404bf65ab"
+    },
+    "originId": "MCC_1129874",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675724"
+    ],
+    "title": "Duty tech shift start 0645-1515",
+    "text": "Jake McKeown",
+    "lastName": "McKeown",
+    "firstName": "Jake",
+    "userName": "jakewm",
+    "tags": [
+      "bda8d02e-57a4-4ec7-90fd-46d0187d57a9"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T15:33:47.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T15:33:47.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae35ec1e72404bf65ac"
+    },
+    "originId": "MCC_1129875",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "30C pump cleaning LI08 CEFOM",
+    "text": "CEFOM Gonzales",
+    "lastName": "St.Pierre",
+    "firstName": "Larry",
+    "userName": "larrys",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T15:34:12.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T15:00:54.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae35ec1e72404bf65ad"
+    },
+    "originId": "MCC_1129876",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "HTX-2 strainer cleaning CEFOM",
+    "text": "CEFOM Dominguez",
+    "lastName": "St.Pierre",
+    "firstName": "Larry",
+    "userName": "larrys",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T15:36:55.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T14:45:53.000Z"
+    },
+    "version": {
+      "$numberLong": "2"
+    },
+    "_class": "edu.stanford.slac.elog_plus.model.Entry",
+    "supersededBy": "65384ae35ec1e72404bf65af"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae35ec1e72404bf65ae"
+    },
+    "originId": "MCC_1129877",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675733"
+    ],
+    "title": "CT1202 cleaning strainer CEFOM",
+    "text": "CEFOM Dominguez",
+    "lastName": "St.Pierre",
+    "firstName": "Larry",
+    "userName": "larrys",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T15:38:44.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T15:30:16.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae35ec1e72404bf65af"
+    },
+    "originId": "MCC_1129878",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "HTX-2 strainer cleaning CEFOM",
+    "text": "CEFOM Gonzales",
+    "lastName": "St.Pierre",
+    "firstName": "Larry",
+    "userName": "larrys",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T15:40:02.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T14:45:53.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae35ec1e72404bf65b0"
+    },
+    "originId": "MCC_1129879",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "SPEAR LCW: normal",
+    "text": "",
+    "lastName": "St.Pierre",
+    "firstName": "Larry",
+    "userName": "larrys",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T15:42:12.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T15:42:12.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae35ec1e72404bf65b1"
+    },
+    "originId": "MCC_1129880",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "* Re: FEL just spontaneously recovered",
+    "text": "No smoking guns, but one interesting observation: The undulator launch feedback position/angle measurements all spiked right round the time the FEL started dropping.",
+    "lastName": "Gibbs",
+    "firstName": "Matt",
+    "userName": "mgibbs",
+    "tags": [
+      "68acd11d-05a8-45f5-b559-55a8d8833373"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [
+      "65384ae35ec1e72404bf65a6"
+    ],
+    "loggedAt": {
+      "$date": "2022-03-14T15:47:42.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T15:47:42.000Z"
+    },
+    "version": {
+      "$numberLong": "2"
+    },
+    "_class": "edu.stanford.slac.elog_plus.model.Entry",
+    "supersededBy": "65384ae35ec1e72404bf65b3"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae35ec1e72404bf65b3"
+    },
+    "originId": "MCC_1129881",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "* Re: FEL just spontaneously recovered",
+    "text": "No smoking guns, but one interesting observation: The undulator launch feedback position/angle measurements all spiked right round the time the FEL started dropping.",
+    "lastName": "Gibbs",
+    "firstName": "Matt",
+    "userName": "mgibbs",
+    "tags": [
+      "68acd11d-05a8-45f5-b559-55a8d8833373"
+    ],
+    "attachments": [
+      "65384ae35ec1e72404bf65b2"
+    ],
+    "followUps": [],
+    "references": [
+      "65384ae35ec1e72404bf65a6"
+    ],
+    "loggedAt": {
+      "$date": "2022-03-14T15:48:49.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T15:47:42.000Z"
+    },
+    "version": {
+      "$numberLong": "2"
+    },
+    "_class": "edu.stanford.slac.elog_plus.model.Entry",
+    "supersededBy": "65384ae55ec1e72404bf65c8"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae35ec1e72404bf65b4"
+    },
+    "originId": "MCC_1129882",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "update * Re: LCLS-II MAG parameter requested",
+    "text": "CEFOI Delgado assisting Dian Yeremian on mag parameter",
+    "lastName": "St.Pierre",
+    "firstName": "Larry",
+    "userName": "larrys",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [
+      "65384ae35ec1e72404bf65a9"
+    ],
+    "loggedAt": {
+      "$date": "2022-03-14T16:01:00.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T15:47:49.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae35ec1e72404bf65b5"
+    },
+    "originId": "MCC_1129883",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "BSY BSOIC cycled. Investigating...",
+    "text": "",
+    "lastName": "Duong",
+    "firstName": "Tri",
+    "userName": "thduong2",
+    "tags": [
+      "68acd11d-05a8-45f5-b559-55a8d8833373"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T16:04:22.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T16:04:22.000Z"
+    },
+    "version": {
+      "$numberLong": "2"
+    },
+    "_class": "edu.stanford.slac.elog_plus.model.Entry",
+    "supersededBy": "65384ae45ec1e72404bf65bb"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae35ec1e72404bf65b6"
+    },
+    "originId": "MCC_1129884",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "MCC Shift Change: Day Shift, Monday, 14-Mar-2022",
+    "text": "LCLS HXR: XCS delivery until 10:30, switch to XPP/MFX. LCLS SXR: Off FACET: Further LI11 characterization and tuneup in preparation for PAMM.",
+    "lastName": "Ripman",
+    "firstName": "Ben",
+    "userName": "bripman",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T16:08:45.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T15:00:00.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae35ec1e72404bf65b7"
+    },
+    "originId": "MCC_1129885",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "1801/1801 HTX Skid: normal",
+    "text": "",
+    "lastName": "St.Pierre",
+    "firstName": "Larry",
+    "userName": "larrys",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T16:11:54.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T16:11:54.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae35ec1e72404bf65b8"
+    },
+    "originId": "MCC_1129886",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "LTU BTH LCW: normal",
+    "text": "",
+    "lastName": "St.Pierre",
+    "firstName": "Larry",
+    "userName": "larrys",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T16:15:32.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T16:15:32.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae35ec1e72404bf65b9"
+    },
+    "originId": "MCC_1129887",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "* Re: BSY BSOIC cycled. Investigating...",
+    "text": "To be clear, this was the BSY BSOIC warning channel that chimed (was already green when we looked at it). None of the BSOICs that tie into this channel showed any unusual behavior at the time. Their warning statuses and gamma readbacks didn't budge. Talked to ADSO Miller, he approved us to continue running. Will write a CATER.",
+    "lastName": "Ripman",
+    "firstName": "Ben",
+    "userName": "bripman",
+    "tags": [
+      "68acd11d-05a8-45f5-b559-55a8d8833373"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [
+      "65384ae35ec1e72404bf65b5"
+    ],
+    "loggedAt": {
+      "$date": "2022-03-14T16:20:01.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T16:20:01.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae45ec1e72404bf65bb"
+    },
+    "originId": "MCC_1129888",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "BSY BSOIC cycled. Investigating...",
+    "text": "Can't find the culprit. Since this happened so fast, I'm wondering if the archive viewer scan rate for each bsoic Gamma readout is fast enough.",
+    "lastName": "Duong",
+    "firstName": "Tri",
+    "userName": "thduong2",
+    "tags": [
+      "68acd11d-05a8-45f5-b559-55a8d8833373"
+    ],
+    "attachments": [
+      "65384ae45ec1e72404bf65ba"
+    ],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T16:20:13.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T16:04:22.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae45ec1e72404bf65bc"
+    },
+    "originId": "MCC_1129889",
+    "logbooks": [
+      "6536f0b5fbf92e44a767572d",
+      "6536f0b5fbf92e44a7675730"
+    ],
+    "title": "* Re: 15-8 WGV fault CATER 155418",
+    "text": "Opened CB7 and blue locked. Turned off klystron filament for vacuum work",
+    "lastName": "Freese",
+    "firstName": "Allan",
+    "userName": "alf",
+    "tags": [
+      "076dfad9-0fc6-4839-8c42-d16e1e9ab051",
+      "a322161d-e930-4ad4-b481-7aa10be41996"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [
+      "65384ae25ec1e72404bf659d"
+    ],
+    "loggedAt": {
+      "$date": "2022-03-14T16:31:13.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T16:31:13.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae45ec1e72404bf65bd"
+    },
+    "originId": "MCC_1129890",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675742"
+    ],
+    "title": "OWL SHIFT SUMMARY",
+    "text": "Comment # Comment 1LCLS: Delivered 8 keV, 9.65 GeV beam to XCS. ~2.6 mJ 2FACET: Seeing LI11 X emittance of 4.4 this morning.  3LCLS: Offlined BPM 201 which is jumping dramatically and reconfigured LI28 steering FB. \n<br>\n<br>Program Delivered User Off Tuning Config \u00ce\u0094s Accl. Down Sched. Off FACET-II_comm8.00.00.00.00.00LCLS-MD-CU_SXR0.00.00.00.00.08XCS_user8.00.00.00.00.00\n<br>",
+    "lastName": "Ripman",
+    "firstName": "Ben",
+    "userName": "bripman",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T16:31:54.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T14:59:59.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae45ec1e72404bf65be"
+    },
+    "originId": "MCC_1129891",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "OWL SHIFT SUMMARY",
+    "text": "Comment # Comment 1LCLS: Delivered 8 keV, 9.65 GeV beam to XCS. ~2.6 mJ 2FACET: Seeing LI11 X emittance of 4.4 this morning.  3LCLS: Offlined BPM 201 which is jumping dramatically and reconfigured LI28 steering FB.  4LCLS: Pulse intensity dropped by a factor of 4 at 06:28 then spontaneously recovered five minutes later. Unable to determine cause. Pulse intensity dropped out again at 07:53.\n<br>\n<br>Program Delivered User Off Tuning Config \u0394s Accl. Down Sched. Off FACET-II_comm8.00.00.00.00.00LCLS-MD-CU_SXR0.00.00.00.00.08XCS_user8.00.00.00.00.00\n<br>",
+    "lastName": "Ripman",
+    "firstName": "Ben",
+    "userName": "bripman",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T16:32:18.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T14:59:59.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae45ec1e72404bf65bf"
+    },
+    "originId": "MCC_1129892",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "ACR radio transmission from the handsets being looked into by CEFOI",
+    "text": "Handsets still not transmitting out, although they are receiving. There is a CATER already generated",
+    "lastName": "Manley-Arrieta",
+    "firstName": "Daniel",
+    "userName": "dpmanley",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T16:32:42.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T16:32:42.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae45ec1e72404bf65c0"
+    },
+    "originId": "MCC_1129893",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "S. Vetter is checking on the health of coherent 2.",
+    "text": "we will probably have to monitor the laser room temp...",
+    "lastName": "Duong",
+    "firstName": "Tri",
+    "userName": "thduong2",
+    "tags": [
+      "68acd11d-05a8-45f5-b559-55a8d8833373"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T16:41:01.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T16:41:01.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae45ec1e72404bf65c1"
+    },
+    "originId": "MCC_1129894",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "update * Re: LI23-2 Waveguide1 water fault CATER 155706 CEFOI",
+    "text": "change gasket. Levels at rotameters were 11.5 gpm",
+    "lastName": "St.Pierre",
+    "firstName": "Larry",
+    "userName": "larrys",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [
+      "65384ae15ec1e72404bf6586"
+    ],
+    "loggedAt": {
+      "$date": "2022-03-14T16:41:50.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T16:41:50.000Z"
+    },
+    "version": {
+      "$numberLong": "2"
+    },
+    "_class": "edu.stanford.slac.elog_plus.model.Entry",
+    "supersededBy": "65384ae45ec1e72404bf65c4"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae45ec1e72404bf65c2"
+    },
+    "originId": "MCC_1129895",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "update * Re: LI13-6 WCS fault CATER 155688 CEFOI",
+    "text": "change gasket. Levels at rotameters were 11.5 gpm",
+    "lastName": "St.Pierre",
+    "firstName": "Larry",
+    "userName": "larrys",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [
+      "65384ae15ec1e72404bf6587"
+    ],
+    "loggedAt": {
+      "$date": "2022-03-14T16:42:20.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T16:42:20.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae45ec1e72404bf65c3"
+    },
+    "originId": "MCC_1129896",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "LI23-2 WCS1 water fault CATER 155706 CEFOI",
+    "text": "CEFOI Delgado and Espinosa",
+    "lastName": "Manley-Arrieta",
+    "firstName": "Daniel",
+    "userName": "dpmanley",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T16:43:41.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T13:15:58.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae45ec1e72404bf65c4"
+    },
+    "originId": "MCC_1129897",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "update * Re: LI23-2 WCS1 fault CATER 155706 CEFOI",
+    "text": "change gasket. Levels at rotameters were 11.5 gpm",
+    "lastName": "Manley-Arrieta",
+    "firstName": "Daniel",
+    "userName": "dpmanley",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [
+      "65384ae15ec1e72404bf6586"
+    ],
+    "loggedAt": {
+      "$date": "2022-03-14T16:44:02.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T16:41:50.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae55ec1e72404bf65c5"
+    },
+    "originId": "MCC_1129898",
+    "logbooks": [
+      "6536f0b5fbf92e44a767572a"
+    ],
+    "title": "HVPS Program Complete",
+    "text": "",
+    "lastName": "Schroder",
+    "firstName": "Josh",
+    "userName": "schroder",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T16:50:20.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T16:50:20.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae55ec1e72404bf65c6"
+    },
+    "originId": "MCC_1129899",
+    "logbooks": [
+      "6536f0b5fbf92e44a767572a"
+    ],
+    "title": "BSOIC trips are interfering with SPARKS program",
+    "text": "We keep having to reset the BSOICS (BL01, BL02 so far..) and restart the injector. Trying to reach RPFO",
+    "lastName": "Sommer",
+    "firstName": "Tom",
+    "userName": "sommer",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T16:51:59.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T16:51:59.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae55ec1e72404bf65c8"
+    },
+    "originId": "MCC_1129900",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675742"
+    ],
+    "title": "* Re: FEL just spontaneously recovered",
+    "text": "No smoking guns, but one interesting observation: The undulator launch feedback position/angle measurements all spiked right round the time the FEL started dropping.",
+    "lastName": "Andrews",
+    "firstName": "Anthony",
+    "userName": "aandrews",
+    "tags": [
+      "de6c5693-3eb3-40d7-9b61-53ff2f56af2b"
+    ],
+    "attachments": [
+      "65384ae55ec1e72404bf65c7"
+    ],
+    "followUps": [],
+    "references": [
+      "65384ae35ec1e72404bf65a6"
+    ],
+    "loggedAt": {
+      "$date": "2022-03-14T16:58:47.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T15:47:42.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae55ec1e72404bf65c9"
+    },
+    "originId": "MCC_1129901",
+    "logbooks": [
+      "6536f0b5fbf92e44a767572a"
+    ],
+    "title": "Got ahold of Brogonia* Re: BSOIC trips are interfering with SPARKS program",
+    "text": "Got ahold of Henry--he will contact RPFO people and make sure they stop testing. This is probably a misunderstanding because of the switch in the PAMM/AP times.",
+    "lastName": "Sommer",
+    "firstName": "Tom",
+    "userName": "sommer",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [
+      "65384ae55ec1e72404bf65c6"
+    ],
+    "loggedAt": {
+      "$date": "2022-03-14T17:03:00.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T17:03:00.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae55ec1e72404bf65cc"
+    },
+    "originId": "MCC_1129902",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "Mystery FEL droops are being caused by the laser heater feedback wandering around.",
+    "text": "Both the 06:30 and 07:50 instances of FEL drooping look like they are due to the laser heater feedback moving around. See the plots below - it correlates pretty well with M2H mirror vertical position. In the 8:15 meeting there was a mention of problems with the feedback loop that adjusts the heater camera waveplates to maintain proper image intensity. I think the intensity on the cameras is changing, which causes the laser spot centroid calculation to change, which the laser heater steering feedback then reacts to. The heater gain right now is very high: 2 mJ w/ heater on, 0.3 mJ w/ heater off. So, the beam is apparently very sensitive to small heater disturbances.",
+    "lastName": "Gibbs",
+    "firstName": "Matt",
+    "userName": "mgibbs",
+    "tags": [
+      "68acd11d-05a8-45f5-b559-55a8d8833373"
+    ],
+    "attachments": [
+      "65384ae55ec1e72404bf65ca",
+      "65384ae55ec1e72404bf65cb"
+    ],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T17:07:33.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T17:07:32.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae55ec1e72404bf65cd"
+    },
+    "originId": "MCC_1129903",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "LI05-LI30 conductivitiy check in alcove CEFOM",
+    "text": "CEFOM Jeglum",
+    "lastName": "St.Pierre",
+    "firstName": "Larry",
+    "userName": "larrys",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T17:15:09.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T17:15:09.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae55ec1e72404bf65ce"
+    },
+    "originId": "MCC_1129904",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "Beam dropped out (not making it into main linac), BP02 died",
+    "text": "",
+    "lastName": "Ripman",
+    "firstName": "Ben",
+    "userName": "bripman",
+    "tags": [
+      "68acd11d-05a8-45f5-b559-55a8d8833373"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T17:18:08.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T17:18:08.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae55ec1e72404bf65cf"
+    },
+    "originId": "MCC_1129905",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "LI05 strainer cleaning CEFOM",
+    "text": "CEFOM Dominguez",
+    "lastName": "St.Pierre",
+    "firstName": "Larry",
+    "userName": "larrys",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T17:20:02.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T17:20:02.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae55ec1e72404bf65d0"
+    },
+    "originId": "MCC_1129906",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "Lots of statuses in LI21 are purple - maybe some kind of networking or power problem",
+    "text": "",
+    "lastName": "Ripman",
+    "firstName": "Ben",
+    "userName": "bripman",
+    "tags": [
+      "68acd11d-05a8-45f5-b559-55a8d8833373"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T17:21:52.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T17:21:52.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae55ec1e72404bf65d1"
+    },
+    "originId": "MCC_1129907",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "* Re: Energy change angry about Decker's new LI21 kicker. &lt;- Will ignore 21 kicker for now",
+    "text": "These PVs are in SCORE but aren't live yet, so for now I've told energy change to just ignore KICK:LI21 devices. It should standardize normally now. Energy change is probably too conservative in skipping STDZ if ANY magnet (such as a 21 kicker) has a problem loading, but I think I want to keep it that way as I'd rather have it take the super safe approach and let the user decide if they want to standardize in the case of failed magnet loads.",
+    "lastName": "Zimmer",
+    "firstName": "Christopher",
+    "userName": "zimmerc",
+    "tags": [
+      "68acd11d-05a8-45f5-b559-55a8d8833373"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [
+      "65384ad65ec1e72404bf64b7"
+    ],
+    "loggedAt": {
+      "$date": "2022-03-14T17:23:20.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T17:23:20.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae55ec1e72404bf65d3"
+    },
+    "originId": "MCC_1129908",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "A bunch of quads in LI21 were turned off, turned them on and trimmed and got beam back to XCS",
+    "text": "Image below is after I turned the quads back on.",
+    "lastName": "Ripman",
+    "firstName": "Ben",
+    "userName": "bripman",
+    "tags": [
+      "68acd11d-05a8-45f5-b559-55a8d8833373"
+    ],
+    "attachments": [
+      "65384ae55ec1e72404bf65d2"
+    ],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T17:27:02.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T17:27:02.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae55ec1e72404bf65d4"
+    },
+    "originId": "MCC_1129909",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "XCS says they're finished, doing a heater alignment and then loading XPP/MFX's config",
+    "text": "",
+    "lastName": "Ripman",
+    "firstName": "Ben",
+    "userName": "bripman",
+    "tags": [
+      "68acd11d-05a8-45f5-b559-55a8d8833373"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T17:27:46.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T17:27:46.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae55ec1e72404bf65d5"
+    },
+    "originId": "MCC_1129910",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "Ted Martinez is going out to LI21 to see if anybody is working on something that would have caused the IOC/magnet outage.",
+    "text": "",
+    "lastName": "Gibbs",
+    "firstName": "Matt",
+    "userName": "mgibbs",
+    "tags": [
+      "68acd11d-05a8-45f5-b559-55a8d8833373"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [
+      "65384ae55ec1e72404bf65d3"
+    ],
+    "loggedAt": {
+      "$date": "2022-03-14T17:31:22.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T17:31:22.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae55ec1e72404bf65d6"
+    },
+    "originId": "MCC_1129911",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "22-8 got a CAM fault. Reset went okay.",
+    "text": "",
+    "lastName": "Duong",
+    "firstName": "Tri",
+    "userName": "thduong2",
+    "tags": [
+      "68acd11d-05a8-45f5-b559-55a8d8833373"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T17:32:13.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T17:32:13.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae55ec1e72404bf65d7"
+    },
+    "originId": "MCC_1129912",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "Delivering 2.1 mJ to XPP/MFX",
+    "text": "",
+    "lastName": "Ripman",
+    "firstName": "Ben",
+    "userName": "bripman",
+    "tags": [
+      "68acd11d-05a8-45f5-b559-55a8d8833373"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T17:43:23.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T17:43:23.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae65ec1e72404bf65d8"
+    },
+    "originId": "MCC_1129913",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "Heater alignment successful during changeover, was off by a couple hundred um",
+    "text": "",
+    "lastName": "Ripman",
+    "firstName": "Ben",
+    "userName": "bripman",
+    "tags": [
+      "68acd11d-05a8-45f5-b559-55a8d8833373"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T17:47:36.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T17:47:36.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae65ec1e72404bf65d9"
+    },
+    "originId": "MCC_1129914",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "IR2 lift greasing bearings and checking pumps CEFOM",
+    "text": "CEFOM Dominguez",
+    "lastName": "St.Pierre",
+    "firstName": "Larry",
+    "userName": "larrys",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T17:50:10.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T17:50:10.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae65ec1e72404bf65db"
+    },
+    "originId": "MCC_1129915",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "Put in a +16 MeV BC2 energy vernier on data slot 3 to address XPP's bimodal timing distribution complaint",
+    "text": "",
+    "lastName": "Ripman",
+    "firstName": "Ben",
+    "userName": "bripman",
+    "tags": [
+      "68acd11d-05a8-45f5-b559-55a8d8833373"
+    ],
+    "attachments": [
+      "65384ae65ec1e72404bf65da"
+    ],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T18:00:23.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T18:00:23.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae65ec1e72404bf65dc"
+    },
+    "originId": "MCC_1129916",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "Reminder to take out XPP's DS3 BC2 energy vernier",
+    "text": "",
+    "lastName": "Ripman",
+    "firstName": "Ben",
+    "userName": "bripman",
+    "tags": [
+      "68acd11d-05a8-45f5-b559-55a8d8833373"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T18:01:12.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-15T05:30:00.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae65ec1e72404bf65dd"
+    },
+    "originId": "MCC_1129917",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "LI19 ACS leak rate increasing",
+    "text": "3/17 2.66 gal/day lost 3/14 3.77 gal/day lost",
+    "lastName": "St.Pierre",
+    "firstName": "Larry",
+    "userName": "larrys",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T18:06:32.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T18:06:32.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae65ec1e72404bf65de"
+    },
+    "originId": "MCC_1129918",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "ACS, WCS and KCS surge tanks on DCS: normal",
+    "text": "",
+    "lastName": "St.Pierre",
+    "firstName": "Larry",
+    "userName": "larrys",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T18:07:16.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T18:07:16.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae65ec1e72404bf65df"
+    },
+    "originId": "MCC_1129919",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "ACS, WCS and KCS outputs on DCS: normal",
+    "text": "",
+    "lastName": "St.Pierre",
+    "firstName": "Larry",
+    "userName": "larrys",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T18:16:35.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T18:16:35.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae65ec1e72404bf65e0"
+    },
+    "originId": "MCC_1129920",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "completed * Re: IR2 lift greasing bearings and checking pumps CEFOM",
+    "text": "CEFOM Dominguez noticed switch high level",
+    "lastName": "St.Pierre",
+    "firstName": "Larry",
+    "userName": "larrys",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [
+      "65384ae65ec1e72404bf65d9"
+    ],
+    "loggedAt": {
+      "$date": "2022-03-14T18:24:58.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T18:24:58.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae65ec1e72404bf65e1"
+    },
+    "originId": "MCC_1129921",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "CT1202 and CT101 serviced CEFOM",
+    "text": "CEFOM Gonzalez",
+    "lastName": "St.Pierre",
+    "firstName": "Larry",
+    "userName": "larrys",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T18:44:55.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T18:44:55.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae65ec1e72404bf65e2"
+    },
+    "originId": "MCC_1129922",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "* Re: Ted Martinez is going out to LI21 to see if anybody is working on something that would have caused the IOC/magnet outage.",
+    "text": "Additional context: there are a couple of jobs to work on a rack in LI21 during the PAMM tomorrow (related to the new kicker magnets in that area). Ted took some photos inside that rack earlier today and the contents of the rack exactly line up with the things that broke at 10:15 today. We suspect that someone may have been poking around in preparation for the work tomorrow and accidentally hit a button they weren't meant to hit.",
+    "lastName": "Ripman",
+    "firstName": "Ben",
+    "userName": "bripman",
+    "tags": [
+      "68acd11d-05a8-45f5-b559-55a8d8833373"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [
+      "65384ae55ec1e72404bf65d5"
+    ],
+    "loggedAt": {
+      "$date": "2022-03-14T18:54:13.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T17:48:11.000Z"
+    },
+    "version": {
+      "$numberLong": "2"
+    },
+    "_class": "edu.stanford.slac.elog_plus.model.Entry",
+    "supersededBy": "65384ae65ec1e72404bf65e6"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae65ec1e72404bf65e3"
+    },
+    "originId": "MCC_1129923",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675734",
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "Coh2 relocked to RF - found locking photodiode alignment was off, optimized and ran a calibration.",
+    "text": "",
+    "lastName": "Vetter",
+    "firstName": "Sharon",
+    "userName": "svetter",
+    "tags": [
+      "567c3276-9c39-496a-a395-206c8d720db2",
+      "68acd11d-05a8-45f5-b559-55a8d8833373"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T18:56:58.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T18:56:58.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae65ec1e72404bf65e5"
+    },
+    "originId": "MCC_1129924",
+    "logbooks": [
+      "6536f0b5fbf92e44a767572a"
+    ],
+    "title": "9am Meeting notes",
+    "text": "",
+    "lastName": "Sommer",
+    "firstName": "Tom",
+    "userName": "sommer",
+    "tags": [],
+    "attachments": [
+      "65384ae65ec1e72404bf65e4"
+    ],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T19:15:15.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T18:14:37.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae65ec1e72404bf65e6"
+    },
+    "originId": "MCC_1129925",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "* Re: Ted Martinez is going out to LI21 to see if anybody is working on something that would have caused the IOC/magnet outage.",
+    "text": "Additional context: there are a couple of PAMM jobs to work on a rack in LI21 (related to the new kicker magnets in that area). Ted took some photos inside that rack earlier today and the contents of the rack exactly line up with the things that died at 10:15. We suspect that someone may have been poking around in preparation for the work tomorrow and accidentally hit a button they weren't meant to hit.",
+    "lastName": "Ripman",
+    "firstName": "Ben",
+    "userName": "bripman",
+    "tags": [
+      "68acd11d-05a8-45f5-b559-55a8d8833373"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [
+      "65384ae55ec1e72404bf65d5"
+    ],
+    "loggedAt": {
+      "$date": "2022-03-14T19:15:27.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T17:48:11.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae65ec1e72404bf65e7"
+    },
+    "originId": "MCC_1129926",
+    "logbooks": [
+      "6536f0b5fbf92e44a767572a"
+    ],
+    "title": "SPARK troubleshooting over, beam loss monitor program beginning",
+    "text": "",
+    "lastName": "Schroder",
+    "firstName": "Josh",
+    "userName": "schroder",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T19:16:27.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T19:16:27.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae65ec1e72404bf65e8"
+    },
+    "originId": "MCC_1129927",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675734",
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "* Re: Coh2 relocked to RF - found locking photodiode alignment was off, optimized and ran a calibration. - Vitara work started",
+    "text": "A.Mead is opening up Coh2 Vitara to perform optics cleaning, check for damage and beam alignment.",
+    "lastName": "Vetter",
+    "firstName": "Sharon",
+    "userName": "svetter",
+    "tags": [
+      "567c3276-9c39-496a-a395-206c8d720db2",
+      "68acd11d-05a8-45f5-b559-55a8d8833373"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [
+      "65384ae65ec1e72404bf65e3"
+    ],
+    "loggedAt": {
+      "$date": "2022-03-14T19:17:14.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T19:17:14.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae75ec1e72404bf65e9"
+    },
+    "originId": "MCC_1129928",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "FOC summary last 24 hours",
+    "text": "",
+    "lastName": "Manley-Arrieta",
+    "firstName": "Daniel",
+    "userName": "dpmanley",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T19:41:44.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T21:15:00.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae75ec1e72404bf65ea"
+    },
+    "originId": "MCC_1129929",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "CT404 Chemical calibrations CEFOI",
+    "text": "CEFOI Delgado",
+    "lastName": "St.Pierre",
+    "firstName": "Larry",
+    "userName": "larrys",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T19:56:31.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T19:56:31.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae75ec1e72404bf65ee"
+    },
+    "originId": "MCC_1129930",
+    "logbooks": [
+      "6536f0b5fbf92e44a767572d",
+      "6536f0b5fbf92e44a7675730"
+    ],
+    "title": "28-8 Replace PAD. CATER Id: 155662(TEC)",
+    "text": "R/R PAD chassis. Turn modulator on, it trip on REFL &amp; over curr many times. Lowered DQ from 23A to 18A, start at low BV and slowly raise it back to spec. But station is still unstable, still trip on REFL &amp; OC. Use the enter panel to change expected BVMX &amp; BCMX down to make station stable. Now the expected BV from 350kv to 340kV, BC from 406A to 387A. The actual BV = 330kV and BC = 366A. Run the poly, update the poly and put it in the HSTA MODE: CKP check phase. OPS will phase it.",
+    "lastName": "Nguyen",
+    "firstName": "Phillip",
+    "userName": "phillip",
+    "tags": [
+      "dce26dca-142d-40eb-9d1d-d480d8dc57f9",
+      "fe1151d3-12a3-4b07-b9ac-d9e4bfcd1561"
+    ],
+    "attachments": [
+      "65384ae75ec1e72404bf65eb",
+      "65384ae75ec1e72404bf65ec",
+      "65384ae75ec1e72404bf65ed"
+    ],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T19:59:19.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T19:59:19.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae75ec1e72404bf65ef"
+    },
+    "originId": "MCC_1129931",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "CT101: normal, conductivity at 470 ms",
+    "text": "",
+    "lastName": "St.Pierre",
+    "firstName": "Larry",
+    "userName": "larrys",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T19:59:29.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T19:59:29.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae85ec1e72404bf65f3"
+    },
+    "originId": "MCC_1129934",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "102 Pad: normal, conductivity at 0.09 ms",
+    "text": "",
+    "lastName": "St.Pierre",
+    "firstName": "Larry",
+    "userName": "larrys",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T20:14:20.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T20:14:20.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae85ec1e72404bf65f4"
+    },
+    "originId": "MCC_1129935",
+    "logbooks": [
+      "6536f0b5fbf92e44a767572a"
+    ],
+    "title": "PAMM Access Script and info, SPEAR Beam Dump at 04:30",
+    "text": "<a href=\"https://oraweb.slac.stanford.edu/apex/slacprod/f?p=194:104:16677494227483:::104:P104_REPAIR_ID,P104_RP:674,6\" rel=\"nofollow\">PAMM script</a> Please read the timeline on the first page of the access schedule for detailed setup instructions. There are 4 new RSWCFs for this PAMM as of 3/14 at 14:00. RSWCF 8687: Spear Ring Roof PEA Access for MSG RF waveguide loads &amp; pressure relief device inspection. Requirements before starting work: Lock off the extraction septum with SPEAR Operations lock and administratively insert the BTS stoppers. Lock down the shorting bar of the SPEAR3 RF with a SPEAR Operation lock. Follow the RWP for access. RSWCF 8683: BL 17 BCS will have to be bypassed to allow the BL 17-0 to open for troubleshooting. Requirements before starting work: Lock off the extraction septum with SPEAR Operations lock and administratively insert the BTS stoppers. Lock down the shorting bar of the SPEAR3 RF with a SPEAR Operation lock. RSWCF 8680: Replace the 17-0 IS2 pneumatic actuator if deemed necessary by troubleshooting. Requirements before starting work: Lock off the extraction septum with SPEAR Operations lock and administratively insert the BTS stoppers. Lock down the shorting bar of the SPEAR3 RF with a SPEAR Operation lock. RSWCF 8670: Return the status cables for 17-0 IS1 &amp; IS2 to normal configuration. Requirements before starting work: Lock off the extraction septum with SPEAR Operations lock and administratively insert the BTS stoppers. Lock down the shorting bar of the SPEAR3 RF with a SPEAR Operation lock.",
+    "lastName": "Kalsi",
+    "firstName": "Sean",
+    "userName": "skalsi",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T20:17:40.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-15T11:25:23.000Z"
+    },
+    "version": {
+      "$numberLong": "2"
+    },
+    "_class": "edu.stanford.slac.elog_plus.model.Entry",
+    "supersededBy": "65384ae85ec1e72404bf65f5"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae85ec1e72404bf65f5"
+    },
+    "originId": "MCC_1129936",
+    "logbooks": [
+      "6536f0b5fbf92e44a767572a"
+    ],
+    "title": "PAMM Access Script and info, SPEAR Beam Dump at 04:30",
+    "text": "<a href=\"https://oraweb.slac.stanford.edu/apex/slacprod/f?p=194:104:16677494227483:::104:P104_REPAIR_ID,P104_RP:674,6\" rel=\"nofollow\">PAMM script</a> Note Facilities will call the control room before shutting down 1801 pumps. Please read the timeline on the first page of the access schedule for detailed setup instructions. There are 4 new RSWCFs for this PAMM as of 3/14 at 14:00. RSWCF 8687: Spear Ring Roof PEA Access for MSG RF waveguide loads &amp; pressure relief device inspection. Requirements before starting work: Lock off the extraction septum with SPEAR Operations lock and administratively insert the BTS stoppers. Lock down the shorting bar of the SPEAR3 RF with a SPEAR Operation lock. Follow the RWP for access. RSWCF 8683: BL 17 BCS will have to be bypassed to allow the BL 17-0 to open for troubleshooting. Requirements before starting work: Lock off the extraction septum with SPEAR Operations lock and administratively insert the BTS stoppers. Lock down the shorting bar of the SPEAR3 RF with a SPEAR Operation lock. RSWCF 8680: Replace the 17-0 IS2 pneumatic actuator if deemed necessary by troubleshooting. Requirements before starting work: Lock off the extraction septum with SPEAR Operations lock and administratively insert the BTS stoppers. Lock down the shorting bar of the SPEAR3 RF with a SPEAR Operation lock. RSWCF 8670: Return the status cables for 17-0 IS1 &amp; IS2 to normal configuration. Requirements before starting work: Lock off the extraction septum with SPEAR Operations lock and administratively insert the BTS stoppers. Lock down the shorting bar of the SPEAR3 RF with a SPEAR Operation lock.",
+    "lastName": "Kalsi",
+    "firstName": "Sean",
+    "userName": "skalsi",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T20:20:16.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-15T11:25:23.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae85ec1e72404bf65f6"
+    },
+    "originId": "MCC_1129937",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "Added 18-2 and 18-5 to keep on energy in S20",
+    "text": "Transmission is being held with energy and launch into W chicane",
+    "lastName": "Loney",
+    "firstName": "Ryan",
+    "userName": "loney",
+    "tags": [
+      "0ba5394e-30cf-47f3-aaca-cfe5794332bd"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T20:21:32.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T20:21:32.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae85ec1e72404bf65f7"
+    },
+    "originId": "MCC_1129938",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "CT1201: normal, conductivity at 2577.44 ms",
+    "text": "",
+    "lastName": "St.Pierre",
+    "firstName": "Larry",
+    "userName": "larrys",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T20:26:17.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T20:26:17.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae85ec1e72404bf65f8"
+    },
+    "originId": "MCC_1129939",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "CT1202: normal, conductivity at 2443 ms",
+    "text": "",
+    "lastName": "St.Pierre",
+    "firstName": "Larry",
+    "userName": "larrys",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T20:30:45.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T20:30:45.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae85ec1e72404bf65f9"
+    },
+    "originId": "MCC_1129940",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "* Re: FOC summary last 24 hours",
+    "text": "OFF NORMAL - LI08 30C pump tripped on low level. CEFOM Hector en route LCLS-II LI02, LI05, LI08, LI09 water systems operation verification CEFOI LI01-LI10 check VAT valves CEFOI LI02 HE guard supply line installation CEFOI B913 ION chamber bottle pressure CEFOI LI21 sub booster supply line checking thickness of line CEFOI LI13-6 WCS fault CATER 155688 CEFOI CT chemical calibration CEFOI LI23-2 WCS1 water fault CATER 155706 CEFOI ACS, WCS and KCS switch checks on EPICS: LI23-2 WG1 being looked at CEFOI LI09 Conductivity checks CEFOI LI11WCS surge tank level lowered from 100% to 84% CEFOM Fernando LI11ACS surge tank level lowered from 100% to 88% CEFOM Fernando HTX-2 strainer cleaning CEFOM LCLS-II MAG parameter requested 30C pump cleaning LI08 CEFOM B640 CEFOE request smoke detector impaired need to contact CEFTT for work order B05 fire detector panel trouble supervisory alarm contact CEFTT ACR radio transmission from the handsets being looked into by CEFOI LI05-LI30 conductivity check in alcove CEFOM LI05 strainer cleaning CEFOM IR2 lift greasing bearings and checking pumps CEFOM LI19 ACS leak rate increasing CT1202 and CT101 serviced CEFOM CT404 Chemical calibrations CEFOI",
+    "lastName": "St.Pierre",
+    "firstName": "Larry",
+    "userName": "larrys",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [
+      "65384ae75ec1e72404bf65e9"
+    ],
+    "loggedAt": {
+      "$date": "2022-03-14T20:50:33.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T20:50:33.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae85ec1e72404bf65fa"
+    },
+    "originId": "MCC_1129941",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675736"
+    ],
+    "title": "Complete * Re: CT404 Chemical calibrations CEFOI",
+    "text": "",
+    "lastName": "Manley-Arrieta",
+    "firstName": "Daniel",
+    "userName": "dpmanley",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [
+      "65384ae75ec1e72404bf65ea"
+    ],
+    "loggedAt": {
+      "$date": "2022-03-14T20:59:40.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T20:59:40.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae85ec1e72404bf65fb"
+    },
+    "originId": "MCC_1129942",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675724"
+    ],
+    "title": "Incoming Duty Tech: Christina Eshelman (1400-2430)",
+    "text": "",
+    "lastName": "Eshelman",
+    "firstName": "Christina",
+    "userName": "horimoto",
+    "tags": [
+      "bda8d02e-57a4-4ec7-90fd-46d0187d57a9"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T21:04:01.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T21:04:01.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae85ec1e72404bf65fc"
+    },
+    "originId": "MCC_1129943",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675730"
+    ],
+    "title": "* Re: 19-3: 'HVR' but no remote on. VVS feeder breaker has tripped. Cater 155148",
+    "text": "Closed CB7, mod running, AMRF need to adjust all there Parameters. Still in MAINT mode PE/CH",
+    "lastName": "Erebia",
+    "firstName": "Pete",
+    "userName": "perebia",
+    "tags": [
+      "a322161d-e930-4ad4-b481-7aa10be41996"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [
+      "65384a605ec1e72404bf5ccc"
+    ],
+    "loggedAt": {
+      "$date": "2022-03-14T21:19:43.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T21:19:43.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae85ec1e72404bf65fd"
+    },
+    "originId": "MCC_1129944",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675730"
+    ],
+    "title": "* Re: CATER 155645, Kly Mod 17-7: removed shorted T20 xformer from compartment 1.",
+    "text": "Mod 17-7 Allan F. Moved T20 From 27-5C (former from 1-7B) locate next to 27-5. Installed it at 17-7 IN:3/R 3053 Out:10488-10 D/D Air Closed CB7 and Mod is running but no D-qing Still need work ,Left the cud in Maint Mode PE/CH",
+    "lastName": "Erebia",
+    "firstName": "Pete",
+    "userName": "perebia",
+    "tags": [
+      "a322161d-e930-4ad4-b481-7aa10be41996"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [
+      "65384ad65ec1e72404bf64ba"
+    ],
+    "loggedAt": {
+      "$date": "2022-03-14T21:27:19.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T21:27:19.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae85ec1e72404bf65fe"
+    },
+    "originId": "MCC_1129945",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "PAMM Access Script and info, LCLS Beam off at 04:30 &amp; FACET Beam off at 05:00",
+    "text": "<a href=\"https://oraweb.slac.stanford.edu/apex/slacprod/f?p=194:104:8384627468657:::104:P104_REPAIR_ID,P104_RP:680,6\" rel=\"nofollow\">PAMM script</a> Please read the timeline on the first page of the access schedule for detailed setup instructions. Please set areas requiring a survey to Controlled Access during the time where RPFO is conducting the survey. This includes all of Linac East, EBD-FEE, and the BSY. Please do not allow general controlled access or transition to permitted access until RPFO reports the survey conditions and releases the areas for general access. <a href=\"https://slac.sharepoint.com/:x:/r/sites/AOSD/aosd_maint/_layouts/15/Doc.aspx?sourcedoc=%7BF9CB0BD1-7F0F-4E18-8C35-7AAF26A92755%7D&amp;file=OpsPAMMroster.xlsx&amp;action=default&amp;mobileredirect=true\" rel=\"nofollow\">Ops Roster Link</a> Here is job list maintained by Mason Landrum to track the Photon work in the FEE for the PAMM: <a href=\"https://confluence.slac.stanford.edu/pages/viewpage.action?spaceKey=XBD&amp;title=FEE+Access\" rel=\"nofollow\">FEE Photon Jobs List</a> There are 4 RSWCFs for this PAMM as of 3/7 at 14:00. There is a Advanced Search report to help track the RSWCFs for this PAMM. To get to it: 1. Log into the RSWCF App 2. Click on Advanced Search Tab 3. Choose report #9 in the report list drop down titled \"PAMM RSWCFs\" <a href=\"https://oraweb.slac.stanford.edu/apex/slacprod/f?p=252:7\" rel=\"nofollow\">RSWCF Advanced Search Reports</a>",
+    "lastName": "Kalsi",
+    "firstName": "Sean",
+    "userName": "skalsi",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T21:28:13.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-15T11:25:45.000Z"
+    },
+    "version": {
+      "$numberLong": "2"
+    },
+    "_class": "edu.stanford.slac.elog_plus.model.Entry",
+    "supersededBy": "65384ae95ec1e72404bf6608"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae85ec1e72404bf65ff"
+    },
+    "originId": "MCC_1129946",
+    "logbooks": [
+      "6536f0b5fbf92e44a767572d",
+      "6536f0b5fbf92e44a7675730"
+    ],
+    "title": "19-3 Adjusted BV &amp; BC to spec.",
+    "text": "19-3 has expected BV = 382V &amp; BC = 420A are too high. After adjusted them: expected BV = 359kV, BC = 402A.",
+    "lastName": "Nguyen",
+    "firstName": "Phillip",
+    "userName": "phillip",
+    "tags": [
+      "076dfad9-0fc6-4839-8c42-d16e1e9ab051",
+      "a322161d-e930-4ad4-b481-7aa10be41996"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T21:32:51.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T21:32:51.000Z"
+    },
+    "version": {
+      "$numberLong": "2"
+    },
+    "_class": "edu.stanford.slac.elog_plus.model.Entry",
+    "supersededBy": "65384ae85ec1e72404bf6600"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae85ec1e72404bf6600"
+    },
+    "originId": "MCC_1129947",
+    "logbooks": [
+      "6536f0b5fbf92e44a767572d",
+      "6536f0b5fbf92e44a7675730"
+    ],
+    "title": "19-3 Adjusted expected BV &amp; BC to spec.",
+    "text": "19-3 has expected BV = 382V &amp; BC = 420A are too high. After adjusted them: expected BV = 359kV, BC = 402A.",
+    "lastName": "Nguyen",
+    "firstName": "Phillip",
+    "userName": "phillip",
+    "tags": [
+      "076dfad9-0fc6-4839-8c42-d16e1e9ab051",
+      "a322161d-e930-4ad4-b481-7aa10be41996"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T21:33:40.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T21:32:51.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae85ec1e72404bf6601"
+    },
+    "originId": "MCC_1129948",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "New Laser Heater Waveplate Feedback:",
+    "text": "I've added a new and improved laser heater waveplate feedback to the IN20/Laser Laser Heater tab. This feedback aims to keep the CH1 and VHC camera intensities within usable ranges. It's pretty simple but should work well for general running. If you want the feedback to actuate, set the control to LHWP FB ON. If you don't want the feedback to actuate, set the control to LHWP FB OFF. There are buttons to start/stop/restart the feedback process, and there is an indicator which will be red and green depending on if the feedback process is running (green) or not (red). The process needs to be running and the selector set to LHWP FB ON for the feedback to actuate. It should recognize if there isn't beam, the shutter is in etc. and will not try to actuate. For now, the process running indicator is white, as I need to reboot SIOC:SYS0:AL02 to get the new monitor PV live and will do that during the PAMM tomorrow. The feedback process is currently running, and the indicator should work properly tomorrow after the SIOC reboot.",
+    "lastName": "Zimmer",
+    "firstName": "Christopher",
+    "userName": "zimmerc",
+    "tags": [
+      "68acd11d-05a8-45f5-b559-55a8d8833373"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T21:38:45.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T21:38:45.000Z"
+    },
+    "version": {
+      "$numberLong": "2"
+    },
+    "_class": "edu.stanford.slac.elog_plus.model.Entry",
+    "supersededBy": "65384ae95ec1e72404bf6603"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae95ec1e72404bf6603"
+    },
+    "originId": "MCC_1129949",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "New Laser Heater Waveplate Feedback:",
+    "text": "I've added a new and improved laser heater waveplate feedback to the IN20/Laser Laser Heater tab. This feedback aims to keep the CH1 and VHC camera intensities within usable ranges. It's pretty simple but should work well for general running. If you want the feedback to actuate, set the control to LHWP FB ON. If you don't want the feedback to actuate, set the control to LHWP FB OFF. There are buttons to start/stop/restart the feedback process, and there is an indicator which will be red and green depending on if the feedback process is running (green) or not (red). The process needs to be running and the selector set to LHWP FB ON for the feedback to actuate. It should recognize if there isn't beam, the shutter is in etc. and will not try to actuate. For now, the process running indicator is white, as I need to reboot SIOC:SYS0:AL02 to get the new monitor PV live and will do that during the PAMM tomorrow. The feedback process is currently running, and the indicator should work properly tomorrow after the SIOC reboot.",
+    "lastName": "Zimmer",
+    "firstName": "Christopher",
+    "userName": "zimmerc",
+    "tags": [
+      "68acd11d-05a8-45f5-b559-55a8d8833373"
+    ],
+    "attachments": [
+      "65384ae85ec1e72404bf6602"
+    ],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T21:40:00.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T21:38:45.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae95ec1e72404bf6604"
+    },
+    "originId": "MCC_1129950",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "LI12 micro down, not IPLing and no triggers",
+    "text": "",
+    "lastName": "Loney",
+    "firstName": "Ryan",
+    "userName": "loney",
+    "tags": [
+      "0ba5394e-30cf-47f3-aaca-cfe5794332bd"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T21:56:03.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T21:56:03.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae95ec1e72404bf6605"
+    },
+    "originId": "MCC_1129951",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675724"
+    ],
+    "title": "Second waalk through complete",
+    "text": "nothing new to report",
+    "lastName": "McKeown",
+    "firstName": "Jake",
+    "userName": "jakewm",
+    "tags": [
+      "bda8d02e-57a4-4ec7-90fd-46d0187d57a9"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T22:01:39.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T22:01:39.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae95ec1e72404bf6606"
+    },
+    "originId": "MCC_1129952",
+    "logbooks": [
+      "6536f0b5fbf92e44a767572a"
+    ],
+    "title": "Starting BTS Configuration Program--beam on PR-2",
+    "text": "",
+    "lastName": "Sommer",
+    "firstName": "Tom",
+    "userName": "sommer",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T22:04:47.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T22:04:47.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae95ec1e72404bf6607"
+    },
+    "originId": "MCC_1129953",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "* Re: LI12 micro down, not IPLing and no triggers - Alonzo heading out to take a look",
+    "text": "",
+    "lastName": "Ripman",
+    "firstName": "Ben",
+    "userName": "bripman",
+    "tags": [
+      "0ba5394e-30cf-47f3-aaca-cfe5794332bd"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [
+      "65384ae95ec1e72404bf6604"
+    ],
+    "loggedAt": {
+      "$date": "2022-03-14T22:10:50.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T22:10:50.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae95ec1e72404bf6608"
+    },
+    "originId": "MCC_1129954",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "PAMM Access Script and info, LCLS Beam off at 04:30 &amp; FACET Beam off at 05:00",
+    "text": "<a href=\"https://oraweb.slac.stanford.edu/apex/slacprod/f?p=194:104:16677494227483:::104:P104_REPAIR_ID,P104_RP:678,6\" rel=\"nofollow\">PAMM script</a> Facilities will contact ACR to confirm supplies are off before shutting off 1801 pumps. Please read the timeline on the first page of the access schedule for detailed setup instructions. Please set areas requiring a survey to Controlled Access during the time where RPFO is conducting the survey. This includes all of Linac East, EBD-FEE, and the BSY. Please do not allow general controlled access or transition to permitted access until RPFO reports the survey conditions and releases the areas for general access. <a href=\"https://slac.sharepoint.com/:x:/r/sites/AOSD/aosd_maint/_layouts/15/Doc.aspx?sourcedoc=%7BF9CB0BD1-7F0F-4E18-8C35-7AAF26A92755%7D&amp;file=OpsPAMMroster.xlsx&amp;action=default&amp;mobileredirect=true\" rel=\"nofollow\">Ops Roster Link</a> Here is job list maintained by Mason Landrum to track the Photon work in the FEE for the PAMM: <a href=\"https://confluence.slac.stanford.edu/pages/viewpage.action?spaceKey=XBD&amp;title=FEE+Access\" rel=\"nofollow\">FEE Photon Jobs List</a> There are 2 RSWCFs for this PAMM as of 3/14 at 14:00. There is a Advanced Search report to help track the RSWCFs for this PAMM. To get to it: 1. Log into the RSWCF App 2. Click on Advanced Search Tab 3. Choose report #9 in the report list drop down titled \"PAMM RSWCFs\" <a href=\"https://oraweb.slac.stanford.edu/apex/slacprod/f?p=252:7\" rel=\"nofollow\">RSWCF Advanced Search Reports</a>",
+    "lastName": "Kalsi",
+    "firstName": "Sean",
+    "userName": "skalsi",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T22:12:16.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-15T11:25:45.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae95ec1e72404bf6609"
+    },
+    "originId": "MCC_1129955",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675724"
+    ],
+    "title": "Day shift summary",
+    "text": "Date/Time: 3/14/2022 Swing Shift 0645-1515 Outgoing Duty Tech: Jake McKeown Incoming Duty Tech: Christina Horimoto Hutch 1.1: Online Prep Hutch 1.2: Offline N/A Hutch 1.3: Online FEH Beam until 2230 Hutch 2.2: Online Idle Hutch 4 : Online H5 N/A Hutch 4.5: Online beam until 2230 Hutch 5 : Online N/A Hutch 6 : Online N/A Shift Notes: Two uneventful walk throughs Handed phone off to Christina State of BTMs: ST1K3.1, ST1K3.2, ST1L1.1, ST1L1.2 are bypassed and therefore show up as red. Open RSWCFs: 1569 CXI Operate CXI with DG2 focusing lenses unlocked (OK to run) 1582 - Use XCS pre-focusing lenses during FEL operation. The effective radii of the pre-focusing lens stacks are as follows: 500 um 750 um 1000 um Time Accounting (hrs): TMO: - TXI: - XPP: - 12 RIX: - XCS: - 10.5 MFX: - 12 CXI: - MEC: -",
+    "lastName": "McKeown",
+    "firstName": "Jake",
+    "userName": "jakewm",
+    "tags": [
+      "bda8d02e-57a4-4ec7-90fd-46d0187d57a9"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T22:13:37.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T22:13:37.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae95ec1e72404bf660a"
+    },
+    "originId": "MCC_1129956",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675730",
+      "6536f0b5fbf92e44a767572a"
+    ],
+    "title": "SHOP: New spare HVPS for SPEAR",
+    "text": "Transported new HVPS to B140 for spare. TDK-Lambda 402L-25KV-POS-3P208, PC100745, S/N 22B1693C. AN / ML",
+    "lastName": "Nguyen",
+    "firstName": "Alex",
+    "userName": "alexn",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T22:28:09.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T22:28:09.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae95ec1e72404bf660b"
+    },
+    "originId": "MCC_1129957",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "Please turn off BSY magnets at 04:30 for PAMM work",
+    "text": "Please turn off all the BSY water-cooled magnets for this PAMM: BENDs: BLRCUS, BYCUS1/2, BRCUS1 QUADs: (all CLTH, CLTS, BSYS, BSYH) KICK: BKRCUS (LCLS-II magnets are already off) Thanks!, Tonee",
+    "lastName": "Smith",
+    "firstName": "Tonee",
+    "userName": "tonee",
+    "tags": [
+      "68acd11d-05a8-45f5-b559-55a8d8833373"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T22:31:10.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-15T11:30:00.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae95ec1e72404bf660c"
+    },
+    "originId": "MCC_1129958",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "DAY SHIFT SUMMARY",
+    "text": "Comment # Comment 1LCLS: Delivered 8 keV (9.65 GeV) to XCS until 10:30 AM with 2.4 mJ. 2LCLS: During XCS delivery, the pulse intensity was still low at start of shift after dropout at 07:53. Recovered on its own at 08:09. We determined that the dropout was due to the laser heater steering feedback mis-steering the heater beam. (0.5 hrs down) 3LCLS: During XCS delivery, the beam dropped out in BC1. We determined that the cause was due to bunch of QUADs in LI21 were turned off because of the LI21 rack power outage. (0.1 hrs down) 4LCLS: Delivered 9.9 keV (10.7 GeV) to MFX and XPP with 1.9 mJ. 5FACET-II: Worked on optimizing transmission and achieved 95% overall transmission. Measured LI11 boost power supply for LI11 QUADs and found that it is 60% lower then it should be.  6FACET-II: LI12 micro down. (1.1 hr down)\n<br>\n<br>Program Delivered User Off Tuning Config \u0394s Accl. Down Sched. Off FACET-II_comm6.90.00.00.01.10LCLS-MD-CU_SXR0.00.00.00.00.08XCS_user1.90.00.00.00.60XPP-MFX5.30.00.00.20.00\n<br>",
+    "lastName": "Duong",
+    "firstName": "Tri",
+    "userName": "thduong2",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T22:36:15.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T22:59:59.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae95ec1e72404bf660d"
+    },
+    "originId": "MCC_1129959",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675730",
+      "6536f0b5fbf92e44a767572a"
+    ],
+    "title": "* Re: SHOP: New spare HVPS for SPEAR",
+    "text": "Created new item in DEPOT, and location updated.",
+    "lastName": "Nguyen",
+    "firstName": "Alex",
+    "userName": "alexn",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [
+      "65384ae95ec1e72404bf660a"
+    ],
+    "loggedAt": {
+      "$date": "2022-03-14T22:37:40.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T22:37:40.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae95ec1e72404bf660e"
+    },
+    "originId": "MCC_1129960",
+    "logbooks": [
+      "6536f0b5fbf92e44a767572a"
+    ],
+    "title": "Shift Summary, Monday Day",
+    "text": "Summary AP in progress Some interference between BSOIC Trip checks and Injector program we had to ask RPFO to stop their checks Injector finished Transport line SPARK Troubleshooting BTS Configuration Adjustment currently in progress SPEAR finished HVPS Measurement program finished Beam Loss Monitor Commissioning program SPEAR Ring currently almost full and coasting BLs All BLs shut and Keyed off",
+    "lastName": "Sommer",
+    "firstName": "Tom",
+    "userName": "sommer",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T22:47:14.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T22:31:43.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae95ec1e72404bf660f"
+    },
+    "originId": "MCC_1129961",
+    "logbooks": [
+      "6536f0b5fbf92e44a767572a"
+    ],
+    "title": "Shift start: Monday swing",
+    "text": "<p>&nbsp;</p>\n<p><b>Operators:</b></p>\n<p>Nguyen, Ruse</p>\n<p><b>Injector Status:</b></p>\n<p>Up as needed for injection</p>\n<p><b>SPEAR Status:</b></p>\n<p>Scheduled AP programs</p>\n<p><b>Program:</b></p>\n<p>User beam with 500mA autofill, topoffs erery 5 minutes</p>\n<p></p>",
+    "lastName": "Nguyen",
+    "firstName": "Thomas",
+    "userName": "tnguyen",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T22:47:41.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T22:45:59.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae95ec1e72404bf6610"
+    },
+    "originId": "MCC_1129962",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "LINAC West Training session going on.",
+    "text": "",
+    "lastName": "Smith",
+    "firstName": "Howard",
+    "userName": "hvs",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T23:01:59.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T23:01:59.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae95ec1e72404bf6613"
+    },
+    "originId": "MCC_1129963",
+    "logbooks": [
+      "6536f0b5fbf92e44a767573d"
+    ],
+    "title": "Day Shift HRS Log",
+    "text": "\"03/14/22 14:30 - Mike Nicoletta - C1 - HRS.00.-DAY shift summary Cryoplant/LINAC Mode: 4K Plant Walkdown performed, Abnormal Observation:Yes, Nothing abnormal HRS-Smartsheet to SLAC ELOG Transfer: Yes Operational Achievements - Lowered the load of the plant by shutting PV31020 completely and using turbines to maintain dewar level. Testing cryomodule heaters Current Follow-up Items, Operational Direction: continue testing heaters\" 03/14/22 14:29 - Mike Stivala - C2 - HRS.CS.IT-Installed VCO test ports in place of all PDT vent ports on all C2 WHCs. 03/14/22 13:50 - Mike Nicoletta - C0 (common) - HRS.LI.-testing Cryomodule cavity heaters 03/14/22 13:39 - Randall Chase - C0 (common) - HRS.AX.GV-With Roland's help we discovered that there was 21V on the solenoid valves in the GV system causing them to be open when they should be closed. Also learned in the manual for these valves they should be oriented horizontally, so they probably aren't reseating properly as well. \"03/14/22 09:30 - Mike Nicoletta - C0 (common) - HRS.00.-Started to lower the load of the plant by adjusting the liquefaction load valve (PV31020) and adjusting Turbines 1-3 attenuators on dewar level. Turbine speed will control the liquid level in dewar.\" 03/14/22 08:30 - Randall Chase - C0 (common) - HRS.AX.GV-I put fore pump back in-line on Fermi pump hooked up to guard vac system and started the pump. I saw that 4 of 6 pressure transmitters downstream of solenoid valves (2 on pump inlet lines and 2 on C1 and C2 IBX Lines) saw pressure drops indicating that the solenoid valves are leaking. Then I realized that I had the other 2 PT's closed off to system. Reopened them and pumped again. Found that actually all 6 leak through. 03/14/22 08:00 - Mike Nicoletta - C0 (common) - HRS.00.-Weekly eye wash station test completed",
+    "lastName": "Jr",
+    "firstName": "Lonnell",
+    "userName": "ljames",
+    "tags": [],
+    "attachments": [
+      "65384ae95ec1e72404bf6611",
+      "65384ae95ec1e72404bf6612"
+    ],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T23:03:21.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T23:03:21.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae95ec1e72404bf6614"
+    },
+    "originId": "MCC_1129964",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "Transitioned LI01-7 and LI08-LI10 to CON and released keys for Linac West PPS training folks",
+    "text": "Released two personnel keys and the search key at the LI04 manway door.",
+    "lastName": "Ripman",
+    "firstName": "Ben",
+    "userName": "bripman",
+    "tags": [
+      "68acd11d-05a8-45f5-b559-55a8d8833373"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T23:04:32.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T23:04:32.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae95ec1e72404bf6615"
+    },
+    "originId": "MCC_1129965",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "Linac Middle BAS extended until July",
+    "text": "",
+    "lastName": "Ripman",
+    "firstName": "Ben",
+    "userName": "bripman",
+    "tags": [
+      "0ba5394e-30cf-47f3-aaca-cfe5794332bd"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T23:05:00.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T19:04:34.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384ae95ec1e72404bf6616"
+    },
+    "originId": "MCC_1129966",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "MCC Shift Change: Swing Shift, Monday, 14-Mar-2022",
+    "text": "XPP-MFX until 10:30PM (MFX is P217 until 4:30 then becomes P218 at that time). 6PM bring on [SECONDARY] SXR 10Hz 6.5GeV. After 10:30 it's LCLS MD SXR dual energy matching. FACET LINAC tuning.",
+    "lastName": "Smith",
+    "firstName": "Howard",
+    "userName": "hvs",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T23:07:06.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T23:00:00.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384aea5ec1e72404bf6618"
+    },
+    "originId": "MCC_1129967",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "LCLS Program Information",
+    "text": "",
+    "lastName": "Smith",
+    "firstName": "Howard",
+    "userName": "hvs",
+    "tags": [],
+    "attachments": [
+      "65384ae95ec1e72404bf6617"
+    ],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T23:08:06.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T23:08:06.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384aea5ec1e72404bf661a"
+    },
+    "originId": "MCC_1129968",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "FACET Program Information",
+    "text": "",
+    "lastName": "Smith",
+    "firstName": "Howard",
+    "userName": "hvs",
+    "tags": [
+      "0ba5394e-30cf-47f3-aaca-cfe5794332bd"
+    ],
+    "attachments": [
+      "65384aea5ec1e72404bf6619"
+    ],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T23:08:32.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T23:08:31.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384aea5ec1e72404bf661b"
+    },
+    "originId": "MCC_1129969",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675737",
+      "6536f0b5fbf92e44a7675735",
+      "6536f0b5fbf92e44a7675733",
+      "6536f0b5fbf92e44a7675739"
+    ],
+    "title": "LCLS II FACET II Installation Activities",
+    "text": "Monday, 3/14/2022 38 people badged in at the morning tailgate. Progress: AMRF - Injector RF checkout. Gun heliax cable calibration. S6P17, SSA cable relocation support. ARDTF - FACET II PAMM prep. FACET II support. CBL - RF/BCS support. S6P17, SSA cable relocation. S1, BCM cable dressing. S0 manway, gallery phone board relocation. CTLS - RTD/PLC testing. Cooldown support. BC-2, vac valve actuation testing. NIRP system walkthrough. HTR/Dogleg, collimator lockout. FACOI - S0-S10, LCW system monitoring/checkout. He guard line installation. FACOM - S2-S30, LCW systems p/m. S2 LCW, mag circuit piping insulation installation. Metrology - Dogleg, component mapping. MFD - FC1/VBB, TS/R possible leak on CDS. Vent injector laser heater region and prepare the clean zone around CEHTR. Collimator removal, temporary chamber install, and ion pump swap. BC-1, replace hard stops. PEM - LCLS and FACET II support. Contractors - Pitcher Drilling, S0 soil boring. Vance Brown - S0 fire station project. Regards, Al",
+    "lastName": "Owens",
+    "firstName": "Alden",
+    "userName": "fishohn",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T23:21:02.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T23:21:02.000Z"
+    },
+    "version": {
+      "$numberLong": "2"
+    },
+    "_class": "edu.stanford.slac.elog_plus.model.Entry",
+    "supersededBy": "65384aea5ec1e72404bf661c"
+  },
+  {
+    "_id": {
+      "$oid": "65384aea5ec1e72404bf661c"
+    },
+    "originId": "MCC_1129970",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675737",
+      "6536f0b5fbf92e44a7675735",
+      "6536f0b5fbf92e44a7675733",
+      "6536f0b5fbf92e44a7675739"
+    ],
+    "title": "LCLS II FACET II Installation Activities",
+    "text": "Monday, 3/14/2022 38 people badged in at the morning tailgate. Progress: AMRF - Injector RF checkout. Gun heliax cable calibration. S6P17, SSA cable relocation support. ARDTF - FACET II PAMM prep. FACET II support. CBL - RF/BCS support. S6P17, SSA cable relocation. S1, BCM cable dressing. S0 manway, gallery phone board relocation. CTLS - RTD/PLC testing. Cooldown support. BC-2, vac valve actuation testing. NIRP system walkthrough. HTR/Dogleg, collimator lockout. FACOI - S0-S10, LCW system monitoring/checkout. He guard line installation. FACOM - S2-S30, LCW systems p/m. S2 LCW, mag circuit piping insulation installation. Metrology - Dogleg, component mapping. MFD - FC1/VBB, TS/R possible leak on CDS. Vent injector laser heater region and prepare the clean zone around CEHTR. Collimator removal, temporary chamber install, and ion pump swap. BC-1 chicane, replace hard stops. PEM - LCLS and FACET II support. Contractors - Pitcher Drilling, S0 soil boring. Vance Brown - S0 fire station project. Regards, Al",
+    "lastName": "Owens",
+    "firstName": "Alden",
+    "userName": "fishohn",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T23:22:46.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T23:21:02.000Z"
+    },
+    "version": {
+      "$numberLong": "2"
+    },
+    "_class": "edu.stanford.slac.elog_plus.model.Entry",
+    "supersededBy": "65384aea5ec1e72404bf661d"
+  },
+  {
+    "_id": {
+      "$oid": "65384aea5ec1e72404bf661d"
+    },
+    "originId": "MCC_1129971",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675737",
+      "6536f0b5fbf92e44a7675735",
+      "6536f0b5fbf92e44a7675733",
+      "6536f0b5fbf92e44a7675739"
+    ],
+    "title": "LCLS II FACET II Installation Activities",
+    "text": "Monday, 3/14/2022 38 people badged in at the morning tailgate. Progress: AMRF - Injector RF checkout. Gun heliax cable calibration. S6P17, SSA cable relocation support. ARDTF - FACET II PAMM prep. FACET II support. CBL - RF/BCS support. S6P17, SSA cable relocation. S1, BCM cable dressing. S0 manway, gallery phone board relocation. CTLS - RTD/PLC testing. Cooldown support. BC-2, vac valve actuation testing. NIRP system walkthrough. HTR/Dogleg, collimator lockout. FACOI - S0-S10, LCW system monitoring/checkout. He guard line installation. FACOM - S2-S30, LCW systems p/m. S2 LCW, mag circuit piping insulation installation. Metrology - Dogleg, component mapping. MFD - FC1/VBB, TS/R possible leak on CDS. Vent injector laser heater region and prepare the clean zone around CEHTR. Collimator removal, temporary chamber install, and ion pump swap. BC-1 chicane, replace hard stops. PEM - LCLS and FACET II support. S2, magnet turn on. Test Lab - S2 magnet turn on support. Contractors - Pitcher Drilling - S0 soil boring. Vance Brown - S0 fire station project. Regards, Al",
+    "lastName": "Owens",
+    "firstName": "Alden",
+    "userName": "fishohn",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T23:28:01.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T23:21:02.000Z"
+    },
+    "version": {
+      "$numberLong": "2"
+    },
+    "_class": "edu.stanford.slac.elog_plus.model.Entry",
+    "supersededBy": "65384aea5ec1e72404bf661e"
+  },
+  {
+    "_id": {
+      "$oid": "65384aea5ec1e72404bf661e"
+    },
+    "originId": "MCC_1129972",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675737",
+      "6536f0b5fbf92e44a7675735",
+      "6536f0b5fbf92e44a7675733",
+      "6536f0b5fbf92e44a7675739"
+    ],
+    "title": "LCLS II FACET II Installation Activities",
+    "text": "Monday, 3/14/2022 38 people badged in at the morning tailgate. Progress: AMRF - Injector RF checkout. Gun heliax cable calibration. S6P17, SSA cable relocation support. ARDTF - FACET II PAMM prep. FACET II support. CBL - RF/BCS support. S6P17, SSA cable relocation. S1, BCM cable dressing. S0 manway, gallery phone board relocation. CTLS - RTD/PLC testing. Cooldown support. BC-2, vac valve actuation testing. NIRP system walkthrough. HTR/Dogleg, collimator lockout. FACOI - S0-S10, LCW system monitoring/checkout. He guard line installation. FACOM - S2-S30, LCW systems p/m. S2 LCW, mag circuit piping insulation installation. Metrology - Dogleg, component mapping. MFD - FC1/VBB, TS/R possible leak on CDS. Vent injector laser heater region and prepare the clean zone around CEHTR. Collimator removal, temporary chamber install, and ion pump swap. BC-1 chicane, replace hard stops. Networking - S0 manway, relocate gallery phone. PEM - LCLS and FACET II support. S2, magnet turn on. Test Lab - S2 magnet turn on support. Contractors - Pitcher Drilling - S0 soil boring. Vance Brown - S0 fire station project. Regards, Al",
+    "lastName": "Owens",
+    "firstName": "Alden",
+    "userName": "fishohn",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T23:33:42.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T23:21:02.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384aea5ec1e72404bf661f"
+    },
+    "originId": "MCC_1129973",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "FACET beam is back",
+    "text": "",
+    "lastName": "Smith",
+    "firstName": "Howard",
+    "userName": "hvs",
+    "tags": [
+      "0ba5394e-30cf-47f3-aaca-cfe5794332bd"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T23:36:26.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T23:36:26.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384aea5ec1e72404bf6620"
+    },
+    "originId": "MCC_1129974",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "MFX program unceremoniously switched from P217 to P218",
+    "text": "",
+    "lastName": "Smith",
+    "firstName": "Howard",
+    "userName": "hvs",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T23:47:19.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T23:30:56.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384aea5ec1e72404bf6621"
+    },
+    "originId": "MCC_1129975",
+    "logbooks": [
+      "6536f0b5fbf92e44a7675724"
+    ],
+    "title": "First walkthrough complete, no issues found.",
+    "text": "",
+    "lastName": "Eshelman",
+    "firstName": "Christina",
+    "userName": "horimoto",
+    "tags": [
+      "bda8d02e-57a4-4ec7-90fd-46d0187d57a9"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T23:51:12.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T23:51:12.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  },
+  {
+    "_id": {
+      "$oid": "65384aea5ec1e72404bf6622"
+    },
+    "originId": "MCC_1129976",
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "LI12 micro down again.",
+    "text": "",
+    "lastName": "Smith",
+    "firstName": "Howard",
+    "userName": "hvs",
+    "tags": [
+      "0ba5394e-30cf-47f3-aaca-cfe5794332bd"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2022-03-14T23:51:52.000Z"
+    },
+    "eventAt": {
+      "$date": "2022-03-14T23:51:52.000Z"
+    },
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  }
+]

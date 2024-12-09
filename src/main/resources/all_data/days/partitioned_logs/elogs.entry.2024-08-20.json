@@ -1,0 +1,171 @@
+[
+  {
+    "_id": {
+      "$oid": "66c4d87c5edf4029053efb37"
+    },
+    "logbooks": [
+      "66b65cc0a9840d1dc754ac19"
+    ],
+    "title": "Printed Text Document",
+    "text": "Testing from lcls-prod03\n",
+    "lastName": "Token",
+    "firstName": "Application",
+    "userName": "physics-elog-printer@elog.slac.app$",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2024-08-20T17:55:08.535Z"
+    },
+    "createdDate": {
+      "$date": "2024-08-20T17:55:08.551Z"
+    },
+    "createdBy": "physics-elog-printer@elog.slac.app$",
+    "lastModifiedDate": {
+      "$date": "2024-08-20T17:55:08.551Z"
+    },
+    "lastModifiedBy": "physics-elog-printer@elog.slac.app$",
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry",
+    "eventAt": {
+      "$date": "2024-08-20T17:55:08.535Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "66c4ed945edf4029053efb38"
+    },
+    "logbooks": [
+      "66b65cc0a9840d1dc754ac19"
+    ],
+    "title": "Printed Text Document",
+    "text": "Testing from lcls-prod03 II\n",
+    "lastName": "Token",
+    "firstName": "Application",
+    "userName": "physics-elog-printer@elog.slac.app$",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2024-08-20T19:25:08.049Z"
+    },
+    "createdDate": {
+      "$date": "2024-08-20T19:25:08.051Z"
+    },
+    "createdBy": "physics-elog-printer@elog.slac.app$",
+    "lastModifiedDate": {
+      "$date": "2024-08-20T19:25:08.051Z"
+    },
+    "lastModifiedBy": "physics-elog-printer@elog.slac.app$",
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry",
+    "eventAt": {
+      "$date": "2024-08-20T19:25:08.049Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "66c4ee315edf4029053efb39"
+    },
+    "logbooks": [
+      "66b65cc0a9840d1dc754ac19"
+    ],
+    "title": "Printed Text Document",
+    "text": "testing from mcclogin\n",
+    "lastName": "Token",
+    "firstName": "Application",
+    "userName": "physics-elog-printer@elog.slac.app$",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2024-08-20T19:27:45.928Z"
+    },
+    "createdDate": {
+      "$date": "2024-08-20T19:27:45.929Z"
+    },
+    "createdBy": "physics-elog-printer@elog.slac.app$",
+    "lastModifiedDate": {
+      "$date": "2024-08-20T19:27:45.929Z"
+    },
+    "lastModifiedBy": "physics-elog-printer@elog.slac.app$",
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry",
+    "eventAt": {
+      "$date": "2024-08-20T19:27:45.928Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "66c4fb255edf4029053efb3a"
+    },
+    "logbooks": [
+      "6536f0b5fbf92e44a767571b"
+    ],
+    "title": "Testing empty",
+    "text": "<h1></h1>",
+    "lastName": "Mikulec",
+    "firstName": "Boogie",
+    "userName": "boogie@slac.stanford.edu",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2024-08-20T20:23:01.447Z"
+    },
+    "createdDate": {
+      "$date": "2024-08-20T20:23:01.448Z"
+    },
+    "createdBy": "boogie@slac.stanford.edu",
+    "lastModifiedDate": {
+      "$date": "2024-08-20T20:23:01.448Z"
+    },
+    "lastModifiedBy": "boogie@slac.stanford.edu",
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry",
+    "eventAt": {
+      "$date": "2024-08-20T20:23:01.447Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "66c4ffed5edf4029053efb42"
+    },
+    "logbooks": [
+      "6536f0b5fbf92e44a767571b"
+    ],
+    "title": "Multi image test",
+    "text": "",
+    "lastName": "Mikulec",
+    "firstName": "Boogie",
+    "userName": "boogie@slac.stanford.edu",
+    "tags": [],
+    "attachments": [
+      "66c4ffd75edf4029053efb3f",
+      "66c4ffdb5edf4029053efb40",
+      "66c4ffe95edf4029053efb41"
+    ],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2024-08-20T20:43:25.800Z"
+    },
+    "createdDate": {
+      "$date": "2024-08-20T20:43:25.813Z"
+    },
+    "createdBy": "boogie@slac.stanford.edu",
+    "lastModifiedDate": {
+      "$date": "2024-08-20T20:43:25.813Z"
+    },
+    "lastModifiedBy": "boogie@slac.stanford.edu",
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry",
+    "eventAt": {
+      "$date": "2024-08-20T20:43:25.800Z"
+    }
+  }
+]

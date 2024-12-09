@@ -1,0 +1,78 @@
+[
+  {
+    "_id": {
+      "$oid": "66d23749d437717027f092f9"
+    },
+    "logbooks": [
+      "6536f0b5fbf92e44a767571b",
+      "6536f0b5fbf92e44a767571c",
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "Entry with three logbooks",
+    "text": "",
+    "lastName": "Mikulec",
+    "firstName": "Boogie",
+    "userName": "boogie@slac.stanford.edu",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2024-08-30T21:19:05.088Z"
+    },
+    "createdDate": {
+      "$date": "2024-08-30T21:19:05.110Z"
+    },
+    "createdBy": "boogie@slac.stanford.edu",
+    "lastModifiedDate": {
+      "$date": "2024-08-30T21:19:05.110Z"
+    },
+    "lastModifiedBy": "boogie@slac.stanford.edu",
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry",
+    "eventAt": {
+      "$date": "2024-08-30T21:19:05.088Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "66d2542fd437717027f092fa"
+    },
+    "logbooks": [
+      "6536f0b5fbf92e44a767571b"
+    ],
+    "title": "B.3",
+    "text": "<p>This is entry B with a tag and follow ups and is changed from the original twice</p>",
+    "lastName": "Mikulec",
+    "firstName": "Boogie",
+    "userName": "boogie@slac.stanford.edu",
+    "tags": [
+      "6804a3ed-f471-4fd9-b486-4f09224d1a92"
+    ],
+    "attachments": [
+      "66ce39eeeffc366ba9236ea4",
+      "66ce39f1effc366ba9236ea5"
+    ],
+    "followUps": [
+      "66ce3a98effc366ba9236ea9",
+      "66ce3ac6effc366ba9236eaa"
+    ],
+    "references": [],
+    "loggedAt": {
+      "$date": "2024-08-30T23:22:23.453Z"
+    },
+    "eventAt": {
+      "$date": "2024-08-27T20:41:23.124Z"
+    },
+    "createdDate": {
+      "$date": "2024-08-30T23:22:23.467Z"
+    },
+    "createdBy": "boogie@slac.stanford.edu",
+    "lastModifiedDate": {
+      "$date": "2024-08-30T23:22:23.467Z"
+    },
+    "lastModifiedBy": "boogie@slac.stanford.edu",
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  }
+]

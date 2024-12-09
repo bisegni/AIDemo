@@ -133,8 +133,9 @@ public class RagController {
                 .content();
     }
 
-    @GetMapping("/summarize")
-    public TitleAndTagsDTO summarize(@RequestParam(value = "message") String message) throws JsonProcessingException {
+
+    @GetMapping("/title-tags")
+    public TitleAndTagsDTO  summarize(@RequestParam(value = "message") String message) throws JsonProcessingException {
         Message indexCreationMessage = new SystemPromptTemplate(titleTagsPrompt).createMessage();
         var indexAnswer = chatClient.prompt(new Prompt(List.of(indexCreationMessage, new UserMessage(message)))).call();
         var jsonAnswer = indexAnswer.content();

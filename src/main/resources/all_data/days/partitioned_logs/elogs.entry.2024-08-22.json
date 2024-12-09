@@ -1,0 +1,68 @@
+[
+  {
+    "_id": {
+      "$oid": "66c77373483b2c60eca0ed8d"
+    },
+    "logbooks": [
+      "66b65cc0a9840d1dc754ac19"
+    ],
+    "title": "Printed Text Document",
+    "text": "Test newly created ep-physics-elog-test print queue\n",
+    "lastName": "Token",
+    "firstName": "Application",
+    "userName": "physics-elog-printer@elog.slac.app$",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2024-08-22T17:20:51.036Z"
+    },
+    "createdDate": {
+      "$date": "2024-08-22T17:20:51.040Z"
+    },
+    "createdBy": "physics-elog-printer@elog.slac.app$",
+    "lastModifiedDate": {
+      "$date": "2024-08-22T17:20:51.040Z"
+    },
+    "lastModifiedBy": "physics-elog-printer@elog.slac.app$",
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry",
+    "eventAt": {
+      "$date": "2024-08-22T17:20:51.036Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "66c773c6483b2c60eca0ed8e"
+    },
+    "logbooks": [
+      "66b65cc0a9840d1dc754ac19"
+    ],
+    "title": "Printed Text Document",
+    "text": " test new print queue from lcls-srv01\n",
+    "lastName": "Token",
+    "firstName": "Application",
+    "userName": "physics-elog-printer@elog.slac.app$",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2024-08-22T17:22:14.708Z"
+    },
+    "createdDate": {
+      "$date": "2024-08-22T17:22:14.710Z"
+    },
+    "createdBy": "physics-elog-printer@elog.slac.app$",
+    "lastModifiedDate": {
+      "$date": "2024-08-22T17:22:14.710Z"
+    },
+    "lastModifiedBy": "physics-elog-printer@elog.slac.app$",
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry",
+    "eventAt": {
+      "$date": "2024-08-22T17:22:14.708Z"
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "_id": {
+      "$oid": "668c6a4136f21e438fa75dd1"
+    },
+    "logbooks": [
+      "6536f0b5fbf92e44a767571b"
+    ],
+    "title": "Testing creation",
+    "text": "<h1>Hello world</h1>\n<p>Hello world</p>",
+    "lastName": "Mikulec",
+    "firstName": "Boogie",
+    "userName": "boogie@slac.stanford.edu",
+    "tags": [
+      "6804a3ed-f471-4fd9-b486-4f09224d1a92"
+    ],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2024-07-08T22:37:53.671Z"
+    },
+    "createdDate": {
+      "$date": "2024-07-08T22:37:53.793Z"
+    },
+    "createdBy": "boogie@slac.stanford.edu",
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry",
+    "eventAt": {
+      "$date": "2024-07-08T22:37:53.671Z"
+    }
+  }
+]

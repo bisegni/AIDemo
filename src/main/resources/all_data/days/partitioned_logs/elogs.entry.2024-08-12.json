@@ -1,0 +1,60 @@
+[
+  {
+    "_id": {
+      "$oid": "66ba7938e274085bba4192b8"
+    },
+    "logbooks": [
+      "66b65cc0a9840d1dc754ac19"
+    ],
+    "title": "Printed Text Document",
+    "text": "Mon Aug 12 14:05:59 PDT 2024 test form eed-fpga",
+    "lastName": "Token",
+    "firstName": "Application",
+    "userName": "physics-elog-printer@elog.slac.app$",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2024-08-12T21:06:00.263Z"
+    },
+    "createdDate": {
+      "$date": "2024-08-12T21:06:00.266Z"
+    },
+    "createdBy": "physics-elog-printer@elog.slac.app$",
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry",
+    "eventAt": {
+      "$date": "2024-08-12T21:06:00.263Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "66ba8d46e274085bba4192b9"
+    },
+    "logbooks": [
+      "6536f0b5fbf92e44a767571d"
+    ],
+    "title": "asdfdsads",
+    "text": "<p></p>",
+    "lastName": "Lyle",
+    "firstName": "Matthew",
+    "userName": "mgibbs@slac.stanford.edu",
+    "tags": [],
+    "attachments": [],
+    "followUps": [],
+    "references": [],
+    "loggedAt": {
+      "$date": "2024-08-12T22:31:34.532Z"
+    },
+    "eventAt": {
+      "$date": "2024-08-12T22:00:00.000Z"
+    },
+    "createdDate": {
+      "$date": "2024-08-12T22:31:34.535Z"
+    },
+    "createdBy": "mgibbs@slac.stanford.edu",
+    "version": 0,
+    "_class": "edu.stanford.slac.elog_plus.model.Entry"
+  }
+]
