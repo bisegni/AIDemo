@@ -1,8 +1,11 @@
 package com.example.aidemo.controller;
 
+import java.time.LocalDateTime;
 import java.util.List;
 
 public record AnswerDTO(
-        String content,
+        Boolean done,
+        String response,
+        LocalDateTime created_at,
         List<RelatedDocumentDTO> relatedDocument
 ) {}
