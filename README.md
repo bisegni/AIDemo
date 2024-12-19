@@ -1,5 +1,9 @@
 # AI for ELOG: RAG Demo
 
+We recommend running this on a computer with a GPU for faster speeds. Install Nvidia container tools so that the Ollama container can use the GPU:
+
+https://github.com/ollama/ollama/blob/main/docs/docker.md 
+
 ## Setup
 1. Install JRE 8 and JDK 21. `java --version` should yield something like:
 ```
@@ -7,31 +11,33 @@ java 21.0.5 2024-10-15 LTS
 Java(TM) SE Runtime Environment (build 21.0.5+9-LTS-239)
 Java HotSpot(TM) 64-Bit Server VM (build 21.0.5+9-LTS-239, mixed mode, sharing)
 ```
-(You may also be able to use a Docker container such as https://adoptium.net/temurin/releases/ or https://hub.docker.com/_/eclipse-temurin but I haven't tried this yet.)
+[//]: # (You may also be able to use a Docker container such as https://adoptium.net/temurin/releases/ or https://hub.docker.com/_/eclipse-temurin but I haven't tried this yet.)
 
 2. Spin up the Ollama server:
 ```
 docker run -d -v ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama
 ``` 
-3. **From the terminal inside the Ollama Docker container,** pull the embedding and chat models:
+3. Enter the `ollama` container shell and pull the embedding and chat models:
 ```
-ollama pull mxbai-embed-large
-ollama pull llama3.1:latest
+$ docker exec -it ollama bash
+# ollama pull mxbai-embed-large
+# ollama pull llama3.1:latest
 ```
 
 3. Spin up the pgvector database:
 ```
-docker run -it --rm --name postgres -p 5432:5432 -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=postgres pgvector/pgvector:pg17
+docker run -d --name postgres -p 5432:5432 -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=postgres pgvector/pgvector:pg17
 ```
 
 4. Start the Spring server:
 ```
+cd AIDemo/
 ./gradlew bootRun
 ```
 
 ## API Demo
 
-1. Create vector embeddings for the documents in `src/main/resources/data` and store them in the vector store:
+1. Create vector embeddings for the documents in `src/main/resources/data` and enter them into the vector store:
 ```
 curl "http://localhost:8080/api/docs/load"
 ```
