@@ -11,13 +11,12 @@ import org.springframework.ai.document.Document;
 import org.springframework.ai.vectorstore.SearchRequest;
 import org.springframework.ai.vectorstore.VectorStore;
 import org.springframework.http.MediaType;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 import reactor.core.scheduler.Schedulers;
 
+import javax.validation.Valid;
 import java.time.LocalDateTime;
 import java.util.*;
 import java.util.stream.Collectors;
@@ -237,6 +236,67 @@ public class RagController {
                                 .concatMap(chunk -> Mono.fromCallable(() -> {
                                     // Process each chunk
                                     var prompt = createPrompt(message, chunk);
+                                    var ccResponse = chatClient.prompt(prompt).call();
+
+                                    // Optionally summarize/clean the chunk response
+                                    var summarizedChunkAnswer = chatClient.prompt(new Prompt(List.of(
+                                            new SystemPromptTemplate(filterAndCleanPrompt).createMessage(),
+                                            new UserMessage(ccResponse.content())))
+                                    ).call();
+
+                                    return new AnswerDTO(false, summarizedChunkAnswer.content(), LocalDateTime.now(), Collections.emptyList());
+                                }).subscribeOn(Schedulers.boundedElastic()));
+
+                        // After all chunks have been processed, emit a final message
+                        Flux<AnswerDTO> finalMessage = Mono.fromCallable(() ->
+                                new AnswerDTO(true, "", LocalDateTime.now(), Collections.emptyList())
+                        ).flux().subscribeOn(Schedulers.boundedElastic());
+
+                        return chunksFlux.concatWith(finalMessage);
+                    });
+                });
+    }
+
+    @PostMapping(value = "/chat", produces = MediaType.TEXT_EVENT_STREAM_VALUE, consumes = MediaType.APPLICATION_JSON_VALUE)
+    public Flux<AnswerDTO> chat(
+            @RequestBody @Valid ChatDto chatDto
+    ) {
+        if (chatDto.message() == null || chatDto.message().isBlank()) {
+            return Flux.just(new AnswerDTO(true, "Invalid message", LocalDateTime.now(), Collections.emptyList()));
+        }
+
+        return Mono.fromCallable(() -> {
+                    // Determine index rule
+                    Message indexCreationMessage = new SystemPromptTemplate(llmPrompt).createMessage(Map.of("user-request", chatDto.message()));
+                    var indexAnswer = chatClient.prompt(new Prompt(List.of(indexCreationMessage, new UserMessage(chatDto.message())))).call();
+                    return indexAnswer.content();
+                })
+                .subscribeOn(Schedulers.boundedElastic())
+                .flatMapMany(indexRule -> {
+                    // Retrieve matching documents asynchronously
+                    Mono<List<Document>> docsMono = Mono.fromCallable(() -> {
+                        if (indexRule != null && !indexRule.contains("NO_INDEX")) {
+                            return vectorStore.similaritySearch(
+                                    SearchRequest.defaults()
+                                            .withQuery(chatDto.message())
+                                            .withFilterExpression(indexRule)
+                                            .withSimilarityThreshold(0.5)
+                                            .withTopK(1000));
+                        } else {
+                            return vectorStore.similaritySearch(
+                                    SearchRequest.defaults()
+                                            .withQuery(chatDto.message())
+                                            .withSimilarityThreshold(0.6)
+                                            .withTopK(1000));
+                        }
+                    }).subscribeOn(Schedulers.boundedElastic());
+                    return docsMono.flatMapMany(allDocuments -> {
+                        List<List<Document>> documentChunks = chunkDocuments(allDocuments, 4);
+
+                        Flux<AnswerDTO> chunksFlux = Flux.fromIterable(documentChunks)
+                                .concatMap(chunk -> Mono.fromCallable(() -> {
+                                    // Process each chunk
+                                    var prompt = createPrompt(chatDto.message(), chunk);
                                     var ccResponse = chatClient.prompt(prompt).call();
 
                                     // Optionally summarize/clean the chunk response
