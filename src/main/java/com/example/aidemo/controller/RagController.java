@@ -132,7 +132,7 @@ public class RagController {
 
 
     @GetMapping("/title-tags")
-    public TitleAndTagsDTO  summarize(@RequestParam(value = "message") String message) throws JsonProcessingException {
+    public TitleAndTagsDTO summarize(@RequestParam(value = "message") String message) throws JsonProcessingException {
         Message indexCreationMessage = new SystemPromptTemplate(titleTagsPrompt).createMessage();
         var indexAnswer = chatClient.prompt(new Prompt(List.of(indexCreationMessage, new UserMessage(message)))).call();
         var jsonAnswer = indexAnswer.content();
@@ -156,16 +156,14 @@ public class RagController {
         System.out.println("Searching for documents...");
         if (indexRule != null && !indexRule.contains("NO_INDEX")) {
             allDocuments = vectorStore.similaritySearch(
-                    SearchRequest.defaults()
-                            .withQuery(message)
+                    SearchRequest.query(message)
                             .withFilterExpression(indexRule)
                             .withSimilarityThreshold(0.5)
                             .withTopK(1000)
             );
         } else {
             allDocuments = vectorStore.similaritySearch(
-                    SearchRequest.defaults()
-                            .withQuery(message)
+                    SearchRequest.query(message)
                             .withSimilarityThreshold(0.6)
                             .withTopK(1000)
             );
