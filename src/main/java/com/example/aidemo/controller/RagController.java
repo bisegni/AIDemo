@@ -5,6 +5,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.ai.chat.messages.Message;
 import org.springframework.ai.chat.messages.UserMessage;
+import org.springframework.ai.chat.model.ChatResponse;
 import org.springframework.ai.chat.prompt.Prompt;
 import org.springframework.ai.chat.prompt.SystemPromptTemplate;
 import org.springframework.ai.document.Document;
@@ -12,11 +13,14 @@ import org.springframework.ai.vectorstore.SearchRequest;
 import org.springframework.ai.vectorstore.VectorStore;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.servlet.mvc.method.annotation.SseEmitter;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 import reactor.core.scheduler.Schedulers;
 
 import javax.validation.Valid;
+import java.time.Duration;
+import java.time.Instant;
 import java.time.LocalDateTime;
 import java.util.*;
 import java.util.stream.Collectors;
@@ -316,7 +320,77 @@ public class RagController {
                 });
     }
 
-    /**
+    @PostMapping(value = "/v1/chat/completions", produces = "text/event-stream")
+    public SseEmitter streamChatCompletion(@RequestBody ChatDto request) {
+        SseEmitter emitter = new SseEmitter();
+
+        // Simulate streaming by sending multiple chunks of data
+        new Thread(() -> {
+            try {
+                String message = request.message();
+                for (int i = 0; i < 5; i++) {
+                    AnswerDTO answer = new AnswerDTO(i==4, "content %d".formatted(i), LocalDateTime.now(), Collections.emptyList());
+
+                    // Send the response as an SSE event
+                    emitter.send(SseEmitter.event().data(answer));
+
+                    // Simulate delay
+                    Thread.sleep(1000);
+                }
+
+                // Complete the stream
+                emitter.complete();
+            } catch (Exception e) {
+                emitter.completeWithError(e);
+            }
+        }).start();
+
+        return emitter;
+    }
+
+    @PostMapping(value = "/v1/chat/completions/flux", produces = MediaType.TEXT_EVENT_STREAM_VALUE)
+    public Flux<OpenAIAnswer> streamChatCompletionFlux(@RequestBody ChatDto request) {
+        String message = request.message();
+
+        // Simulate streaming by emitting multiple responses with a delay
+        return Flux.interval(Duration.ofSeconds(1)) // Emit an item every second
+                .take(4) // Emit 4 intermediate chunks
+                .map(sequence -> {
+                    // Intermediate chunk
+                    OpenAIAnswer.Delta delta = new OpenAIAnswer.Delta("assistant", "content " + (sequence + 1));
+                    OpenAIAnswer.Choice choice = new OpenAIAnswer.Choice(0, delta, null); // finishReason is null
+                    return new OpenAIAnswer(
+                            "chatcmpl-123", // Unique ID
+                            "chat.completion.chunk", // Object type
+                            Instant.now().getEpochSecond(), // Timestamp
+                            "gpt-3.5-turbo", // Model name
+                            Collections.singletonList(choice) // List of choices
+                    );
+                })
+                .concatWithValues(
+                        // Final chunk
+                        new OpenAIAnswer(
+                                "chatcmpl-123",
+                                "chat.completion.chunk",
+                                Instant.now().getEpochSecond(),
+                                "gpt-3.5-turbo",
+                                Collections.singletonList(
+                                        new OpenAIAnswer.Choice(
+                                                0,
+                                                new OpenAIAnswer.Delta("assistant", "Final content"),
+                                                "stop" // finishReason is "stop"
+                                        )
+                                )
+                        )
+                )
+                .doOnComplete(() -> {
+                    // Optional: Perform any side-effect when the stream completes
+                    System.out.println("Stream completed!");
+                });
+    }
+
+
+/**
      * Splits a list of documents into chunks of the specified size.
      */
     private List<List<Document>> chunkDocuments(List<Document> documents, int chunkSize) {
