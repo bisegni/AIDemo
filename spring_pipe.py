@@ -20,7 +20,7 @@ class Pipeline:
     
     def pipe(self, user_message: str, model_id: str, messages: List[dict], body: dict) -> Union[str, Generator, Iterator]:
         # This function is called when a new user_message is receieved.
-        SPRING_BASE_URL = "http://aidemo:8081"
+        SPRING_BASE_URL = "http://aidemo:8080"
         MODEL = "llama3.1"
 
         try:
